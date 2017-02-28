@@ -28,14 +28,14 @@ public class MarkedSlideRenderState extends SlideRenderState {
 	}
 
 	@Override
-	public boolean isCovered(Bug bug) {
-		if( bug.isCollidingWith( this.markAction ) )
-			return true;
+	public double isCovered(Bug bug) {
+		if( bug.isCollidingWith( this.markAction ) > 0 )
+			return bug.isCollidingWith( this.markAction );
 		
 		if( this.next != null )
 			return this.next.isCovered( bug );
 		
-		return false;
+		return 0;
 	}
 
 }

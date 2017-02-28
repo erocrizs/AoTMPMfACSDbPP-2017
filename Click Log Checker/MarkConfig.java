@@ -8,6 +8,7 @@ public class MarkConfig {
 	public MarkConfig( double horizontalAxis, double verticalAxis ) {
 		this.a = horizontalAxis / 2.0;
 		this.b = verticalAxis / 2.0;
+		
 	}
 	
 	public boolean collide( Vector2D ellipseCenter, Vector2D point ) {

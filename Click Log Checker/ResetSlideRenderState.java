@@ -13,8 +13,8 @@ public class ResetSlideRenderState extends SlideRenderState {
 	}
 
 	@Override
-	public boolean isCovered(Bug bug) {
-		return false;
+	public double isCovered(Bug bug) {
+		return 0;
 	}
 
 }

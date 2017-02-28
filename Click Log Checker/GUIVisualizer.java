@@ -196,8 +196,12 @@ public class GUIVisualizer extends JFrame {
 			int xOval = (int) ( this.mousePosition.getX() - (this.ellipseWidth / 2.0) );
 			int yOval = (int) ( this.mousePosition.getY() - (this.ellipseHeight / 2.0) );
 			
+			int xCircle = (int) ( this.mousePosition.getX() - (this.ellipseHeight / 2.0) );
+			int yCircle = yOval;
+			
 			g.setColor( Color.YELLOW );
 			g.drawOval( xOval, yOval, (int) this.ellipseWidth, (int) this.ellipseHeight);
+			g.drawOval( xCircle, yCircle, (int) this.ellipseHeight, (int) this.ellipseHeight);
 		}
 		
 		if( this.dragBoxCornerA != null && this.dragBoxCornerB != null ) {
@@ -218,7 +222,7 @@ public class GUIVisualizer extends JFrame {
 		String overallTimeText = this.transformDate( this.renderSlideSet.getOverallTime() );
 		this.overallTimeLabel.setText( "Overall Time: " + overallTimeText );
 		
-		String scoreText = Integer.toString( this.renderSlideSet.getScore() );
+		String scoreText = Double.toString( this.renderSlideSet.getScore() );
 		this.scoreLabel.setText( "Score: " + scoreText );
 		
 		this.canvas.repaint();
@@ -284,7 +288,10 @@ public class GUIVisualizer extends JFrame {
 			throw new UnsupportedOperationException( language + " is not valid!" );
 		}
 		
-		this.modelFactory = new ModelFactory( this.ellipseWidth, this.ellipseHeight, languageCode );
+		this.modelFactory = new ModelFactory( this.ellipseWidth, this.ellipseHeight);
+		this.modelFactory.setLineBugConfig(1.0, 0.5);
+		this.modelFactory.setCodeBugConfig(1.0, 0.5);
+		this.modelFactory.setupLanguage( languageCode );
 		
 		JFileChooser fileChooser = new JFileChooser(".");
 		fileChooser.setDialogTitle( "Choose which log to process" );

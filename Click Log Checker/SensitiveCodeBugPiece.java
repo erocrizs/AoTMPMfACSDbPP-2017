@@ -1,0 +1,36 @@
+
+public class SensitiveCodeBugPiece extends BugPiece {
+	private double sensitivity;
+	private Vector2D center;
+	private MarkConfig privateConfig;
+	
+	private double fullPoint, partialPoint;
+	public SensitiveCodeBugPiece(Vector2D topLeft, Vector2D botRight, double sensitivity, double partialPoint) {
+		super(topLeft, botRight);
+		this.sensitivity = sensitivity;
+		this.fullPoint = 1.0;
+		this.partialPoint = partialPoint;
+		this.center = new Vector2D( ( topLeft.getX() + botRight.getX() ) / 2.0, ( topLeft.getY() + botRight.getY() ) / 2.0 );
+	}
+
+	@Override
+	public double isCollidingWith(MarkAction mark) {
+		MarkConfig markConfig = mark.getConfig();
+		
+		if( this.privateConfig == null ) {
+			double iris = 2 * markConfig.getB() * sensitivity;
+			this.privateConfig = new MarkConfig(iris, iris);
+		}
+		
+		if( this.privateConfig.collide( mark.getPosition(), center ) ) {
+			return this.fullPoint;
+		}
+		
+		if( markConfig.collide( mark.getPosition(), center ) ) {
+			return this.partialPoint;
+		}
+		
+		return 0;
+	}
+
+}

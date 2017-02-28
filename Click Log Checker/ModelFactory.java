@@ -15,10 +15,15 @@ public class ModelFactory {
 	private FileInputParser parser;
 	private Adjuster adjuster;
 	private ArrayList<Bug[]> bugs;
-	public ModelFactory( double horizontalAxis, double verticalAxis, int language ) {
+	
+	private double lineBugSensitivity, lineBugPartialPt;
+	private double codeBugSensitivity, codeBugPartialPt;
+	public ModelFactory( double horizontalAxis, double verticalAxis ) {
 		this.markConfig = new MarkConfig( horizontalAxis, verticalAxis );
 		this.parser = new FileInputParser();
-		
+	}
+	
+	public void setupLanguage(int language) {
 		switch( language ) {
 		case ModelFactory.LANGUAGE_CPP:
 			this.setupCPP();
@@ -45,6 +50,16 @@ public class ModelFactory {
 		this.readBugList( "ans-key" + File.separator + "C++.anskey" );
 	}
 	
+	public void setLineBugConfig( double sensitivity, double partialPoint ) {
+		this.lineBugSensitivity = sensitivity;
+		this.lineBugPartialPt = partialPoint;
+	}
+	
+	public void setCodeBugConfig( double sensitivity, double partialPoint ) {
+		this.codeBugSensitivity = sensitivity;
+		this.codeBugPartialPt = partialPoint;
+	}
+	
 	public void readBugList( String path ) {
 		File toRead = new File( path );
 		String[][] tokens = null;
@@ -65,9 +80,12 @@ public class ModelFactory {
 		
 		ArrayList<Bug[]> tempBugs = new ArrayList<Bug[]>();
 		int buggedSlide = Integer.parseInt( tokenQueue.poll() );
+		BugInfo bugInfo = BugInfo.getInstance( buggedSlide );
 		while( buggedSlide-->0 ) {
 			int slideNo = Integer.parseInt( tokenQueue.poll() );
 			int bugCount = Integer.parseInt( tokenQueue.poll() );
+			bugInfo.addSlide( slideNo );
+			bugInfo.setBugCountOnSlide( slideNo, bugCount );;
 			
 			while( tempBugs.size() <= slideNo ) {
 				tempBugs.add( null );
@@ -85,16 +103,15 @@ public class ModelFactory {
 					int x2 = Integer.parseInt( tokenQueue.poll() );
 					int y2 = Integer.parseInt( tokenQueue.poll() );
 					Vector2D botRight = new Vector2D(x2, y2);
-					
 					switch(type) {
-					case "T":
-						bugPieces[j] = new TouchTypeBugPiece(topLeft, botRight);
+					case "L":
+						bugPieces[j] = new SensitiveLineBugPiece(topLeft, botRight, lineBugSensitivity, lineBugPartialPt);
 						break;
-					case "E":
-						bugPieces[j] = new EncloseTypeBugPiece(topLeft, botRight);
+					case "C":
+						bugPieces[j] = new SensitiveCodeBugPiece(topLeft, botRight, codeBugSensitivity, codeBugPartialPt);
 						break;
 					default:
-						throw new UnsupportedOperationException( toRead.getName() + ": invalid bug type" );
+						throw new UnsupportedOperationException( toRead.getName() + ": " + type +  " is an invalid bug type" );
 					}
 				}
 				slideBugs[i] = new Bug( bugPieces );

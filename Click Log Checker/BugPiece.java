@@ -14,7 +14,7 @@ public abstract class BugPiece {
 		this.height = Math.abs( botRight.getY() - topLeft.getY() );
 	}
 	
-	public abstract boolean isCollidingWith( MarkAction mark );
+	public abstract double isCollidingWith( MarkAction mark );
 	
 	public Vector2D[] getCorners() {
 		return new Vector2D[] { topLeft, topRight, botRight, botLeft };

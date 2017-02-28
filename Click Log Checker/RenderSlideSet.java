@@ -33,8 +33,8 @@ public class RenderSlideSet {
 		return overallTime;
 	}
 	
-	public int getScore() {
-		int score = 0;
+	public double getScore() {
+		double score = 0;
 		if( this.slides.size() > 0 ) {
 			score = this.slides.get( currentSlide ).getScore();
 		}
