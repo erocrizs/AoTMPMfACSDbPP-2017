@@ -39,15 +39,13 @@ public class SlideModel {
 		return lastMarks.toArray( new MarkAction[ lastMarks.size() ] );
 	}
 
-	public boolean[] getScore() {
-		boolean[] score = new boolean[ this.bugs.length ];
+	public double[] getScore() {
+		double[] score = new double[ this.bugs.length ];
 		
 		for( MarkAction mark: this.lastMarks ) {
 			for( int i=0; i<this.bugs.length; i++ ) {
-				if( score[i] )
-					continue;
-				
-				score[i] = this.bugs[i].isCollidingWith( mark ); 
+				double temp = this.bugs[i].isCollidingWith( mark );
+				score[i] = Math.max( temp, score[i] );
 			}
 		}
 		
@@ -55,12 +53,11 @@ public class SlideModel {
 	}
 	
 	public Date[] getTimedScore() {
-		boolean[] score = this.getScore();
+		double[] score = this.getScore();
 		Date[] timedScore = new Date[ score.length ];
 		
 		for( int i=0; i<score.length; i++ ) {
-			if( !score[i] ) continue;
-			
+			if( score[i] == 0 ) continue;
 			long millisecondsTime = this.bugs[i].getFirstFound().getTime() - this.firstSeen.getTime();
 			timedScore[i] = new Date( millisecondsTime );
 		}
@@ -74,7 +71,7 @@ public class SlideModel {
 			for( Bug bug: this.bugs ) {
 				if( bug.getFirstFound() != null ) continue;
 				
-				if( bug.isCollidingWith( mark ) ) {
+				if( bug.isCollidingWith( mark ) != 0 ) {
 					bug.setFirstFound( mark.getTimeStamp() );
 				}
 			}

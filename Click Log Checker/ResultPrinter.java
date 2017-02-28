@@ -3,6 +3,7 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
 
 public class ResultPrinter {
 	
@@ -45,6 +46,46 @@ public class ResultPrinter {
 			bw.write( "\n" );
 		}
 		
+		bw.close();
+	}
+
+	public void printGroup(HashMap<String, SlideSetModel> modelMap, File outputFile) throws IOException {
+		BufferedWriter bw = new BufferedWriter( new FileWriter( outputFile ) );
+		BugInfo bugInfo = BugInfo.getInstance(-1);
+		
+		int[] bugSlides = bugInfo.getBuggedSlides();
+		int[] bugPerSlide = bugInfo.getBugCountPerSlide();
+		
+		String header = " ";
+		String subHeader = "Student ID";
+		String[] outputLines = new String[ modelMap.size() ];
+		
+		String[] inputFileNames = modelMap.keySet().toArray( new String[ modelMap.size() ] ); 
+		for(int i=0; i<modelMap.size(); i++) {
+			outputLines[i] = inputFileNames[i].substring(0, inputFileNames[i].length() - 22 );
+		}
+		
+		for( int i=0; i<bugPerSlide.length; i++ ) {
+			for( int j=0; j<bugPerSlide[i]; j++ ) {
+				header += "," + (i+1);
+				subHeader += "," + (j+1);
+				
+				for( int k=0; k<outputLines.length; k++ ) {
+					double[][] scores = modelMap.get( inputFileNames[k] ).getScore();
+					if( bugSlides[i] >= scores.length || scores[ bugSlides[i] ][ j ] == 0) {
+						outputLines[k] += ",x";
+					} else {
+						outputLines[k] += "," + scores[ bugSlides[i] ][j];
+					}
+				}
+			}
+		}
+		
+		bw.write(header + "\n");
+		bw.write(subHeader + "\n");
+		for(int i=0; i<modelMap.size(); i++) {
+			bw.write( outputLines[i]+ "\n" );
+		}
 		bw.close();
 	}
 

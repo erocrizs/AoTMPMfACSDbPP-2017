@@ -6,14 +6,14 @@ public class EncloseTypeBugPiece extends BugPiece {
 	}
 
 	@Override
-	public boolean isCollidingWith(MarkAction mark) {
+	public double isCollidingWith(MarkAction mark) {
 		MarkConfig checker = mark.getConfig();
 		Vector2D[] toCheck = this.getCorners();
 		
-		boolean colliding = true;
+		double colliding = 1;
 		for( Vector2D corner: toCheck ) {
 			if( !checker.collide( mark.getPosition(), corner ) ) {
-				colliding = false;
+				colliding = 0;
 				break;
 			}
 		}

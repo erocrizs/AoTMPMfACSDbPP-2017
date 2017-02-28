@@ -13,8 +13,8 @@ public class SlideSetModel {
 		this.slides.add( slide );
 	}
 	
-	public boolean[][] getScore() {
-		boolean[][] scores = new boolean[ this.slides.size() ][0];
+	public double[][] getScore() {
+		double[][] scores = new double[ this.slides.size() ][0];
 		for( int i=0; i<this.slides.size(); i++ ) {
 			scores[i] = this.slides.get( i ).getScore();
 		}

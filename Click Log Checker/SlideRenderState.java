@@ -14,5 +14,5 @@ public abstract class SlideRenderState {
 		return timestamp;
 	}
 	
-	public abstract boolean isCovered( Bug bug );
+	public abstract double isCovered( Bug bug );
 }

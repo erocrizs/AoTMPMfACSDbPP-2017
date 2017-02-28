@@ -14,7 +14,7 @@ public class RenderSlide {
 	private BufferedImage image;
 	private Vector2D dimensions;
 	private int stateIndex;
-	private int score;
+	private double score;
 	
 	private Date firstSeen;
 	private Date currentTime;
@@ -113,11 +113,9 @@ public class RenderSlide {
 	}
 
 	private void recomputeScore() {
-		int tempScore = 0;
+		double tempScore = 0;
 		for( Bug bug: this.bugs ) {
-			if( this.currentState.isCovered( bug ) ) {
-				tempScore++;
-			}
+			tempScore += this.currentState.isCovered(bug);
 		}
 		this.score = tempScore;
 	}
@@ -126,7 +124,7 @@ public class RenderSlide {
 		return stateIndex;
 	}
 
-	public int getScore() {
+	public double getScore() {
 		return score;
 	}
 

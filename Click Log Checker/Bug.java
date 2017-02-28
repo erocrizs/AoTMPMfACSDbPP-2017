@@ -9,14 +9,12 @@ public class Bug {
 		this.bugPieces = bugPieces;
 	}
 	
-	public boolean isCollidingWith( MarkAction mark ) {
-		boolean colliding = false;
+	public double isCollidingWith( MarkAction mark ) {
+		double colliding = 0;
 		
 		for( BugPiece bug: this.bugPieces ) {
-			if( bug.isCollidingWith( mark ) ) {
-				colliding = true;
-				break;
-			}
+			double temp = bug.isCollidingWith(mark);
+			colliding = Math.max(temp, colliding);
 		}
 		
 		return colliding;
