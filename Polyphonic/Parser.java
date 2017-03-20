@@ -41,6 +41,8 @@ public class Parser {
 
 			Utterance u = new Utterance(id, time, content, speaker, codeSwitched);
 			log.add(u);
+
+			id++;
 		}
 
 		return new Log(log);
