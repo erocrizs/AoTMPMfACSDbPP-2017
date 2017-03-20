@@ -59,14 +59,20 @@ class Utterance {
 }
 
 class Participant {
-	private String name;
+	private String codename;
+	private String realName;
 
-	public Participant(String name) {
-		this.name = name;
+	public Participant(String codename, String realName) {
+		this.codename = codename;
+		this.realName = realName;
 	}
 
-	public String getName() {
-		return name;
+	public String getCodeName() {
+		return codename;
+	}
+
+	public String getRealName() {
+		return realName;
 	}
 }
 

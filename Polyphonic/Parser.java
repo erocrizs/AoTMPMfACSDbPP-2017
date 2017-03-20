@@ -21,7 +21,11 @@ public class Parser {
 		ArrayList<Utterance> log = new ArrayList<Utterance>();
 		int id = 0;
 
-		Participant[] p = {new Participant(sc.nextLine()), new Participant(sc.nextLine())};
+		Participant[] p = new Participant[2];
+		String[] str = sc.nextLine().split(" ");
+		p[0] = new Participant(str[0], str[1]);
+		str = sc.nextLine().split(" ");
+		p[1] = new Participant(str[0], str[1]);
 		
 		while(sc.hasNextLine()) {
 			String s1 = sc.nextLine();
@@ -67,7 +71,8 @@ public class Parser {
 
 	public static void printLog(Log l) {
 		for(Utterance u: l.getUtterances()) {
-			System.out.printf("id: %d \t speaker: %s\n", u.getId(), u.getSpeaker().getName());
+			Participant sp = u.getSpeaker();
+			System.out.printf("id: %d \t speaker: %s %s\n", u.getId(), sp.getCodeName(), sp.getRealName());
 			System.out.println("code-switched? " + u.isCodeSwitched() + "\t time: " + u.getTime().toString());
 			System.out.println(u.getContentString());
 
