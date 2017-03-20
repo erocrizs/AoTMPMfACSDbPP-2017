@@ -1,0 +1,642 @@
+ADDU-SP02A
+ADDU-SP02B
+
+ADDU-SP02A:1:35:58 PM
+C
+test
+
+ADDU-SP02B:1:37:17 PM
+N
+Jo?
+
+ADDU-SP02A:1:38:49 PM
+N
+Yeah?
+
+ADDU-SP02B:1:39:01 PM
+C
+Are you now on the first problem?
+
+ADDU-SP02A:1:39:09 PM
+C
+I'm still on the 2nd problem
+
+ADDU-SP02B:1:39:20 PM
+N
+Scanner input?
+
+ADDU-SP02A:1:39:40 PM
+C
+Yes. The ones with x y z
+
+ADDU-SP02B:1:39:46 PM
+C
+Where do you think is the error?
+
+ADDU-SP02B:1:40:01 PM
+C
+I think there is a need for declaration before putting Scanner
+
+ADDU-SP02A:1:40:29 PM
+C
+int x, y, z has no ";"
+
+ADDU-SP02A:1:40:34 PM
+C
+But I think I'm not sure
+
+ADDU-SP02B:1:40:43 PM
+C
+int x, y, z is wrong
+
+ADDU-SP02B:1:40:44 PM
+N
+Go!
+
+ADDU-SP02A:1:41:00 PM
+C
+Is problem 1 a 1-error problem?
+
+ADDU-SP02B:1:41:17 PM
+C
+I have 2 errors
+
+ADDU-SP02B:1:41:31 PM
+C
+You need to do instantiation in order to perform Scanner
+
+ADDU-SP02B:1:41:34 PM
+C
+I think.
+
+ADDU-SP02A:1:41:56 PM
+C
+What is instantiation again?
+
+ADDU-SP02B:1:42:20 PM
+C
+Code about static scanner, etc.
+
+ADDU-SP02B:1:42:28 PM
+C
+Before the void main
+
+ADDU-SP02A:1:43:04 PM
+C
+I don't remember
+
+ADDU-SP02A:1:43:23 PM
+C
+I already proceeded to the next problem, I've got 2 errors too, but we've got different error locations
+
+ADDU-SP02A:1:45:07 PM
+C
+Mic, do all of the problems have errors?
+
+ADDU-SP02B:1:45:14 PM
+C
+Are you now in problem 2?
+
+ADDU-SP02B:1:45:16 PM
+C
+I think all of the problems have errors.
+
+ADDU-SP02B:1:45:32 PM
+C
+Base it on the problem, Jo.
+
+ADDU-SP02A:1:45:49 PM
+C
+Yes.
+
+ADDU-SP02A:1:46:20 PM
+C
+Hey. I think I clicked something wrong. How do you remove the circle?
+
+ADDU-SP02B:1:46:24 PM
+N
+Reset
+
+ADDU-SP02B:1:46:31 PM
+C
+Jo, in problem 2, I already see the error.
+
+ADDU-SP02B:1:46:33 PM
+C
+The error is in the "for loop"
+
+ADDU-SP02B:1:46:35 PM
+C
+Because the code has ";"
+
+ADDU-SP02B:1:46:48 PM
+C
+Just press alt tab
+
+ADDU-SP02A:1:48:42 PM
+C
+But I think there are cases where you can put ";", right? I'm not sure though.
+
+ADDU-SP02B:1:48:50 PM
+C
+Hey, you can't.
+
+ADDU-SP02A:1:48:51 PM
+C
+Mic, can you clarify #1 to me?
+
+ADDU-SP02A:1:48:55 PM
+N
+Okay. Haha
+
+ADDU-SP02B:1:49:06 PM
+C
+I just only encircled the ";" for now
+
+ADDU-SP02B:1:49:08 PM
+C
+I'll just do it later
+
+ADDU-SP02A:1:49:18 PM
+C
+It'll go farther later
+
+ADDU-SP02B:1:50:47 PM
+C
+It's okay. At least we're sure that ";" is the error
+
+ADDU-SP02B:1:50:51 PM
+C
+I'm here now in problem 3
+
+ADDU-SP02B:1:51:09 PM
+C
+I think the line with the Scanner is wrong since you don't really need to do Scanner since the problem has no input
+
+ADDU-SP02B:1:51:16 PM
+C
+Then the code should all be println
+
+ADDU-SP02A:1:51:57 PM
+C
+Wait! I'm being stupid. Haha. You don't have to encircle the instructions per problem, right?
+
+ADDU-SP02B:1:52:06 PM
+C
+No.
+
+ADDU-SP02B:1:52:11 PM
+C
+The instruction is actually your base/basis.
+
+ADDU-SP02A:1:53:05 PM
+C
+Yes. I think that's the only one.
+
+ADDU-SP02A:1:57:48 PM
+C
+Mic, in problem 4, the for(i:=0; -something-) shouldn't be in the code, right?
+
+ADDU-SP02B:1:57:55 PM
+C
+There should be no :=
+
+ADDU-SP02A:1:57:55 PM
+N
+i:=0
+
+ADDU-SP02B:1:58:01 PM
+C
+Then you have to be cautious on the last part
+
+ADDU-SP02A:1:58:08 PM
+N
+Okay
+
+ADDU-SP02B:1:58:15 PM
+N
+s(i) is supposed to be s[1]
+
+ADDU-SP02A:1:58:22 PM
+C
+Yes. I saw that one.
+
+ADDU-SP02B:1:58:28 PM
+C
+Did you see the 3 errors in your lower right, Jo?
+
+ADDU-SP02B:1:58:34 PM
+C
+The lower right is the indication as to how many errors are there.
+
+ADDU-SP02A:1:59:06 PM
+C
+Ah okay, okay.
+
+ADDU-SP02B:2:00:30 PM
+C
+Are you already in problem 5?
+
+ADDU-SP02B:2:02:11 PM
+N
+8-|
+
+ADDU-SP02A:2:02:22 PM
+C
+Yes. I just saw one error, still.
+
+ADDU-SP02B:2:02:27 PM
+C
+What is the error?
+
+ADDU-SP02A:2:02:40 PM
+C
+The 1st "if"
+
+ADDU-SP02A:2:02:44 PM
+C
+The code should be ==
+
+ADDU-SP02B:2:02:47 PM
+C
+Yes. You're right.
+
+ADDU-SP02B:2:02:55 PM
+C
+I think, the next error is the system.exit
+
+ADDU-SP02B:2:02:58 PM
+C
+I quite don't know actually about system.exit.
+
+ADDU-SP02B:2:03:06 PM
+C
+Because at the part where there is MATCH in an "if", I think there's no error in there.
+
+ADDU-SP02A:2:04:17 PM
+C
+But I think the program is right, because the program'll do exit if it's already less than 0
+
+ADDU-SP02B:2:04:23 PM
+N
+(Y)
+
+ADDU-SP02B:2:04:28 PM
+C
+Because there are 3 errors, haha.
+
+ADDU-SP02A:2:04:58 PM
+C
+By the way, is a string capital or small?
+
+ADDU-SP02B:2:05:21 PM
+C
+I think it should be any
+
+ADDU-SP02B:2:05:32 PM
+C
+But still, count += 1 is count++; right?
+
+ADDU-SP02B:2:05:34 PM
+N
+I don't know.
+
+ADDU-SP02A:2:06:15 PM
+C
+count += 1 if it's an increment
+
+ADDU-SP02A:2:07:15 PM
+C
+So, do you think that's the other error? I don't know.
+
+ADDU-SP02A:2:07:26 PM
+C
+I'm confused because I can't really find some errors for some others
+
+ADDU-SP02B:2:07:31 PM
+C
+Me too.
+
+ADDU-SP02B:2:07:45 PM
+C
+So I'm assuming the error is the count += 1.
+
+ADDU-SP02B:2:07:50 PM
+C
+Because there are no other errors.
+
+ADDU-SP02B:2:07:56 PM
+C
+Considering that the system.exit is right
+
+ADDU-SP02A:2:08:04 PM
+C
+Then let's just consider these 2 errors first. Haha
+
+ADDU-SP02A:2:08:07 PM
+C
+So that we can go to the next problem.
+
+ADDU-SP02B:2:08:43 PM
+N
+Okay.
+
+ADDU-SP02B:2:08:53 PM
+C
+P06
+
+ADDU-SP02A:2:10:57 PM
+C
+Why is the number is placed outside?
+
+ADDU-SP02B:2:11:11 PM
+N
+What number?
+
+ADDU-SP02A:2:11:12 PM
+C
+Because the number has to be inside the "for loop", right?
+
+ADDU-SP02A:2:11:15 PM
+N
+p06
+
+ADDU-SP02B:2:11:56 PM
+C
+That's what I thought at first too. But I think it's just basically 1 try so it's indirectly an else.
+
+ADDU-SP02A:2:12:37 PM
+C
+then for all your cases, all NO will show up
+
+ADDU-SP02B:2:13:13 PM
+C
+There is actually a Return, will the program gonna terminate after that?
+
+ADDU-SP02A:2:14:08 PM
+C
+I can't seem to really find an error
+
+ADDU-SP02A:2:14:11 PM
+C
+Are you done?
+
+ADDU-SP02B:2:14:18 PM
+C
+Not yet.
+
+ADDU-SP02B:2:14:22 PM
+C
+I can't really find an error.
+
+ADDU-SP02B:2:14:25 PM
+C
+That's why I proceeded to p07
+
+ADDU-SP02A:2:14:40 PM
+C
+I only got the error in "for loop"
+
+ADDU-SP02B:2:16:08 PM
+C
+Where is it exactly?
+
+ADDU-SP02A:2:18:18 PM
+C
+The one that's ","
+
+ADDU-SP02A:2:18:27 PM
+N
+j=0,
+
+ADDU-SP02B:2:18:40 PM
+C
+I think j=0, seems fine.
+
+ADDU-SP02B:2:18:51 PM
+C
+You can actually declare as many times as you want in for loop as long as it's not ;
+
+ADDU-SP02A:2:19:10 PM
+N
+Huh?
+
+ADDU-SP02A:2:19:19 PM
+C
+Remember, ";" is the separator, right?
+
+ADDU-SP02A:2:19:21 PM
+C
+Not ","
+
+ADDU-SP02B:2:19:27 PM
+C
+","'s not actually a separator
+
+ADDU-SP02B:2:19:33 PM
+C
+It actually declares two
+
+ADDU-SP02B:2:19:36 PM
+C
+That's possible?
+
+ADDU-SP02A:2:20:30 PM
+C
+So, the ones between j++ and k--, what do you call that one?
+
+ADDU-SP02A:2:20:33 PM
+C
+It should be ,
+
+ADDU-SP02A:2:20:35 PM
+N
+or ;
+
+ADDU-SP02B:2:20:44 PM
+C
+Yes?
+
+ADDU-SP02A:2:20:52 PM
+C
+Are you now in p07?
+
+ADDU-SP02B:2:20:59 PM
+C
+Because only 3 ";" is allowed in for loop
+
+ADDU-SP02B:2:21:02 PM
+N
+Yes
+
+ADDU-SP02A:2:21:18 PM
+C
+So what's your error?
+
+ADDU-SP02B:2:21:47 PM
+C
+The one that's !=
+
+ADDU-SP02B:2:21:52 PM
+C
+And the one where there is NO as well
+
+ADDU-SP02B:2:21:58 PM
+C
+Because I can't really find anything anymore
+
+ADDU-SP02A:2:22:11 PM
+C
+I mean in p07?
+
+ADDU-SP02B:2:22:28 PM
+N
+'player 2'
+
+ADDU-SP02B:2:22:44 PM
+C
+who wins () -- should have an argument
+
+ADDU-SP02B:2:22:51 PM
+C
+then the else System
+
+ADDU-SP02A:2:23:12 PM
+N
+Okay
+
+ADDU-SP02B:2:25:21 PM
+C
+I think in p08, you can't declare if the types aren't compatible
+
+ADDU-SP02B:2:25:30 PM
+C
+Like int k = odd? Odd is a char
+
+ADDU-SP02B:2:25:43 PM
+C
+But then you still have to parse the variable
+
+ADDU-SP02A:2:26:21 PM
+C
+I think it's an int you have to instantiate
+
+ADDU-SP02B:2:26:29 PM
+C
+Right???? :'(((
+
+ADDU-SP02B:2:26:36 PM
+C
+I'm not sure. Haha
+
+ADDU-SP02A:2:26:40 PM
+C
+But then, it's already in nextInt() during scan
+
+ADDU-SP02A:2:27:20 PM
+C
+How many errors you've got already?
+
+ADDU-SP02A:2:27:23 PM
+C
+Time's almost up.
+
+ADDU-SP02A:2:27:26 PM
+N
+Help.
+
+ADDU-SP02B:2:27:49 PM
+C
+I think that's all the errors. The ones I encircle.
+
+ADDU-SP02B:2:27:51 PM
+C
+Because I really can't think of anything.
+
+ADDU-SP02A:2:27:58 PM
+C
+But there are 3 of them.
+
+ADDU-SP02B:2:28:18 PM
+N
+int k = odd
+
+ADDU-SP02B:2:28:26 PM
+N
+char length = odd / 2
+
+ADDU-SP02A:2:28:35 PM
+C
+I marked that as an error
+
+ADDU-SP02A:2:28:44 PM
+C
+I think it's possible that int k = odd, be an error
+
+ADDU-SP02A:2:28:51 PM
+C
+Because I marked char odd as an error
+
+ADDU-SP02B:2:29:04 PM
+C
+I think we should proceed now! Haha
+
+ADDU-SP02A:2:29:11 PM
+C
+I am missing one more.
+
+ADDU-SP02B:2:30:29 PM
+C
+The one that's i<= length
+
+ADDU-SP02A:2:31:01 PM
+C
+i<= length is actually correct in my case
+
+ADDU-SP02A:2:31:11 PM
+C
+Let's switch first to p09. Haha
+
+ADDU-SP02A:2:34:00 PM
+C
+Help! Haha
+
+ADDU-SP02A:2:34:04 PM
+C
+I can't find anything.
+
+ADDU-SP02B:2:34:11 PM
+N
+Same. Haha
+
+ADDU-SP02B:2:34:15 PM
+C
+Let's now proceed to p10!
+
+ADDU-SP02B:2:34:57 PM
+N
+Check p09
+
+ADDU-SP02B:2:35:05 PM
+N
+print(' ');
+
+ADDU-SP02A:2:35:10 PM
+C
+I already have that.
+
+ADDU-SP02A:2:35:13 PM
+C
+That one as well.
+
+ADDU-SP02B:2:35:15 PM
+C
+It should be print(' ')
+
+ADDU-SP02B:2:35:19 PM
+N
+Nice
+
+ADDU-SP02B:2:35:20 PM
+C
+So, let's proceed now.

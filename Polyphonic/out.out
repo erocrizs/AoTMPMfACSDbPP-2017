@@ -1,0 +1,640 @@
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:35:58
+test 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 13:37:17
+Jo? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 13:38:49
+Yeah? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:39:01
+Are you now on the first problem? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:39:09
+I'm still on the 2nd problem 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 13:39:20
+Scanner input? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:39:40
+Yes. The ones with x y z 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:39:46
+Where do you think is the error? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:40:01
+I think there is a need for declaration before putting Scanner 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:40:29
+int x, y, z has no ";" 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:40:34
+But I think I'm not sure 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:40:43
+int x, y, z is wrong 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 13:40:44
+Go! 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:41
+Is problem 1 a 1-error problem? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:41:17
+I have 2 errors 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:41:31
+You need to do instantiation in order to perform Scanner 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:41:34
+I think. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:41:56
+What is instantiation again? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:42:20
+Code about static scanner, etc. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:42:28
+Before the void main 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:43:04
+I don't remember 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:43:23
+I already proceeded to the next problem, I've got 2 errors too, but we've got different error locations 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:45:07
+Mic, do all of the problems have errors? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:45:14
+Are you now in problem 2? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:45:16
+I think all of the problems have errors. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:45:32
+Base it on the problem, Jo. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:45:49
+Yes. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:46:20
+Hey. I think I clicked something wrong. How do you remove the circle? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 13:46:24
+Reset 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:46:31
+Jo, in problem 2, I already see the error. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:46:33
+The error is in the "for loop" 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:46:35
+Because the code has ";" 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:46:48
+Just press alt tab 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:48:42
+But I think there are cases where you can put ";", right? I'm not sure though. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:48:50
+Hey, you can't. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:48:51
+Mic, can you clarify #1 to me? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 13:48:55
+Okay. Haha 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:49:06
+I just only encircled the ";" for now 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:49:08
+I'll just do it later 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:49:18
+It'll go farther later 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:50:47
+It's okay. At least we're sure that ";" is the error 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:50:51
+I'm here now in problem 3 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:51:09
+I think the line with the Scanner is wrong since you don't really need to do Scanner since the problem has no input 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:51:16
+Then the code should all be println 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:51:57
+Wait! I'm being stupid. Haha. You don't have to encircle the instructions per problem, right? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:52:06
+No. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:52:11
+The instruction is actually your base/basis. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:53:05
+Yes. I think that's the only one. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:57:48
+Mic, in problem 4, the for(i:=0; -something-) shouldn't be in the code, right? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:57:55
+There should be no := 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 13:57:55
+i:=0 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:58:01
+Then you have to be cautious on the last part 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 13:58:08
+Okay 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 13:58:15
+s(i) is supposed to be s[1] 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:58:22
+Yes. I saw that one. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:58:28
+Did you see the 3 errors in your lower right, Jo? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 13:58:34
+The lower right is the indication as to how many errors are there. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 13:59:06
+Ah okay, okay. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:00:30
+Are you already in problem 5? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:02:11
+8-| 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:02:22
+Yes. I just saw one error, still. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:02:27
+What is the error? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:02:40
+The 1st "if" 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:02:44
+The code should be == 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:02:47
+Yes. You're right. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:02:55
+I think, the next error is the system.exit 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:02:58
+I quite don't know actually about system.exit. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:03:06
+Because at the part where there is MATCH in an "if", I think there's no error in there. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:04:17
+But I think the program is right, because the program'll do exit if it's already less than 0 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:04:23
+(Y) 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:04:28
+Because there are 3 errors, haha. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:04:58
+By the way, is a string capital or small? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:05:21
+I think it should be any 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:05:32
+But still, count += 1 is count++; right? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:05:34
+I don't know. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:06:15
+count += 1 if it's an increment 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:07:15
+So, do you think that's the other error? I don't know. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:07:26
+I'm confused because I can't really find some errors for some others 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:07:31
+Me too. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:07:45
+So I'm assuming the error is the count += 1. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:07:50
+Because there are no other errors. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:07:56
+Considering that the system.exit is right 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:08:04
+Then let's just consider these 2 errors first. Haha 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:08:07
+So that we can go to the next problem. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:08:43
+Okay. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:08:53
+P06 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:10:57
+Why is the number is placed outside? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:11:11
+What number? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:11:12
+Because the number has to be inside the "for loop", right? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:11:15
+p06 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:11:56
+That's what I thought at first too. But I think it's just basically 1 try so it's indirectly an else. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:12:37
+then for all your cases, all NO will show up 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:13:13
+There is actually a Return, will the program gonna terminate after that? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:14:08
+I can't seem to really find an error 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:14:11
+Are you done? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:14:18
+Not yet. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:14:22
+I can't really find an error. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:14:25
+That's why I proceeded to p07 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:14:40
+I only got the error in "for loop" 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:16:08
+Where is it exactly? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:18:18
+The one that's "," 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:18:27
+j=0, 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:18:40
+I think j=0, seems fine. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:18:51
+You can actually declare as many times as you want in for loop as long as it's not ; 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:19:10
+Huh? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:19:19
+Remember, ";" is the separator, right? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:19:21
+Not "," 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:19:27
+","'s not actually a separator 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:19:33
+It actually declares two 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:19:36
+That's possible? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:20:30
+So, the ones between j++ and k--, what do you call that one? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:20:33
+It should be , 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:20:35
+or ; 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:20:44
+Yes? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:20:52
+Are you now in p07? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:20:59
+Because only 3 ";" is allowed in for loop 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:21:02
+Yes 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:21:18
+So what's your error? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:21:47
+The one that's != 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:21:52
+And the one where there is NO as well 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:21:58
+Because I can't really find anything anymore 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:22:11
+I mean in p07? 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:22:28
+'player 2' 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:22:44
+who wins () -- should have an argument 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:22:51
+then the else System 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:23:12
+Okay 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:25:21
+I think in p08, you can't declare if the types aren't compatible 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:25:30
+Like int k = odd? Odd is a char 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:25:43
+But then you still have to parse the variable 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:26:21
+I think it's an int you have to instantiate 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:26:29
+Right???? :'((( 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:26:36
+I'm not sure. Haha 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:26:40
+But then, it's already in nextInt() during scan 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:27:20
+How many errors you've got already? 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:27:23
+Time's almost up. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? true	 time: 14:27:26
+Help. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:27:49
+I think that's all the errors. The ones I encircle. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:27:51
+Because I really can't think of anything. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:27:58
+But there are 3 of them. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:28:18
+int k = odd 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:28:26
+char length = odd / 2 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:28:35
+I marked that as an error 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:28:44
+I think it's possible that int k = odd, be an error 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:28:51
+Because I marked char odd as an error 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:29:04
+I think we should proceed now! Haha 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:29:11
+I am missing one more. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:30:29
+The one that's i<= length 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:31:01
+i<= length is actually correct in my case 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:31:11
+Let's switch first to p09. Haha 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:34
+Help! Haha 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:34:04
+I can't find anything. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:34:11
+Same. Haha 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:34:15
+Let's now proceed to p10! 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:34:57
+Check p09 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:35:05
+print(' '); 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:35:10
+I already have that. 
+
+id: 0 	 speaker: ADDU-SP02A
+code-switched? false	 time: 14:35:13
+That one as well. 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:35:15
+It should be print(' ') 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? true	 time: 14:35:19
+Nice 
+
+id: 0 	 speaker: ADDU-SP02B
+code-switched? false	 time: 14:35:20
+So, let's proceed now. 
+
