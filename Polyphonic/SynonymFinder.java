@@ -70,8 +70,8 @@ public class SynonymFinder {
 	}
 	private static IDictionary dict = null;
 
-	public static List<IWord> getSynonyms(String query) {
-		List<IWord> list = new ArrayList<IWord>();
+	public static List<String> getSynonyms(String query) {
+		List<String> list = new ArrayList<String>();
 
 		//could probably use the keyword-getter here!
 		//System.out.println(query);
@@ -99,7 +99,7 @@ public class SynonymFinder {
 				// get synonyms
 				List<IWord> synonyms = w.getSynset().getWords();
 				for(IWord w2: synonyms) {
-					list.add(w2);
+					list.add(w2.getLemma().replace('_', ' '));
 					//System.out.print(w2.getLemma() + " ");
 				}
 				//System.out.println("\n");
@@ -127,12 +127,12 @@ public class SynonymFinder {
 		for(int i = 0; i < acontent.size(); i++) {
 			//System.out.println("here1");
 			Word aw = acontent.get(i);
-			List<IWord> awsynonyms = aw.getSynonyms();
+			List<String> awsynonyms = aw.getSynonyms();
 
 			for(int j = 0; j < bcontent.size(); j++) {
 				//System.out.println("here2");
 				Word bw = bcontent.get(j);
-				List<IWord> bwsynonyms = bw.getSynonyms();
+				List<String> bwsynonyms = bw.getSynonyms();
 
 				if(isMatching(awsynonyms, bwsynonyms)) {
 					//System.out.println("here3");
@@ -144,16 +144,14 @@ public class SynonymFinder {
 		return implicitLinks;
 	}
 
-	public static boolean isMatching(List<IWord> a, List<IWord> b) {
+	public static boolean isMatching(List<String> a, List<String> b) {
 		//System.out.println(a.size() + " " + b.size());
 
 		if(a==null || b==null) return false;
-		for(IWord iwa: a) {
-			for(IWord iwb: b) {
-				String s1 = iwa.getLemma().replace('_', ' ');
-				String s2 = iwb.getLemma().replace('_', ' ');
+		for(String iwa: a) {
+			for(String iwb: b) {
 				//System.out.println(iwa.getLemma() + " " + iwb.getLemma());
-				if(s1.equals(s2)) return true;
+				if(iwa.equals(iwb)) return true;
 			}
 		}
 

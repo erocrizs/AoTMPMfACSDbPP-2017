@@ -97,7 +97,7 @@ class Participant {
 
 class Word {
 	private String content;
-	private List<IWord> synonyms = null;
+	private List<String> synonyms = null;
 
 	public Word(String content) {
 		this.content = content;
@@ -107,11 +107,11 @@ class Word {
 		return content;
 	}
 
-	public void setSynonyms(List<IWord> synonyms) {
+	public void setSynonyms(List<String> synonyms) {
 		this.synonyms = synonyms;
 	}
 
-	public List<IWord> getSynonyms() {
+	public List<String> getSynonyms() {
 		return synonyms;
 	}
 }
