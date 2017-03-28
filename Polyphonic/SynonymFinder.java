@@ -86,7 +86,7 @@ public class SynonymFinder {
 			} catch(NullPointerException e) { return null; }
 			if(idxWord==null) return null;
 
-			System.out.println("String: " + str);
+			//System.out.println("String: " + str);
 			//System.out.println("	success!");
 
 			//get list of IWordIDs for the IIndexWord
@@ -100,9 +100,9 @@ public class SynonymFinder {
 				List<IWord> synonyms = w.getSynset().getWords();
 				for(IWord w2: synonyms) {
 					list.add(w2);
-					System.out.print(w2.getLemma() + " ");
+					//System.out.print(w2.getLemma() + " ");
 				}
-				System.out.println("\n");
+				//System.out.println("\n");
 			}
 		}
 
