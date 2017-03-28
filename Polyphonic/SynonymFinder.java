@@ -9,31 +9,44 @@ import edu.mit.jwi.morph.*;
 
 public class SynonymFinder {
 	public static void main(String[] args) throws IOException {
-		Scanner sc = new Scanner(System.in);
-		/*while(sc.hasNextLine()) {
-			initializeDictionary();
-			String query = sc.nextLine();
-
-			for(IWord w: getSynonyms(query)) {
-				System.out.println(w.getLemma());
-			}
-			//testDictionary(sc.nextLine());
-		}*/
-
+		
 		initializeDictionary();
 		//testDictionary();
 		Log l = Parser.createLog("ADDU-SP02A-SP02B.in");
 		ArrayList<Utterance> list = l.getUtterances();
-		while(sc.hasNextLine()) {
-			int u1 = sc.nextInt();
-			int u2 = sc.nextInt();
+		
+		System.out.println("[0] Utterance pairs");
+		System.out.println("[1] All utterances");
+		System.out.println();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int mode = sc.nextInt();
 
-			Utterance ut1 = list.get(u1);
-			Utterance ut2 = list.get(u2);
+		if(mode==0) {
+			while(sc.hasNextLine()) {
+				int u1 = sc.nextInt();
+				int u2 = sc.nextInt();
 
-			ArrayList<Link> links = generateLinks(ut1, ut2);
-			processLinks(ut1, ut2, links);
-			System.out.println();
+				Utterance ut1 = list.get(u1);
+				Utterance ut2 = list.get(u2);
+
+				ArrayList<Link> links = generateLinks(ut1, ut2);
+				processLinks(ut1, ut2, links, true);
+				System.out.println();
+			}
+		}
+		else if(mode==1) {
+			for(int i = 0; i < list.size(); i++) {
+				for(int j = i+1; j < list.size(); j++) {
+					Utterance ut1 = list.get(i);
+					Utterance ut2 = list.get(j);
+
+					ArrayList<Link> links = generateLinks(ut1, ut2);
+					processLinks(ut1, ut2, links, false);
+					//System.out.println();
+				}
+			}
 		}
 
 		//printLog(l);
@@ -52,12 +65,16 @@ public class SynonymFinder {
 	public static void testDictionary () throws IOException {
 
 		// look up first sense of the word "dog "
-		IIndexWord idxWord = dict.getIndexWord ("problems", POS.NOUN );
+		IIndexWord idxWord = dict.getIndexWord ("representation", POS.NOUN );
 		IWordID wordID = idxWord.getWordIDs().get(0);
 		IWord word = dict.getWord(wordID);
 		System.out.println("Id = " + wordID );
 		System.out.println(" Lemma = " + word.getLemma());
 		System.out.println(" Gloss = " + word.getSynset().getGloss());
+		System.out.println("Related words = ");
+		for(IWordID iwid: word.getRelatedWords()) {
+			System.out.println(dict.getWord(iwid).getLemma());
+		}
 	}
 
 	public static void initializeDictionary() throws IOException {
@@ -164,9 +181,15 @@ public class SynonymFinder {
 		}
 	}
 
-	public static void processLinks(Utterance u1, Utterance u2, ArrayList<Link> list) {
-		System.out.printf("Utterance %d: \"%s\"\n", u1.getId(), u1.getContentString());
-		System.out.printf("Utterance %d: \"%s\"\n", u2.getId(), u2.getContentString());
+	public static void processLinks(Utterance u1, Utterance u2, ArrayList<Link> list, boolean showNull) {
+		boolean isNull = list.size()==0;
+
+		if(isNull && !showNull) {
+			return;
+		}
+
+		System.out.printf("Utterance %d: \"%s\"\n", u1.getId(), u1.getContentString().trim());
+		System.out.printf("Utterance %d: \"%s\"\n", u2.getId(), u2.getContentString().trim());
 
 		ArrayList<Word> content1 = u1.getContent();
 		ArrayList<Word> content2 = u2.getContent();
@@ -176,5 +199,6 @@ public class SynonymFinder {
 			int ind2 = x.getWordIndexB();
 			System.out.printf("Index %d word \"%s\" matches with Index %d word \"%s\"\n", ind1, content1.get(ind1).getContent(), ind2, content2.get(ind2).getContent());
 		}
+		System.out.println();
 	}
 }
