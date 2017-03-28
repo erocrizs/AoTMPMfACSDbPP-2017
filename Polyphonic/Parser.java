@@ -62,7 +62,7 @@ public class Parser {
 	}
 
 	private static ArrayList<Word> parseWords(String s) {
-		String[] arr = s.split(" ");
+		String[] arr = s.replaceAll("[^a-zA-Z0-9 ]", "").toLowerCase().split("\\s+");
 		ArrayList<Word> list = new ArrayList<Word>();
 		for(String x: arr) {
 			list.add(new Word(x));

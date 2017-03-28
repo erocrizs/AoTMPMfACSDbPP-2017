@@ -2,639 +2,639 @@ id: 0 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:35:58
 test 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 1 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 13:37:17
-Jo? 
+jo 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 2 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 13:38:49
-Yeah? 
+yeah 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 3 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:39:01
-Are you now on the first problem? 
+are you now on the first problem 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 4 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:39:09
-I'm still on the 2nd problem 
+im still on the 2nd problem 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 5 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 13:39:20
-Scanner input? 
+scanner input 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 6 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:39:40
-Yes. The ones with x y z 
+yes the ones with x y z 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 7 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:39:46
-Where do you think is the error? 
+where do you think is the error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 8 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:40:01
-I think there is a need for declaration before putting Scanner 
+i think there is a need for declaration before putting scanner 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 9 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:40:29
-int x, y, z has no ";" 
+int x y z has no 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 10 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:40:34
-But I think I'm not sure 
+but i think im not sure 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 11 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:40:43
-int x, y, z is wrong 
+int x y z is wrong 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 12 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 13:40:44
-Go! 
+go 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 13 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:41
-Is problem 1 a 1-error problem? 
+is problem 1 a 1error problem 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 14 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:41:17
-I have 2 errors 
+i have 2 errors 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 15 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:41:31
-You need to do instantiation in order to perform Scanner 
+you need to do instantiation in order to perform scanner 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 16 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:41:34
-I think. 
+i think 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 17 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:41:56
-What is instantiation again? 
+what is instantiation again 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 18 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:42:20
-Code about static scanner, etc. 
+code about static scanner etc 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 19 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:42:28
-Before the void main 
+before the void main 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 20 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:43:04
-I don't remember 
+i dont remember 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 21 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:43:23
-I already proceeded to the next problem, I've got 2 errors too, but we've got different error locations 
+i already proceeded to the next problem ive got 2 errors too but weve got different error locations 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 22 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:45:07
-Mic, do all of the problems have errors? 
+mic do all of the problems have errors 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 23 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:45:14
-Are you now in problem 2? 
+are you now in problem 2 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 24 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:45:16
-I think all of the problems have errors. 
+i think all of the problems have errors 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 25 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:45:32
-Base it on the problem, Jo. 
+base it on the problem jo 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 26 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:45:49
-Yes. 
+yes 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 27 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:46:20
-Hey. I think I clicked something wrong. How do you remove the circle? 
+hey i think i clicked something wrong how do you remove the circle 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 28 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 13:46:24
-Reset 
+reset 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 29 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:46:31
-Jo, in problem 2, I already see the error. 
+jo in problem 2 i already see the error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 30 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:46:33
-The error is in the "for loop" 
+the error is in the for loop 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 31 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:46:35
-Because the code has ";" 
+because the code has 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 32 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:46:48
-Just press alt tab 
+just press alt tab 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 33 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:48:42
-But I think there are cases where you can put ";", right? I'm not sure though. 
+but i think there are cases where you can put right im not sure though 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 34 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:48:50
-Hey, you can't. 
+hey you cant 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 35 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:48:51
-Mic, can you clarify #1 to me? 
+mic can you clarify 1 to me 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 36 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 13:48:55
-Okay. Haha 
+okay haha 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 37 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:49:06
-I just only encircled the ";" for now 
+i just only encircled the for now 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 38 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:49:08
-I'll just do it later 
+ill just do it later 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 39 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:49:18
-It'll go farther later 
+itll go farther later 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 40 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:50:47
-It's okay. At least we're sure that ";" is the error 
+its okay at least were sure that is the error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 41 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:50:51
-I'm here now in problem 3 
+im here now in problem 3 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 42 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:51:09
-I think the line with the Scanner is wrong since you don't really need to do Scanner since the problem has no input 
+i think the line with the scanner is wrong since you dont really need to do scanner since the problem has no input 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 43 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:51:16
-Then the code should all be println 
+then the code should all be println 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 44 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:51:57
-Wait! I'm being stupid. Haha. You don't have to encircle the instructions per problem, right? 
+wait im being stupid haha you dont have to encircle the instructions per problem right 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 45 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:52:06
-No. 
+no 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 46 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:52:11
-The instruction is actually your base/basis. 
+the instruction is actually your basis 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 47 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:53:05
-Yes. I think that's the only one. 
+yes i think thats the only one 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 48 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:57:48
-Mic, in problem 4, the for(i:=0; -something-) shouldn't be in the code, right? 
+mic in problem 4 the fori0 something shouldnt be in the code right 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 49 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:57:55
-There should be no := 
+there should be no 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 50 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 13:57:55
-i:=0 
+i0 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 51 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:58:01
-Then you have to be cautious on the last part 
+then you have to be cautious on the last part 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 52 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 13:58:08
-Okay 
+okay 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 53 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 13:58:15
-s(i) is supposed to be s[1] 
+si is supposed to be s1 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 54 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:58:22
-Yes. I saw that one. 
+yes i saw that one 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 55 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:58:28
-Did you see the 3 errors in your lower right, Jo? 
+did you see the 3 errors in your lower right jo 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 56 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 13:58:34
-The lower right is the indication as to how many errors are there. 
+the lower right is the indication as to how many errors are there 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 57 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 13:59:06
-Ah okay, okay. 
+ah okay okay 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 58 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:00:30
-Are you already in problem 5? 
+are you already in problem 5 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 59 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:02:11
-8-| 
+8 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 60 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:02:22
-Yes. I just saw one error, still. 
+yes i just saw one error still 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 61 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:02:27
-What is the error? 
+what is the error 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 62 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:02:40
-The 1st "if" 
+the 1st if 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 63 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:02:44
-The code should be == 
+the code should be 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 64 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:02:47
-Yes. You're right. 
+yes youre right 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 65 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:02:55
-I think, the next error is the system.exit 
+i think the next error is the systemexit 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 66 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:02:58
-I quite don't know actually about system.exit. 
+i quite dont know actually about systemexit 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 67 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:03:06
-Because at the part where there is MATCH in an "if", I think there's no error in there. 
+because at the part where there is match in an if i think theres no error in there 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 68 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:04:17
-But I think the program is right, because the program'll do exit if it's already less than 0 
+but i think the program is right because the programll do exit if its already less than 0 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 69 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:04:23
-(Y) 
+y 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 70 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:04:28
-Because there are 3 errors, haha. 
+because there are 3 errors haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 71 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:04:58
-By the way, is a string capital or small? 
+by the way is a string capital or small 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 72 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:05:21
-I think it should be any 
+i think it should be any 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 73 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:05:32
-But still, count += 1 is count++; right? 
+but still count 1 is count right 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 74 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:05:34
-I don't know. 
+i dont know 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 75 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:06:15
-count += 1 if it's an increment 
+count 1 if its an increment 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 76 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:07:15
-So, do you think that's the other error? I don't know. 
+so do you think thats the other error i dont know 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 77 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:07:26
-I'm confused because I can't really find some errors for some others 
+im confused because i cant really find some errors for some others 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 78 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:07:31
-Me too. 
+me too 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 79 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:07:45
-So I'm assuming the error is the count += 1. 
+so im assuming the error is the count 1 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 80 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:07:50
-Because there are no other errors. 
+because there are no other errors 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 81 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:07:56
-Considering that the system.exit is right 
+considering that the systemexit is right 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 82 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:08:04
-Then let's just consider these 2 errors first. Haha 
+then lets just consider these 2 errors first haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 83 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:08:07
-So that we can go to the next problem. 
+so that we can go to the next problem 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 84 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:08:43
-Okay. 
+okay 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 85 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:08:53
-P06 
+p06 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 86 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:10:57
-Why is the number is placed outside? 
+why is the number is placed outside 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 87 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:11:11
-What number? 
+what number 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 88 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:11:12
-Because the number has to be inside the "for loop", right? 
+because the number has to be inside the for loop right 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 89 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:11:15
 p06 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 90 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:11:56
-That's what I thought at first too. But I think it's just basically 1 try so it's indirectly an else. 
+thats what i thought at first too but i think its just basically 1 try so its indirectly an else 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 91 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:12:37
-then for all your cases, all NO will show up 
+then for all your cases all no will show up 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 92 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:13:13
-There is actually a Return, will the program gonna terminate after that? 
+there is actually a return will the program gonna terminate after that 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 93 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:14:08
-I can't seem to really find an error 
+i cant seem to really find an error 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 94 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:14:11
-Are you done? 
+are you done 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 95 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:14:18
-Not yet. 
+not yet 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 96 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:14:22
-I can't really find an error. 
+i cant really find an error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 97 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:14:25
-That's why I proceeded to p07 
+thats why i proceeded to p07 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 98 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:14:40
-I only got the error in "for loop" 
+i only got the error in for loop 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 99 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:16:08
-Where is it exactly? 
+where is it exactly 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 100 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:18:18
-The one that's "," 
+the one thats 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 101 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:18:27
-j=0, 
+j0 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 102 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:18:40
-I think j=0, seems fine. 
+i think j0 seems fine 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 103 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:18:51
-You can actually declare as many times as you want in for loop as long as it's not ; 
+you can actually declare as many times as you want in for loop as long as its not 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 104 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:19:10
-Huh? 
+huh 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 105 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:19:19
-Remember, ";" is the separator, right? 
+remember is the separator right 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 106 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:19:21
-Not "," 
+not 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 107 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:19:27
-","'s not actually a separator 
+s not actually a separator 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 108 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:19:33
-It actually declares two 
+it actually declares two 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 109 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:19:36
-That's possible? 
+thats possible 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 110 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:20:30
-So, the ones between j++ and k--, what do you call that one? 
+so the ones between j and k what do you call that one 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 111 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:20:33
-It should be , 
+it should be 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 112 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:20:35
-or ; 
+or 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 113 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:20:44
-Yes? 
+yes 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 114 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:20:52
-Are you now in p07? 
+are you now in p07 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 115 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:20:59
-Because only 3 ";" is allowed in for loop 
+because only 3 is allowed in for loop 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 116 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:21:02
-Yes 
+yes 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 117 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:21:18
-So what's your error? 
+so whats your error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 118 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:21:47
-The one that's != 
+the one thats 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 119 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:21:52
-And the one where there is NO as well 
+and the one where there is no as well 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 120 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:21:58
-Because I can't really find anything anymore 
+because i cant really find anything anymore 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 121 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:22:11
-I mean in p07? 
+i mean in p07 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 122 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:22:28
-'player 2' 
+player 2 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 123 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:22:44
-who wins () -- should have an argument 
+who wins should have an argument 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 124 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:22:51
-then the else System 
+then the else system 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 125 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:23:12
-Okay 
+okay 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 126 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:25:21
-I think in p08, you can't declare if the types aren't compatible 
+i think in p08 you cant declare if the types arent compatible 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 127 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:25:30
-Like int k = odd? Odd is a char 
+like int k odd odd is a char 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 128 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:25:43
-But then you still have to parse the variable 
+but then you still have to parse the variable 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 129 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:26:21
-I think it's an int you have to instantiate 
+i think its an int you have to instantiate 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 130 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:26:29
-Right???? :'((( 
+right 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 131 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:26:36
-I'm not sure. Haha 
+im not sure haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 132 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:26:40
-But then, it's already in nextInt() during scan 
+but then its already in nextint during scan 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 133 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:27:20
-How many errors you've got already? 
+how many errors youve got already 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 134 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:27:23
-Time's almost up. 
+times almost up 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 135 	 speaker: ADDU-SP02A Jo
 code-switched? true	 time: 14:27:26
-Help. 
+help 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 136 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:27:49
-I think that's all the errors. The ones I encircle. 
+i think thats all the errors the ones i encircle 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 137 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:27:51
-Because I really can't think of anything. 
+because i really cant think of anything 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 138 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:27:58
-But there are 3 of them. 
+but there are 3 of them 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 139 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:28:18
-int k = odd 
+int k odd 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 140 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:28:26
-char length = odd / 2 
+char length odd 2 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 141 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:28:35
-I marked that as an error 
+i marked that as an error 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 142 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:28:44
-I think it's possible that int k = odd, be an error 
+i think its possible that int k odd be an error 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 143 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:28:51
-Because I marked char odd as an error 
+because i marked char odd as an error 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 144 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:29:04
-I think we should proceed now! Haha 
+i think we should proceed now haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 145 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:29:11
-I am missing one more. 
+i am missing one more 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 146 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:30:29
-The one that's i<= length 
+the one thats i length 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 147 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:31:01
-i<= length is actually correct in my case 
+i length is actually correct in my case 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 148 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:31:11
-Let's switch first to p09. Haha 
+lets switch first to p09 haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 149 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:34
-Help! Haha 
+help haha 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 150 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:34:04
-I can't find anything. 
+i cant find anything 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 151 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:34:11
-Same. Haha 
+same haha 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 152 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:34:15
-Let's now proceed to p10! 
+lets now proceed to p10 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 153 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:34:57
-Check p09 
+check p09 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 154 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:35:05
-print(' '); 
+print 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 155 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:35:10
-I already have that. 
+i already have that 
 
-id: 0 	 speaker: ADDU-SP02A Jo
+id: 156 	 speaker: ADDU-SP02A Jo
 code-switched? false	 time: 14:35:13
-That one as well. 
+that one as well 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 157 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:35:15
-It should be print(' ') 
+it should be print 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 158 	 speaker: ADDU-SP02B Mic
 code-switched? true	 time: 14:35:19
-Nice 
+nice 
 
-id: 0 	 speaker: ADDU-SP02B Mic
+id: 159 	 speaker: ADDU-SP02B Mic
 code-switched? false	 time: 14:35:20
-So, let's proceed now. 
+so lets proceed now 
 

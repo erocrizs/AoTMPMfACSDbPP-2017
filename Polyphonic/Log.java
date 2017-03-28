@@ -1,5 +1,7 @@
 import java.util.*;
 import java.time.*;
+import edu.mit.jwi.*;
+import edu.mit.jwi.item.*;
 
 class Log {
 	private ArrayList<Utterance> utterances;
@@ -16,11 +18,11 @@ class Log {
 class Utterance {
 	private int id;
 	private ArrayList<Word> content;
-	private ArrayList<Word> nounLemmaList;
-	private ArrayList<Word> properNounList;
 	private Participant speaker;
 	private boolean codeSwitched;
 	private LocalTime time;
+	private boolean processSynonyms;
+	private ArrayList<Link> implicitLinks;
 
 	public Utterance(int id, LocalTime time, ArrayList<Word> content, Participant speaker, boolean codeSwitched) {
 		this.id = id;
@@ -54,25 +56,24 @@ class Utterance {
 	public boolean isCodeSwitched() {
 		return codeSwitched;
 	}
+	public boolean processedSynonyms() {
+		return processSynonyms;
+	}
+
+	public void setProcessedSynonyms(boolean b) {
+		processSynonyms = b;
+	}
 
 	public LocalTime getTime() {
 		return time;
 	}
-	
-	public ArrayList<Word> getNounLemmaList() {
-		return nounLemmaList;
+
+	public ArrayList<Link> getImplicitLinks() {
+		return implicitLinks;
 	}
-	
-	public void setNounLemmaList(ArrayList<Word> nounLemmaList) {
-		this.nounLemmaList = nounLemmaList;
-	}
-	
-	public ArrayList<Word> getProperNounList() {
-		return properNounList;
-	}
-	
-	public void setProperNounList(ArrayList<Word> properNounList) {
-		this.properNounList = properNounList;
+
+	public void setImplicitLinks(ArrayList<Link> list) {
+		implicitLinks = list;
 	}
 }
 
@@ -96,6 +97,7 @@ class Participant {
 
 class Word {
 	private String content;
+	private List<IWord> synonyms = null;
 
 	public Word(String content) {
 		this.content = content;
@@ -103,5 +105,40 @@ class Word {
 
 	public String getContent() {
 		return content;
+	}
+
+	public void setSynonyms(List<IWord> synonyms) {
+		this.synonyms = synonyms;
+	}
+
+	public List<IWord> getSynonyms() {
+		return synonyms;
+	}
+}
+
+class Link {
+	private int utteranceIdA;
+	private int wordIndexA;
+	private int utteranceIdB;
+	private int wordIndexB;
+
+	public Link(int utteranceIdA, int wordIndexA, int utteranceIdB, int wordIndexB) {
+		this.utteranceIdA = utteranceIdA;
+		this.wordIndexA = wordIndexA;
+		this.utteranceIdB = utteranceIdB;
+		this.wordIndexB = wordIndexB;
+	}
+
+	public int getUtteranceIdA() {
+		return utteranceIdA;
+	}
+	public int getWordIndexA() {
+		return wordIndexA;
+	}
+	public int getUtteranceIdB() {
+		return utteranceIdA;
+	}
+	public int getWordIndexB() {
+		return wordIndexB;
 	}
 }
