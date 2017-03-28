@@ -16,6 +16,8 @@ class Log {
 class Utterance {
 	private int id;
 	private ArrayList<Word> content;
+	private ArrayList<Word> nounLemmaList;
+	private ArrayList<Word> properNounList;
 	private Participant speaker;
 	private boolean codeSwitched;
 	private LocalTime time;
@@ -55,6 +57,22 @@ class Utterance {
 
 	public LocalTime getTime() {
 		return time;
+	}
+	
+	public ArrayList<Word> getNounLemmaList() {
+		return nounLemmaList;
+	}
+	
+	public void setNounLemmaList(ArrayList<Word> nounLemmaList) {
+		this.nounLemmaList = nounLemmaList;
+	}
+	
+	public ArrayList<Word> getProperNounList() {
+		return properNounList;
+	}
+	
+	public void setProperNounList(ArrayList<Word> properNounList) {
+		this.properNounList = properNounList;
 	}
 }
 
