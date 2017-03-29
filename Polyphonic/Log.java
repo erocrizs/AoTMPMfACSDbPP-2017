@@ -21,6 +21,8 @@ class Utterance {
 	private Participant speaker;
 	private boolean codeSwitched;
 	private LocalTime time;
+	private boolean processSynonyms;
+	private ArrayList<Link> implicitLinks;
 
 	public Utterance(int id, LocalTime time, ArrayList<Word> content, Participant speaker, boolean codeSwitched) {
 		this.id = id;
@@ -54,6 +56,13 @@ class Utterance {
 	public boolean isCodeSwitched() {
 		return codeSwitched;
 	}
+	public boolean processedSynonyms() {
+		return processSynonyms;
+	}
+
+	public void setProcessedSynonyms(boolean b) {
+		processSynonyms = b;
+	}
 
 	public LocalTime getTime() {
 		return time;
@@ -73,6 +82,21 @@ class Utterance {
 	
 	public void setProperNounList(ArrayList<Word> properNounList) {
 		this.properNounList = properNounList;
+	}
+	
+	public ArrayList<Word> getTopics() {
+		ArrayList<Word> result = new ArrayList<Word>();
+		result.addAll( this.getNounLemmaList() );
+		result.addAll( this.getProperNounList() );
+		return result;
+	}
+
+	public ArrayList<Link> getImplicitLinks() {
+		return implicitLinks;
+	}
+
+	public void setImplicitLinks(ArrayList<Link> list) {
+		implicitLinks = list;
 	}
 }
 
@@ -96,12 +120,59 @@ class Participant {
 
 class Word {
 	private String content;
+	private List<String> synonyms = null;
+	private int index;
 
 	public Word(String content) {
 		this.content = content;
+		this.index = -1;
+	}
+	
+	public Word(String content, int index) {
+		this(content);
+		this.index = index;
 	}
 
 	public String getContent() {
 		return content;
+	}
+
+	public void setSynonyms(List<String> synonyms) {
+		this.synonyms = synonyms;
+	}
+
+	public List<String> getSynonyms() {
+		return synonyms;
+	}
+	
+	public int getIndex() {
+		return index;
+	}
+}
+
+class Link {
+	private int utteranceIdA;
+	private int wordIndexA;
+	private int utteranceIdB;
+	private int wordIndexB;
+
+	public Link(int utteranceIdA, int wordIndexA, int utteranceIdB, int wordIndexB) {
+		this.utteranceIdA = utteranceIdA;
+		this.wordIndexA = wordIndexA;
+		this.utteranceIdB = utteranceIdB;
+		this.wordIndexB = wordIndexB;
+	}
+
+	public int getUtteranceIdA() {
+		return utteranceIdA;
+	}
+	public int getWordIndexA() {
+		return wordIndexA;
+	}
+	public int getUtteranceIdB() {
+		return utteranceIdA;
+	}
+	public int getWordIndexB() {
+		return wordIndexB;
 	}
 }
