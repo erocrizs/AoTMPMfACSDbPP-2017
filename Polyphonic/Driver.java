@@ -1,30 +1,24 @@
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Driver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		Log log = Parser.createLog("ADDU-SP02A-SP02B.in");
 		KeywordDeriver deriver = new KeywordDeriver();
 		deriver.deriveKeywordFor(log);
+		SynonymFinder.deriveImplicitLinks(log);
+		ArrayList<Utterance> utters = log.getUtterances();
+		List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
 		
-		for(Utterance u: log.getUtterances()) {
-			Participant sp = u.getSpeaker();
-			System.out.printf("id: %d \t speaker: %s %s\n", u.getId(), sp.getCodeName(), sp.getRealName());
-			System.out.println("code-switched? " + u.isCodeSwitched() + "\t time: " + u.getTime().toString());
-			System.out.println(u.getContentString());
-			System.out.print("Noun Topics: ");
-			for( Word lemma: u.getNounLemmaList() ) {
-				System.out.print( lemma.getContent() + ", " );
+		for(ImplicitLinkChain ch: chains) {
+			System.out.printf("Chain for %s starting at utterance %d:\n", ch.getTopic().getContent(), ch.getHeadIndex());
+			for(int i: ch.getLinkIndices()) {
+				Utterance current = utters.get(i);
+				System.out.printf("- %s: %s\n", current.getSpeaker().getCodeName(), current.getContentString());
 			}
-			System.out.println("<<end>>");
-			System.out.print("NE Topics: ");
-			for( Word lemma: u.getProperNounList() ) {
-				System.out.print( lemma.getContent() + ", " );
-			}
-			System.out.println("<<end>>");
-
-			System.out.println();
 		}
-		System.out.println("DONE");
 	}
 
 }

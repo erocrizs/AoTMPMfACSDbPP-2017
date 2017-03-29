@@ -52,6 +52,23 @@ public class SynonymFinder {
 			}
 		}
 	}
+	
+	public static void deriveImplicitLinks(Log l) throws IOException {
+		initializeDictionary();
+		List<Utterance> utteranceList = l.getUtterances();
+		for(int i = 0; i < utteranceList.size(); i++) {
+			Utterance ut1 = utteranceList.get(i);
+			ArrayList<Link> ut1Link = new ArrayList<Link>();
+			for(int j = i+1; j < utteranceList.size(); j++) {
+				Utterance ut2 = utteranceList.get(j);
+
+				ArrayList<Link> links = generateLinks(ut1, ut2);
+				ut1Link.addAll( links );
+			}
+			ut1Link.sort( (a, b) -> Integer.compare( a.getUtteranceIdB(), b.getUtteranceIdB() ) );
+			ut1.setImplicitLinks( ut1Link );
+		}
+	}
 
 	public static void testDictionary () throws IOException {
 

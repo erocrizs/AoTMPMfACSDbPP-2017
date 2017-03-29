@@ -170,7 +170,7 @@ class Link {
 		return wordIndexA;
 	}
 	public int getUtteranceIdB() {
-		return utteranceIdA;
+		return utteranceIdB;
 	}
 	public int getWordIndexB() {
 		return wordIndexB;
