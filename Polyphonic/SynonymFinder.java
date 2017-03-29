@@ -2,6 +2,7 @@ import edu.mit.jwi.*;
 import java.io.*;
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.net.*;
 import edu.mit.jwi.item.*;
@@ -13,6 +14,9 @@ public class SynonymFinder {
 		initializeDictionary();
 		//testDictionary();
 		Log l = Parser.createLog("ADDU-SP02A-SP02B.in");
+		KeywordDeriver keywordDeriver = new KeywordDeriver();
+		keywordDeriver.deriveKeywordFor(l);
+		
 		ArrayList<Utterance> list = l.getUtterances();
 		
 		System.out.println("[0] Utterance pairs");
@@ -44,22 +48,9 @@ public class SynonymFinder {
 
 					ArrayList<Link> links = generateLinks(ut1, ut2);
 					processLinks(ut1, ut2, links, false);
-					//System.out.println();
 				}
 			}
 		}
-
-		//printLog(l);
-
-		/*Utterance u = list.get(15);
-		attachSynonyms(u);
-		for(Word w: u.getContent()) {
-			System.out.print("word: " + w.getContent() + " - ");
-			for(IWord iw: w.getSynonyms()) {
-				System.out.print(iw.getLemma() + " ");
-			}
-			System.out.println();
-		}*/
 	}
 
 	public static void testDictionary () throws IOException {
@@ -78,7 +69,7 @@ public class SynonymFinder {
 	}
 
 	public static void initializeDictionary() throws IOException {
-		String path = "D:\\Nina\\Documents\\GitHub\\AoTMPMfACSDbPP-2017" + File.separator + "dict";
+		String path = "dict";
 		URL url = new URL("file", null, path);
 
 		//construct dictionary object and open it
@@ -138,22 +129,21 @@ public class SynonymFinder {
 
 		ArrayList<Link> implicitLinks = new ArrayList<Link>();
 
-		List<Word> acontent = a.getContent();
-		List<Word> bcontent = b.getContent();
-
+		List<Word> acontent = a.getTopics();
+		List<Word> bcontent = b.getTopics();
+		
 		for(int i = 0; i < acontent.size(); i++) {
-			//System.out.println("here1");
 			Word aw = acontent.get(i);
 			List<String> awsynonyms = aw.getSynonyms();
 
 			for(int j = 0; j < bcontent.size(); j++) {
-				//System.out.println("here2");
 				Word bw = bcontent.get(j);
 				List<String> bwsynonyms = bw.getSynonyms();
 
-				if(isMatching(awsynonyms, bwsynonyms)) {
-					//System.out.println("here3");
-					implicitLinks.add(new Link(a.getId(), i, b.getId(), j));
+				if(awsynonyms.contains( bw.getContent() ) ||
+					bwsynonyms.contains( aw.getContent() ) ||
+					aw.equals(bw) ) {
+					implicitLinks.add(new Link(a.getId(), aw.getIndex(), b.getId(), bw.getIndex()));
 				}
 			}
 		}
@@ -162,12 +152,10 @@ public class SynonymFinder {
 	}
 
 	public static boolean isMatching(List<String> a, List<String> b) {
-		//System.out.println(a.size() + " " + b.size());
 
 		if(a==null || b==null) return false;
 		for(String iwa: a) {
 			for(String iwb: b) {
-				//System.out.println(iwa.getLemma() + " " + iwb.getLemma());
 				if(iwa.equals(iwb)) return true;
 			}
 		}
@@ -176,7 +164,10 @@ public class SynonymFinder {
 	}
 
 	public static void attachSynonyms(Utterance u) {
-		for(Word w: u.getContent()) {
+		for(Word w: u.getNounLemmaList()) {
+			w.setSynonyms(getSynonyms(w.getContent()));
+		}
+		for(Word w: u.getProperNounList()) {
 			w.setSynonyms(getSynonyms(w.getContent()));
 		}
 	}

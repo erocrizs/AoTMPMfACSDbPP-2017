@@ -1,7 +1,5 @@
 import java.util.*;
 import java.time.*;
-import edu.mit.jwi.*;
-import edu.mit.jwi.item.*;
 
 class Log {
 	private ArrayList<Utterance> utterances;
@@ -18,6 +16,8 @@ class Log {
 class Utterance {
 	private int id;
 	private ArrayList<Word> content;
+	private ArrayList<Word> nounLemmaList;
+	private ArrayList<Word> properNounList;
 	private Participant speaker;
 	private boolean codeSwitched;
 	private LocalTime time;
@@ -67,6 +67,29 @@ class Utterance {
 	public LocalTime getTime() {
 		return time;
 	}
+	
+	public ArrayList<Word> getNounLemmaList() {
+		return nounLemmaList;
+	}
+	
+	public void setNounLemmaList(ArrayList<Word> nounLemmaList) {
+		this.nounLemmaList = nounLemmaList;
+	}
+	
+	public ArrayList<Word> getProperNounList() {
+		return properNounList;
+	}
+	
+	public void setProperNounList(ArrayList<Word> properNounList) {
+		this.properNounList = properNounList;
+	}
+	
+	public ArrayList<Word> getTopics() {
+		ArrayList<Word> result = new ArrayList<Word>();
+		result.addAll( this.getNounLemmaList() );
+		result.addAll( this.getProperNounList() );
+		return result;
+	}
 
 	public ArrayList<Link> getImplicitLinks() {
 		return implicitLinks;
@@ -98,9 +121,16 @@ class Participant {
 class Word {
 	private String content;
 	private List<String> synonyms = null;
+	private int index;
 
 	public Word(String content) {
 		this.content = content;
+		this.index = -1;
+	}
+	
+	public Word(String content, int index) {
+		this(content);
+		this.index = index;
 	}
 
 	public String getContent() {
@@ -113,6 +143,10 @@ class Word {
 
 	public List<String> getSynonyms() {
 		return synonyms;
+	}
+	
+	public int getIndex() {
+		return index;
 	}
 }
 
