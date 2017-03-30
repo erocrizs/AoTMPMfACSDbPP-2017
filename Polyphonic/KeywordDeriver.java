@@ -55,10 +55,10 @@ public class KeywordDeriver {
 				int index = words.indexOf( text );
 				if(index < 0) continue;
 				
-				if( !"O".equals(ner) ) {
+				if( !"O".equals(ner) && pnList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0 ) {
 					pnList.add( new Word(lemma, index) );
 				}
-				else if("NN".equals(pos) || "NNS".equals(pos) ) {
+				else if( ( "NN".equals(pos) || "NNS".equals(pos) ) && lemmaList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0) {
 					lemmaList.add( new Word(lemma, index) );
 				}
 			}

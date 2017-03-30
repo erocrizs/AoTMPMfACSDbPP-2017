@@ -88,6 +88,23 @@ class Utterance {
 		ArrayList<Word> result = new ArrayList<Word>();
 		result.addAll( this.getNounLemmaList() );
 		result.addAll( this.getProperNounList() );
+		result.sort( (a, b) -> {
+			String aWord = a.getContent();
+			String bWord = b.getContent();
+			return aWord.compareTo( bWord );
+		} );
+		
+		if(result.size() > 0) {
+			String lastWord = result.get( result.size()-1 ).getContent();
+			for(int i=result.size()-2; i>=0; i--) {
+				String currWord = result.get( i ).getContent();
+				if( lastWord.equals( currWord ) ) {
+					result.remove(i);
+				} else {
+					lastWord = currWord;
+				}
+			}
+		}
 		return result;
 	}
 
