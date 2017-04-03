@@ -13,10 +13,10 @@ public class Driver {
 		List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
 		
 		for(ImplicitLinkChain ch: chains) {
-			System.out.printf("Chain for %s starting at utterance %d:\n", ch.getTopic().getContent(), ch.getHeadIndex());
+			System.out.printf("Chain for '%s' starting at utterance %d:\n", ch.getTopic().getContent(), ch.getHeadIndex());
 			for(int i: ch.getLinkIndices()) {
 				Utterance current = utters.get(i);
-				System.out.printf("- %s: %s\n", current.getSpeaker().getCodeName(), current.getContentString());
+				System.out.printf("- ( id: %d ) %s: %s\n", current.getId(),  current.getSpeaker().getCodeName(), current.getContentString());
 			}
 		}
 	}
