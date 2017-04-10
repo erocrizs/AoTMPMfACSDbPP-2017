@@ -1,0 +1,854 @@
+<?xml version="1.0"?>
+<dialogue corpus="trainline" lang="en" id="01">
+<turn n="1" speaker="Jo">
+<frag n="1" sp-act="state" polarity="positive" mode="decl">
+test  <punc type="stop" />
+</frag>
+</turn>
+<turn n="2" speaker="Mic">
+<frag n="2" sp-act="reqInfo" polarity="positive" mode="query">
+jo <punc type="query" />
+</frag>
+</turn>
+<turn n="3" speaker="Jo">
+<yes n="3" sp-act="acknowledge" mode="query">
+yeah <punc type="query" />
+</yes>
+</turn>
+<turn n="4" speaker="Mic">
+<q-yn n="4" sp-act="reqInfo" polarity="positive" topic="problem" mode="closed-query">
+are you now on the first problem <punc type="query" />
+</q-yn>
+</turn>
+<turn n="5" speaker="Jo">
+<decl n="5" sp-act="answer-state" polarity="positive" topic="problem" mode="decl">
+i'm still on the 2nd problem  <punc type="stop" />
+</decl>
+</turn>
+<turn n="6" speaker="Mic">
+<imp n="6" sp-act="direct" polarity="positive" mode="query">
+scanner input <punc type="query" />
+</imp>
+</turn>
+<turn n="7" speaker="Jo">
+<yes n="7" sp-act="acknowledge">
+yes <punc type="stop" />  
+</yes>
+<frag n="8" sp-act="state" polarity="positive" topic="number" mode="decl">
+the ones with x y z  <punc type="stop" />
+</frag>
+</turn>
+<turn n="8" speaker="Mic">
+<q-wh n="9" sp-act="reqInfo" polarity="positive" mode="opinion-open-query">
+where do you think is the error <punc type="query" />
+</q-wh>
+</turn>
+<turn n="9" speaker="Mic">
+<decl n="10" sp-act="answer-state" polarity="positive" topic="time" mode="opinion-exists-constrain-decl">
+i think there is a need for declaration before putting scanner  <punc type="stop" />
+</decl>
+</turn>
+<turn n="10" speaker="Jo">
+<frag n="11" sp-act="state" polarity="negative" mode="decl">
+int x <punc type="stop" />  y <punc type="stop" />  z has no &quot;;&quot;  <punc type="stop" />
+</frag>
+</turn>
+<turn n="11" speaker="Jo">
+<decl n="12" sp-act="reqInfo" polarity="negative" mode="doubt-constrain-decl">
+but i think i'm not sure  <punc type="stop" />
+</decl>
+</turn>
+<turn n="12" speaker="Mic">
+<frag n="13" sp-act="answer-state" polarity="positive" mode="decl">
+int x <punc type="stop" />  y <punc type="stop" />  z is wrong  <punc type="stop" />
+</frag>
+</turn>
+<turn n="13" speaker="Mic">
+<imp n="14" sp-act="direct" polarity="positive">
+go <punc type="exclam" />
+</imp>
+</turn>
+<turn n="14" speaker="Jo">
+<frag n="15" sp-act="reqInfo" polarity="positive" topic="problem-enum" mode="query">
+is problem 1 a 1-error problem <punc type="query" />
+</frag>
+</turn>
+<turn n="15" speaker="Mic">
+<decl n="16" sp-act="answer-state" polarity="positive" topic="enum" mode="exists-decl">
+i have 2 errors  <punc type="stop" />
+</decl>
+</turn>
+<turn n="16" speaker="Mic">
+<decl n="17" sp-act="state" polarity="positive" mode="constrain-decl">
+you need to do instantiation in order to perform scanner  <punc type="stop" />
+</decl>
+</turn>
+<turn n="17" speaker="Mic">
+<decl n="18" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think <punc type="stop" />
+</decl>
+</turn>
+<turn n="18" speaker="Jo">
+<q-wh n="19" sp-act="reqInfo" polarity="positive" mode="open-query">
+what is instantiation again <punc type="query" />
+</q-wh>
+</turn>
+<turn n="19" speaker="Mic">
+<frag n="20" sp-act="answer-state" polarity="positive" mode="decl">
+code about static scanner <punc type="stop" />  etc <punc type="stop" />
+</frag>
+</turn>
+<turn n="20" speaker="Mic">
+<frag n="21" sp-act="state" polarity="positive" topic="time" mode="decl">
+before the void main  <punc type="stop" />
+</frag>
+</turn>
+<turn n="21" speaker="Jo">
+<decl n="22" sp-act="state" polarity="negative" mode="report-decl">
+i don't remember  <punc type="stop" />
+</decl>
+</turn>
+<turn n="22" speaker="Jo">
+<frag n="23" sp-act="enumeration" polarity="positive" topic="problem-enum" mode="exists-constrain-decl">
+i already proceeded to the next problem <punc type="stop" />  i've got 2 errors too <punc type="stop" />  but we've got different error locations  <punc type="stop" />
+</frag>
+</turn>
+<turn n="23" speaker="Jo">
+<frag n="24" sp-act="reqInfo" polarity="positive" topic="problem" mode="decl-query">
+mic <punc type="stop" />  do all of the problems have errors <punc type="query" />
+</frag>
+</turn>
+<turn n="24" speaker="Mic">
+<q-yn n="25" sp-act="reqInfo" polarity="positive" topic="problem" mode="closed-query">
+are you now in problem 2 <punc type="query" />
+</q-yn>
+</turn>
+<turn n="25" speaker="Mic">
+<decl n="26" sp-act="answer-state" polarity="positive" topic="problem" mode="opinion-decl">
+i think all of the problems have errors <punc type="stop" />
+</decl>
+</turn>
+<turn n="26" speaker="Mic">
+<frag n="27" sp-act="state" polarity="positive" topic="problem" mode="decl">
+base it on the problem <punc type="stop" />  jo <punc type="stop" />
+</frag>
+</turn>
+<turn n="27" speaker="Jo">
+<yes n="28" sp-act="acknowledge">
+yes <punc type="stop" />
+</yes>
+</turn>
+<turn n="28" speaker="Jo">
+<frag n="29" sp-act="reqInfo" polarity="positive" mode="greet-report-decl-query">
+hey <punc type="stop" />  i think i clicked something wrong <punc type="stop" />  how do you remove the circle <punc type="query" />
+</frag>
+</turn>
+<turn n="29" speaker="Mic">
+<frag n="30" sp-act="answer-state" polarity="positive" mode="decl">
+reset  <punc type="stop" />
+</frag>
+</turn>
+<turn n="30" speaker="Mic">
+<frag n="31" sp-act="enumeration" polarity="positive" topic="problem-enum" mode="decl">
+jo <punc type="stop" />  in problem 2 <punc type="stop" />  i already see the error <punc type="stop" />
+</frag>
+</turn>
+<turn n="31" speaker="Mic">
+<frag n="32" sp-act="state" polarity="positive" mode="decl">
+the error is in the &quot;for loop&quot;  <punc type="stop" />
+</frag>
+</turn>
+<turn n="32" speaker="Mic">
+<frag n="33" sp-act="state" polarity="positive" mode="reason-decl">
+because the code has &quot;;&quot;  <punc type="stop" />
+</frag>
+</turn>
+<turn n="33" speaker="Mic">
+<imp n="34" sp-act="direct" polarity="positive" mode="decl">
+just press alt tab  <punc type="stop" />
+</imp>
+</turn>
+<turn n="34" speaker="Jo">
+<decl n="35" sp-act="reqInfo" polarity="negative" topic="location" mode="constrain-opinion-poss2-doubt-exists-decl-query">
+but i think there are cases where you can put &quot;;&quot; <punc type="stop" />  right <punc type="query" />  i'm not sure though <punc type="stop" />
+</decl>
+</turn>
+<turn n="35" speaker="Mic">
+<frag n="36" sp-act="greet" polarity="negative" mode="greet-poss2-decl">
+hey <punc type="stop" />  you can't <punc type="stop" />
+</frag>
+</turn>
+<turn n="36" speaker="Jo">
+<frag n="37" sp-act="reqInfo" polarity="positive" topic="enum" mode="decl-query">
+mic <punc type="stop" />  can you clarify #1 to me <punc type="query" />
+</frag>
+</turn>
+<turn n="37" speaker="Jo">
+<dm n="38" sp-act="answer-state-acknowledge">
+okay <punc type="stop" />  
+</dm>
+<frag n="39" sp-act="elab-state" polarity="positive" mode="decl">
+haha  <punc type="stop" />
+</frag>
+</turn>
+<turn n="38" speaker="Mic">
+<frag n="40" sp-act="state" polarity="positive" mode="constrain-decl">
+i just only encircled the &quot;;&quot; for now  <punc type="stop" />
+</frag>
+</turn>
+<turn n="39" speaker="Mic">
+<decl n="41" sp-act="stateIntent" polarity="positive" topic="time" mode="intent-decl">
+i'll just do it later  <punc type="stop" />
+</decl>
+</turn>
+<turn n="40" speaker="Jo">
+<decl n="42" sp-act="state" polarity="positive" topic="time" mode="decl">
+it'll go farther later  <punc type="stop" />
+</decl>
+</turn>
+<turn n="41" speaker="Mic">
+<decl n="43" sp-act="stateIntent" polarity="positive" topic="time" mode="intent-reassurance-decl">
+it's okay <punc type="stop" />  at least we're sure that &quot;;&quot; is the error  <punc type="stop" />
+</decl>
+</turn>
+<turn n="42" speaker="Mic">
+<decl n="44" sp-act="state" polarity="positive" topic="problem-location" mode="decl">
+i'm here now in problem 3  <punc type="stop" />
+</decl>
+</turn>
+<turn n="43" speaker="Mic">
+<decl n="45" sp-act="expressOpinion" polarity="negative" topic="problem" mode="opinion-constrain-decl">
+i think the line with the scanner is wrong since you don't really need to do scanner since the problem has no input  <punc type="stop" />
+</decl>
+</turn>
+<turn n="44" speaker="Mic">
+<frag n="46" sp-act="state" polarity="positive" mode="decl">
+then the code should all be println  <punc type="stop" />
+</frag>
+</turn>
+<turn n="45" speaker="Jo">
+<imp n="47" sp-act="direct" polarity="negative" topic="problem" mode="intent-tag-constrain-decl-query">
+wait <punc type="exclam" />  i'm being stupid <punc type="stop" />  haha <punc type="stop" />  you don't have to encircle the instructions per problem <punc type="stop" />  right <punc type="query" />
+</imp>
+</turn>
+<turn n="46" speaker="Mic">
+<no n="48" sp-act="negate">
+no <punc type="stop" />
+</no>
+</turn>
+<turn n="47" speaker="Mic">
+<decl n="49" sp-act="state" polarity="positive" mode="constrain-decl">
+the instruction is actually your basis <punc type="stop" />
+</decl>
+</turn>
+<turn n="48" speaker="Jo">
+<yes n="50" sp-act="acknowledge">
+yes <punc type="stop" />  
+</yes>
+<decl n="51" sp-act="expressOpinion" polarity="positive" topic="number" mode="opinion-constrain-decl">
+i think that's the only one <punc type="stop" />
+</decl>
+</turn>
+<turn n="49" speaker="Jo">
+<frag n="52" sp-act="reqConfirm" polarity="negative" topic="problem-enum" mode="tag-decl-query">
+mic <punc type="stop" />  in problem 4 <punc type="stop" />  the for(i:=0; -something-) shouldn't be in the code <punc type="stop" />  right <punc type="query" />
+</frag>
+</turn>
+<turn n="50" speaker="Mic">
+<decl n="53" sp-act="confirm-state" polarity="negative" topic="location" mode="decl">
+there should be no :=  <punc type="stop" />
+</decl>
+</turn>
+<turn n="51" speaker="Jo">
+<frag n="54" sp-act="state" polarity="positive" mode="decl">
+i:=0  <punc type="stop" />
+</frag>
+</turn>
+<turn n="52" speaker="Mic">
+<decl n="55" sp-act="state" polarity="positive" mode="constrain-decl">
+then you have to be cautious on the last part  <punc type="stop" />
+</decl>
+</turn>
+<turn n="53" speaker="Jo">
+<dm n="56" sp-act="acknowledge">
+okay  <punc type="stop" />
+</dm>
+</turn>
+<turn n="54" speaker="Mic">
+<frag n="57" sp-act="state" polarity="positive" mode="decl">
+s(i) is supposed to be s[1]  <punc type="stop" />
+</frag>
+</turn>
+<turn n="55" speaker="Jo">
+<yes n="58" sp-act="acknowledge">
+yes <punc type="stop" />  
+</yes>
+<frag n="59" sp-act="state" polarity="positive" topic="number" mode="decl">
+i saw that one <punc type="stop" />
+</frag>
+</turn>
+<turn n="56" speaker="Mic">
+<q-yn n="60" sp-act="reqInfo" polarity="positive" topic="enum" mode="closed-decl-query">
+did you see the 3 errors in your lower right <punc type="stop" />  jo <punc type="query" />
+</q-yn>
+</turn>
+<turn n="57" speaker="Mic">
+<frag n="61" sp-act="answer-state" polarity="positive" topic="number-location" mode="exists-constrain-decl">
+the lower right is the indication as to how many errors are there <punc type="stop" />
+</frag>
+</turn>
+<turn n="58" speaker="Jo">
+<dm n="62" sp-act="exclaim">
+ah
+</dm>
+<dm n="63" sp-act="acknowledge">
+okay <punc type="stop" />  
+</dm>
+<dm n="64" sp-act="acknowledge">
+okay <punc type="stop" />
+</dm>
+</turn>
+<turn n="59" speaker="Mic">
+<q-yn n="65" sp-act="reqInfo" polarity="positive" topic="problem" mode="closed-query">
+are you already in problem 5 <punc type="query" />
+</q-yn>
+</turn>
+<turn n="60" speaker="Mic">
+<frag n="66" sp-act="answer-state" polarity="positive" mode="decl">
+8-|  <punc type="stop" />
+</frag>
+</turn>
+<turn n="61" speaker="Jo">
+<yes n="67" sp-act="acknowledge">
+yes <punc type="stop" />  
+</yes>
+<frag n="68" sp-act="state" polarity="positive" topic="number" mode="decl">
+i just saw one error <punc type="stop" />  still <punc type="stop" />
+</frag>
+</turn>
+<turn n="62" speaker="Mic">
+<q-wh n="69" sp-act="reqInfo" polarity="positive" mode="open-query">
+what is the error <punc type="query" />
+</q-wh>
+</turn>
+<turn n="63" speaker="Jo">
+<decl n="70" sp-act="answer-state" polarity="positive" mode="condition-decl">
+the 1st &quot;if&quot;  <punc type="stop" />
+</decl>
+</turn>
+<turn n="64" speaker="Jo">
+<frag n="71" sp-act="state" polarity="positive" mode="decl">
+the code should be ==  <punc type="stop" />
+</frag>
+</turn>
+<turn n="65" speaker="Mic">
+<yes n="72" sp-act="acknowledge">
+yes <punc type="stop" />  
+</yes>
+<dm n="73" sp-act="agree" mode="tag">
+you're right <punc type="stop" />
+</dm>
+</turn>
+<turn n="66" speaker="Mic">
+<decl n="74" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think <punc type="stop" />  the next error is the system <punc type="stop" /> exit  <punc type="stop" />
+</decl>
+</turn>
+<turn n="67" speaker="Mic">
+<decl n="75" sp-act="state" polarity="negative" mode="constrain-decl">
+i quite don't know actually about system <punc type="stop" /> exit <punc type="stop" />
+</decl>
+</turn>
+<turn n="68" speaker="Mic">
+<frag n="76" sp-act="refer" polarity="negative" topic="location" mode="exists-opinion-reason-condition-partial-decl">
+because at the part where there is match in an &quot;if&quot; <punc type="stop" />  i think there's no error in there <punc type="stop" />
+</frag>
+</turn>
+<turn n="69" speaker="Jo">
+<decl n="77" sp-act="expressOpinion" polarity="positive" mode="opinion-reason-constrain-condition-decl">
+but i think the program is right <punc type="stop" />  because the program'll do exit if it's already less than 0  <punc type="stop" />
+</decl>
+</turn>
+<turn n="70" speaker="Mic">
+<frag n="78" sp-act="state" polarity="positive" mode="decl">
+(y)  <punc type="stop" />
+</frag>
+</turn>
+<turn n="71" speaker="Mic">
+<decl n="79" sp-act="state" polarity="positive" topic="location-enum" mode="reason-exists-decl">
+because there are 3 errors <punc type="stop" />  haha <punc type="stop" />
+</decl>
+</turn>
+<turn n="72" speaker="Jo">
+<frag n="80" sp-act="reqInfo" polarity="positive" mode="alternative-partial-decl-query">
+by the way <punc type="stop" />  is a string capital or small <punc type="query" />
+</frag>
+</turn>
+<turn n="73" speaker="Mic">
+<decl n="81" sp-act="answer-state" polarity="positive" mode="opinion-decl">
+i think it should be any  <punc type="stop" />
+</decl>
+</turn>
+<turn n="74" speaker="Mic">
+<frag n="82" sp-act="reqConfirm" polarity="positive" topic="enum" mode="tag-constrain-decl-query">
+but still <punc type="stop" />  count += 1 is count++; right <punc type="query" />
+</frag>
+</turn>
+<turn n="75" speaker="Mic">
+<decl n="83" sp-act="confirm-state" polarity="negative" mode="report-nonawareness-decl">
+i don't know <punc type="stop" />
+</decl>
+</turn>
+<turn n="76" speaker="Jo">
+<frag n="84" sp-act="" polarity="positive" topic="enum" mode="condition-decl">
+count += 1 if it's an increment  <punc type="stop" />
+</frag>
+</turn>
+<turn n="77" speaker="Jo">
+<dm n="85" sp-act="init">
+so <punc type="stop" />  
+</dm>
+<q-yn n="86" sp-act="reqInfo" polarity="negative" mode="report-opinion-nonawareness-closed-decl-query">
+do you think that's the other error <punc type="query" />  i don't know <punc type="stop" />
+</q-yn>
+</turn>
+<turn n="78" speaker="Jo">
+<decl n="87" sp-act="answer-expressPossibility" polarity="negative" mode="reason-poss1-decl">
+i'm confused because i can't really find some errors for some others  <punc type="stop" />
+</decl>
+</turn>
+<turn n="79" speaker="Mic">
+<frag n="88" sp-act="state" polarity="positive" mode="decl">
+me too <punc type="stop" />
+</frag>
+</turn>
+<turn n="80" speaker="Mic">
+<dm n="89" sp-act="init">
+so
+</dm>
+<decl n="90" sp-act="state" polarity="positive" mode="decl">
+i'm assuming the error is the count += 1 <punc type="stop" />
+</decl>
+</turn>
+<turn n="81" speaker="Mic">
+<decl n="91" sp-act="state" polarity="negative" topic="location" mode="reason-exists-decl">
+because there are no other errors <punc type="stop" />
+</decl>
+</turn>
+<turn n="82" speaker="Mic">
+<frag n="92" sp-act="state" polarity="positive" mode="reassurance-tag-decl">
+considering that the system <punc type="stop" /> exit is right  <punc type="stop" />
+</frag>
+</turn>
+<turn n="83" speaker="Jo">
+<imp n="93" sp-act="suggest" polarity="positive" topic="enum" mode="decl">
+then let's just consider these 2 errors first <punc type="stop" />  haha  <punc type="stop" />
+</imp>
+</turn>
+<turn n="84" speaker="Jo">
+<dm n="94" sp-act="init">
+so
+</dm>
+<frag n="95" sp-act="state" polarity="positive" topic="problem" mode="poss1-decl">
+that we can go to the next problem <punc type="stop" />
+</frag>
+</turn>
+<turn n="85" speaker="Mic">
+<dm n="96" sp-act="acknowledge">
+okay <punc type="stop" />
+</dm>
+</turn>
+<turn n="86" speaker="Mic">
+<frag n="97" sp-act="state" polarity="positive" mode="decl">
+p06  <punc type="stop" />
+</frag>
+</turn>
+<turn n="87" speaker="Jo">
+<q-wh n="98" sp-act="reqInfo" polarity="positive" topic="number" mode="open-query">
+why is the number is placed outside <punc type="query" />
+</q-wh>
+</turn>
+<turn n="88" speaker="Mic">
+<decl n="99" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
+what number <punc type="query" />
+</decl>
+</turn>
+<turn n="89" speaker="Jo">
+<decl n="100" sp-act="reqConfirm" polarity="positive" topic="number" mode="reason-tag-decl-query">
+because the number has to be inside the &quot;for loop&quot; <punc type="stop" />  right <punc type="query" />
+</decl>
+</turn>
+<turn n="90" speaker="Jo">
+<frag n="101" sp-act="confirm-state" polarity="positive" mode="decl">
+p06  <punc type="stop" />
+</frag>
+</turn>
+<turn n="91" speaker="Mic">
+<decl n="102" sp-act="expressOpinion" polarity="positive" topic="time-enum" mode="opinion-report-constrain-decl">
+that's what i thought at first too <punc type="stop" />  but i think it's just basically 1 try so it's indirectly an else <punc type="stop" />
+</decl>
+</turn>
+<turn n="92" speaker="Jo">
+<frag n="103" sp-act="refer" polarity="negative" mode="partial-decl">
+then for all your cases <punc type="stop" />  all no will show up  <punc type="stop" />
+</frag>
+</turn>
+<turn n="93" speaker="Mic">
+<decl n="104" sp-act="reqInfo" polarity="positive" topic="fare-time" mode="exists-constrain-decl-query">
+there is actually a return <punc type="stop" />  will the program gonna terminate after that <punc type="query" />
+</decl>
+</turn>
+<turn n="94" speaker="Jo">
+<decl n="105" sp-act="answer-expressPossibility" polarity="negative" mode="poss1-decl">
+i can't seem to really find an error  <punc type="stop" />
+</decl>
+</turn>
+<turn n="95" speaker="Jo">
+<q-yn n="106" sp-act="reqInfo" polarity="positive" mode="closed-query">
+are you done <punc type="query" />
+</q-yn>
+</turn>
+<turn n="96" speaker="Mic">
+<frag n="107" sp-act="answer-state" polarity="negative" mode="decl">
+not yet <punc type="stop" />
+</frag>
+</turn>
+<turn n="97" speaker="Mic">
+<decl n="108" sp-act="expressPossibility" polarity="negative" mode="poss1-decl">
+i can't really find an error <punc type="stop" />
+</decl>
+</turn>
+<turn n="98" speaker="Mic">
+<decl n="109" sp-act="state" polarity="positive" mode="report-reason-decl">
+that's why i proceeded to p07  <punc type="stop" />
+</decl>
+</turn>
+<turn n="99" speaker="Jo">
+<decl n="110" sp-act="state" polarity="positive" mode="constrain-decl">
+i only got the error in &quot;for loop&quot;  <punc type="stop" />
+</decl>
+</turn>
+<turn n="100" speaker="Mic">
+<q-wh n="111" sp-act="reqInfo" polarity="positive" mode="open-query">
+where is it exactly <punc type="query" />
+</q-wh>
+</turn>
+<turn n="101" speaker="Jo">
+<decl n="112" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
+the one that's &quot; <punc type="stop" /> &quot;  <punc type="stop" />
+</decl>
+</turn>
+<turn n="102" speaker="Jo">
+<frag n="113" sp-act="state" polarity="positive" mode="decl">
+j=0 <punc type="stop" />   <punc type="stop" />
+</frag>
+</turn>
+<turn n="103" speaker="Mic">
+<decl n="114" sp-act="expressOpinion" polarity="positive" topic="enum" mode="opinion-decl">
+i think j=0 <punc type="stop" />  seems fine <punc type="stop" />
+</decl>
+</turn>
+<turn n="104" speaker="Mic">
+<decl n="115" sp-act="state" polarity="negative" mode="poss2-preference2-constrain-condition-decl">
+you can actually declare as many times as you want in for loop as long as it's not ;  <punc type="stop" />
+</decl>
+</turn>
+<turn n="105" speaker="Jo">
+<frag n="116" sp-act="reqInfo" polarity="positive" mode="query">
+huh <punc type="query" />
+</frag>
+</turn>
+<turn n="106" speaker="Jo">
+<imp n="117" sp-act="direct" polarity="positive" mode="tag-decl-query">
+remember <punc type="stop" />  &quot;;&quot; is the separator <punc type="stop" />  right <punc type="query" />
+</imp>
+</turn>
+<turn n="107" speaker="Jo">
+<frag n="118" sp-act="state" polarity="negative" mode="decl">
+not &quot; <punc type="stop" /> &quot;  <punc type="stop" />
+</frag>
+</turn>
+<turn n="108" speaker="Mic">
+<frag n="119" sp-act="state" polarity="negative" mode="constrain-decl-disflu">
+&quot; <punc type="stop" /> &quot;'s not actually a separator  <punc type="stop" />
+</frag>
+</turn>
+<turn n="109" speaker="Mic">
+<frag n="120" sp-act="state" polarity="positive" topic="number" mode="constrain-decl">
+it actually declares two  <punc type="stop" />
+</frag>
+</turn>
+<turn n="110" speaker="Mic">
+<decl n="121" sp-act="reqInfo" polarity="positive" mode="query">
+that's possible <punc type="query" />
+</decl>
+</turn>
+<turn n="111" speaker="Jo">
+<dm n="122" sp-act="init">
+so <punc type="stop" />  
+</dm>
+<frag n="123" sp-act="reqInfo" polarity="positive" topic="number" mode="decl-query">
+the ones between j++ and k-- <punc type="stop" />  what do you call that one <punc type="query" />
+</frag>
+</turn>
+<turn n="112" speaker="Jo">
+<decl n="124" sp-act="answer-state" polarity="positive" mode="decl">
+it should be  <punc type="stop" />   <punc type="stop" />
+</decl>
+</turn>
+<turn n="113" speaker="Jo">
+<frag n="125" sp-act="state" polarity="positive" mode="alternative-decl">
+or ;  <punc type="stop" />
+</frag>
+</turn>
+<turn n="114" speaker="Mic">
+<yes n="126" sp-act="acknowledge" mode="query">
+yes <punc type="query" />
+</yes>
+</turn>
+<turn n="115" speaker="Jo">
+<q-yn n="127" sp-act="reqInfo" polarity="positive" mode="closed-query">
+are you now in p07 <punc type="query" />
+</q-yn>
+</turn>
+<turn n="116" speaker="Mic">
+<frag n="128" sp-act="answer-state-enumeration" polarity="positive" topic="enum" mode="reason-constrain-decl">
+because only 3 &quot;;&quot; is allowed in for loop  <punc type="stop" />
+</frag>
+</turn>
+<turn n="117" speaker="Mic">
+<yes n="129" sp-act="acknowledge">
+yes  <punc type="stop" />
+</yes>
+</turn>
+<turn n="118" speaker="Jo">
+<dm n="130" sp-act="init">
+so
+</dm>
+<q-wh n="131" sp-act="reqInfo" polarity="positive" mode="open-query">
+what's your error <punc type="query" />
+</q-wh>
+</turn>
+<turn n="119" speaker="Mic">
+<decl n="132" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
+the one that's  <punc type="exclam" /> =  <punc type="stop" />
+</decl>
+</turn>
+<turn n="120" speaker="Mic">
+<decl n="133" sp-act="state" polarity="negative" topic="number" mode="exists-decl">
+and the one where there is no as well  <punc type="stop" />
+</decl>
+</turn>
+<turn n="121" speaker="Mic">
+<decl n="134" sp-act="expressPossibility" polarity="negative" mode="reason-poss1-decl">
+because i can't really find anything anymore  <punc type="stop" />
+</decl>
+</turn>
+<turn n="122" speaker="Jo">
+<dm n="135" sp-act="init">
+i mean
+</dm>
+<frag n="136" sp-act="reqInfo" polarity="positive" mode="partial-query">
+in p07 <punc type="query" />
+</frag>
+</turn>
+<turn n="123" speaker="Mic">
+<frag n="137" sp-act="answer-state" polarity="positive" mode="decl">
+'player 2'  <punc type="stop" />
+</frag>
+</turn>
+<turn n="124" speaker="Mic">
+<decl n="138" sp-act="state" polarity="positive" mode="decl">
+who wins () -- should have an argument  <punc type="stop" />
+</decl>
+</turn>
+<turn n="125" speaker="Mic">
+<frag n="139" sp-act="state" polarity="positive" mode="decl">
+then the else system  <punc type="stop" />
+</frag>
+</turn>
+<turn n="126" speaker="Jo">
+<dm n="140" sp-act="acknowledge">
+okay  <punc type="stop" />
+</dm>
+</turn>
+<turn n="127" speaker="Mic">
+<decl n="141" sp-act="expressOpinion" polarity="negative" topic="enum" mode="opinion-poss2-condition-decl">
+i think in p08 <punc type="stop" />  you can't declare if the types aren't compatible  <punc type="stop" />
+</decl>
+</turn>
+<turn n="128" speaker="Mic">
+<frag n="142" sp-act="reqInfo" polarity="positive" mode="decl-query">
+like int k = odd <punc type="query" />  odd is a char  <punc type="stop" />
+</frag>
+</turn>
+<turn n="129" speaker="Mic">
+<frag n="143" sp-act="answer-state" polarity="positive" mode="constrain-decl">
+but then you still have to parse the variable  <punc type="stop" />
+</frag>
+</turn>
+<turn n="130" speaker="Jo">
+<decl n="144" sp-act="expressOpinion" polarity="positive" mode="opinion-constrain-decl">
+i think it's an int you have to instantiate  <punc type="stop" />
+</decl>
+</turn>
+<turn n="131" speaker="Mic">
+<dm n="145" sp-act="reqConfirm" mode="query">
+right <punc type="query" />  <punc type="query" />  <punc type="query" />  <punc type="query" />  
+</dm>
+<frag n="146" sp-act="state" polarity="positive" mode="decl">
+:'(((  <punc type="stop" />
+</frag>
+</turn>
+<turn n="132" speaker="Mic">
+<decl n="147" sp-act="confirm-reqInfo" polarity="negative" mode="doubt-decl">
+i'm not sure <punc type="stop" />  haha  <punc type="stop" />
+</decl>
+</turn>
+<turn n="133" speaker="Jo">
+<decl n="148" sp-act="state" polarity="positive" mode="constrain-decl">
+but then <punc type="stop" />  it's already in nextint() during scan  <punc type="stop" />
+</decl>
+</turn>
+<turn n="134" speaker="Jo">
+<dm n="149" sp-act="reqConfirm" mode="query">
+how many
+</dm>
+<frag n="150" sp-act="reqInfo" polarity="positive" mode="query">
+errors you've got already <punc type="query" />
+</frag>
+</turn>
+<turn n="135" speaker="Jo">
+<frag n="151" sp-act="answer-state-confirm" polarity="positive" topic="time" mode="decl">
+time's almost up <punc type="stop" />
+</frag>
+</turn>
+<turn n="136" speaker="Jo">
+<imp n="152" sp-act="direct" polarity="positive" mode="decl">
+help <punc type="stop" />
+</imp>
+</turn>
+<turn n="137" speaker="Mic">
+<decl n="153" sp-act="expressOpinion" polarity="positive" topic="number" mode="opinion-decl">
+i think that's all the errors <punc type="stop" />  the ones i encircle <punc type="stop" />
+</decl>
+</turn>
+<turn n="138" speaker="Mic">
+<decl n="154" sp-act="expressOpinion" polarity="negative" mode="opinion-reason-decl">
+because i really can't think of anything <punc type="stop" />
+</decl>
+</turn>
+<turn n="139" speaker="Jo">
+<decl n="155" sp-act="state" polarity="positive" topic="location-enum" mode="exists-constrain-decl">
+but there are 3 of them <punc type="stop" />
+</decl>
+</turn>
+<turn n="140" speaker="Mic">
+<frag n="156" sp-act="state" polarity="positive" mode="decl">
+int k = odd  <punc type="stop" />
+</frag>
+</turn>
+<turn n="141" speaker="Mic">
+<frag n="157" sp-act="state" polarity="positive" mode="decl">
+char length = odd / 2  <punc type="stop" />
+</frag>
+</turn>
+<turn n="142" speaker="Jo">
+<frag n="158" sp-act="state" polarity="positive" mode="report-decl">
+i marked that as an error  <punc type="stop" />
+</frag>
+</turn>
+<turn n="143" speaker="Jo">
+<decl n="159" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think it's possible that int k = odd <punc type="stop" />  be an error  <punc type="stop" />
+</decl>
+</turn>
+<turn n="144" speaker="Jo">
+<frag n="160" sp-act="state" polarity="positive" mode="report-reason-decl">
+because i marked char odd as an error  <punc type="stop" />
+</frag>
+</turn>
+<turn n="145" speaker="Mic">
+<decl n="161" sp-act="expressOpinion" polarity="positive" mode="opinion-suggest-decl">
+i think we should proceed now <punc type="exclam" />  haha  <punc type="stop" />
+</decl>
+</turn>
+<turn n="146" speaker="Jo">
+<decl n="162" sp-act="state" polarity="positive" topic="number-miss" mode="decl">
+i am missing one more <punc type="stop" />
+</decl>
+</turn>
+<turn n="147" speaker="Mic">
+<decl n="163" sp-act="state" polarity="positive" topic="number" mode="decl">
+the one that's i&lt;= length  <punc type="stop" />
+</decl>
+</turn>
+<turn n="148" speaker="Jo">
+<frag n="164" sp-act="state" polarity="positive" mode="constrain-decl">
+i&lt;= length is actually correct in my case  <punc type="stop" />
+</frag>
+</turn>
+<turn n="149" speaker="Jo">
+<imp n="165" sp-act="suggest" polarity="positive" topic="enum" mode="decl">
+let's switch first to p09 <punc type="stop" />  haha  <punc type="stop" />
+</imp>
+</turn>
+<turn n="150" speaker="Jo">
+<imp n="166" sp-act="direct" polarity="positive" mode="decl">
+help <punc type="exclam" />  haha  <punc type="stop" />
+</imp>
+</turn>
+<turn n="151" speaker="Jo">
+<decl n="167" sp-act="expressPossibility" polarity="negative" mode="poss1-decl">
+i can't find anything <punc type="stop" />
+</decl>
+</turn>
+<turn n="152" speaker="Mic">
+<frag n="168" sp-act="state" polarity="positive" mode="decl">
+same <punc type="stop" />  haha  <punc type="stop" />
+</frag>
+</turn>
+<turn n="153" speaker="Mic">
+<imp n="169" sp-act="suggest" polarity="positive">
+let's now proceed to p10 <punc type="exclam" />
+</imp>
+</turn>
+<turn n="154" speaker="Mic">
+<imp n="170" sp-act="direct" polarity="positive" topic="verify" mode="decl">
+check p09  <punc type="stop" />
+</imp>
+</turn>
+<turn n="155" speaker="Mic">
+<frag n="171" sp-act="state" polarity="positive" mode="decl">
+print(' ');  <punc type="stop" />
+</frag>
+</turn>
+<turn n="156" speaker="Jo">
+<frag n="172" sp-act="state" polarity="positive" mode="decl">
+i already have that <punc type="stop" />
+</frag>
+</turn>
+<turn n="157" speaker="Jo">
+<frag n="173" sp-act="state" polarity="positive" topic="number" mode="decl">
+that one as well <punc type="stop" />
+</frag>
+</turn>
+<turn n="158" speaker="Mic">
+<decl n="174" sp-act="state" polarity="positive" mode="decl">
+it should be print(' ')  <punc type="stop" />
+</decl>
+</turn>
+<turn n="159" speaker="Mic">
+<frag n="175" sp-act="state" polarity="positive" mode="decl">
+nice  <punc type="stop" />
+</frag>
+</turn>
+<turn n="160" speaker="Mic">
+<dm n="176" sp-act="init">
+so <punc type="stop" />  
+</dm>
+<imp n="177" sp-act="suggest" polarity="positive" mode="decl">
+let's proceed now <punc type="stop" />
+</imp>
+</turn>
+</dialogue>

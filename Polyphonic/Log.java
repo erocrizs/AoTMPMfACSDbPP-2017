@@ -3,13 +3,23 @@ import java.time.*;
 
 class Log {
 	private ArrayList<Utterance> utterances;
+	private String fileName;
 
-	public Log(ArrayList<Utterance> list) {
+	public Log(ArrayList<Utterance> list, String fileName) {
 		utterances = list;
+		this.fileName = fileName;
 	}
 
 	public ArrayList<Utterance> getUtterances() {
 		return utterances;
+	}
+	
+	public void setUtterances(ArrayList<Utterance> u) {
+		utterances = u;
+	}
+	
+	public String getFileName() {
+		return fileName;
 	}
 }
 
@@ -23,6 +33,9 @@ class Utterance {
 	private LocalTime time;
 	private boolean processSynonyms;
 	private ArrayList<Link> implicitLinks;
+	private boolean isUnitive = false;
+	private boolean isDifferential = false;
+	private ArrayList<String> speechActs;
 
 	public Utterance(int id, LocalTime time, ArrayList<Word> content, Participant speaker, boolean codeSwitched) {
 		this.id = id;
@@ -115,6 +128,31 @@ class Utterance {
 	public void setImplicitLinks(ArrayList<Link> list) {
 		implicitLinks = list;
 	}
+	
+	public void setSpeechActs(ArrayList<String> arr) {
+		speechActs = arr;
+	}
+	
+	public ArrayList<String> getSpeechActs() {
+		return speechActs;
+	}
+	
+	public void setUnitive(boolean bool) {
+		isUnitive = bool;
+	}
+	
+	public boolean getUnitive() {
+		return isUnitive;
+	}
+	
+	public void setDifferential (boolean bool) {
+		isDifferential = bool;
+	}
+	
+	public boolean getDifferential() {
+		return isDifferential;
+	}
+	
 }
 
 class Participant {

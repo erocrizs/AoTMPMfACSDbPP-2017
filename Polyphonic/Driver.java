@@ -13,8 +13,9 @@ public class Driver {
 		ArrayList<Utterance> utters = log.getUtterances();
 		List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
 		ContributionCounter cc = new ContributionCounter(log, chains);
+		IAPFinder.parseOutputXML( log, "output.xml" );
 		
-		for(Utterance utter: utters) {
+		/*for(Utterance utter: utters) {
 			System.out.printf(
 					"%d) %s\n%s\nStrength: %d\n", 
 					utter.getId(), 
@@ -37,6 +38,9 @@ public class Driver {
 		for(Participant p: cc.getParticipantList()) {
 			System.out.println( "contribution (" + p.getCodeName() + ") : " + cc.getContribution( p ) );
 		}
+		*/
+		
+		
 	}
 
 }
