@@ -45,7 +45,7 @@ public class Parser {
 			id++;
 		}
 
-		return new Log(log);
+		return new Log(log, fileName);
 	}
 
 	private static int parseParticipant(String s) {

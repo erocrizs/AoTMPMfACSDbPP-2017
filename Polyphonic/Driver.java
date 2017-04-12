@@ -15,6 +15,19 @@ public class Driver {
 		ContributionCounter cc = new ContributionCounter(log, chains);
 		IAPFinder.parseOutputXML( log, "output.xml" );
 		
+		for(int i=0; i<log.getUtterances().size(); i++) {
+			System.out.println( i + ") " + log.getUtterances().get(i).getContentString() );
+			System.out.println( "Pattern: " + IAPFinder.whatPattern(log, i) );
+			//System.out.println("SP: " + log.getUtterances().get(i).getSpeechActs().size() );
+			
+			System.out.print("SP:");
+			for( String sp: log.getUtterances().get(i).getSpeechActs() ) {
+				System.out.print(" " + sp);
+			}
+			System.out.println("\n");
+			
+		}
+		
 		/*for(Utterance utter: utters) {
 			System.out.printf(
 					"%d) %s\n%s\nStrength: %d\n", 
