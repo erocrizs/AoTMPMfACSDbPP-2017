@@ -17,6 +17,8 @@ import edu.stanford.nlp.util.CoreMap;
 public class KeywordDeriver {
 	private Properties props;
 	private StanfordCoreNLP pipeline; 
+	private String nounLemmaTags = "NN NNS";
+	private String properNounTags = "NNP NNPS";
 	
 	public KeywordDeriver() {
 		props = new Properties();
@@ -55,10 +57,10 @@ public class KeywordDeriver {
 				int index = words.indexOf( text );
 				if(index < 0) continue;
 				
-				if( !"O".equals(ner) && pnList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0 ) {
+				if( ( !"O".equals(ner) || properNounTags.contains( pos ) ) && pnList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0 ) {
 					pnList.add( new Word(lemma, index) );
 				}
-				else if( ( "NN".equals(pos) || "NNS".equals(pos) ) && lemmaList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0) {
+				else if( nounLemmaTags.contains( pos ) && lemmaList.stream().filter( x -> lemma.equals( x.getContent() ) ).count() == 0) {
 					lemmaList.add( new Word(lemma, index) );
 				}
 			}

@@ -33,19 +33,24 @@ public class Parser {
 			String s2 = sc.nextLine();
 			String s3 = sc.nextLine();
 
-			//make utterances
 			Participant speaker = p[parseParticipant(s1)];
 			LocalTime time = parseTime(s1);
-			boolean codeSwitched = s2.equals("N"); //N means it was in English, which may be the second language of the participants, therefore we considered an English utterance to be code-switched
-			ArrayList<Word> content = parseWords(s3);
-
-			Utterance u = new Utterance(id, time, content, speaker, codeSwitched);
-			log.add(u);
-
-			id++;
+			
+			String[] clauses = ClauseDivider.getClauses( s3 ); 
+			
+			//make utterances
+			for(String clause: clauses)
+			{
+				boolean codeSwitched = s2.equals("N"); //N means it was in English, which may be the second language of the participants, therefore we considered an English utterance to be code-switched
+				ArrayList<Word> content = parseWords(clause);
+	
+				Utterance u = new Utterance(id, time, content, speaker, codeSwitched);
+				log.add(u);
+				id++;
+			}
 		}
 
-		return new Log(log);
+		return new Log(log, fileName);
 	}
 
 	private static int parseParticipant(String s) {

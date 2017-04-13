@@ -86,7 +86,6 @@ public class IAPFinder {
 			sc = new Scanner(new File(fileName));
 		} catch(FileNotFoundException e) { return; }
 		
-		ArrayList<String> list = new ArrayList<String>();
 		ArrayList<Utterance> utters = l.getUtterances();
 		
 		while(sc.hasNextLine()) {
@@ -124,7 +123,8 @@ public class IAPFinder {
 			//not patterns: apologise attribute enumerate exclaim explain expressAwareness expressNonAwareness expressConviction expressOpinion expressRegret expressStance expressSurprise expressWish hesitate hold identifySelf init insult offer phatic predict predictPossibility promise refer referCondition referOpt referPerson referReason referTime referThing selfTalk spell state stateIntent stateConstraint stateOpt stateReason summarise swear thirdParty thank unclassifiable uninterpretable
 			
 			//System.out.println( "id: " + id );
-			
+
+			ArrayList<String> list = new ArrayList<String>();
 			for(String s: spact) {
 				//System.out.print( s + " "  );
 				list.add( s );
