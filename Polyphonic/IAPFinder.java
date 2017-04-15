@@ -4,7 +4,7 @@ import java.util.*;
 public class IAPFinder {
 
 	public static void main(String[] args) throws IOException {
-		Log log = Parser.createLog("ADDU-SP02A-SP02B.in");
+		Log log = Parser.createLog("ADDU-SP06A-SP06B.in");
 		KeywordDeriver deriver = new KeywordDeriver();
 		deriver.deriveKeywordFor(log);
 		SynonymFinder.deriveImplicitLinks(log);
@@ -12,20 +12,20 @@ public class IAPFinder {
 		List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
 		ContributionCounter cc = new ContributionCounter(log, chains);
 		
-		//IAPFinder.convertToInputXML(log);
-		IAPFinder.parseOutputXML( log, "output.xml" );
+		IAPFinder.convertToInputXML(log);
+		IAPFinder.parseOutputXML( log, "output02.xml" );
 		
-		//Mic
-		Participant p1 = log.getUtterances().get(32).getSpeaker();
-		//Jo
-		Participant p2 = log.getUtterances().get( 33 ).getSpeaker();
-		System.out.println( "Mic: " + p1 + " Jo: " + p2 );
+		//Gab
+		Participant p1 = log.getUtterances().get(208).getSpeaker();
+		//A
+		Participant p2 = log.getUtterances().get(209).getSpeaker();
+		System.out.println( "p1: " + p1 + " p2: " + p2 );
 		
 		Scanner sc = new Scanner(System.in);
 		while(sc.hasNextLine()) {
 			String str = sc.next();
 			int[] arr;
-			if(str.equals( "Mic" ))
+			if(str.equals( "Gab" ))
 				arr= howManyUtterances(log, p1);
 			else
 				arr = howManyUtterances(log, p2);

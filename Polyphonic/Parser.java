@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Parser {
 	public static void main(String[] args) {
-		Log l = createLog("ADDU-SP02A-SP02B.in");
+		Log l = createLog("ADDU-SP06A-SP06B.in");
 		printLog(l);
 	}
 
@@ -32,7 +32,7 @@ public class Parser {
 			if(s1.equals("")) continue;
 			String s2 = sc.nextLine();
 			String s3 = sc.nextLine();
-
+			
 			Participant speaker = p[parseParticipant(s1)];
 			LocalTime time = parseTime(s1);
 			
@@ -41,6 +41,7 @@ public class Parser {
 			//make utterances
 			for(String clause: clauses)
 			{
+				if(clause.trim().equals( "" )) continue;
 				boolean codeSwitched = s2.equals("N"); //N means it was in English, which may be the second language of the participants, therefore we considered an English utterance to be code-switched
 				ArrayList<Word> content = parseWords(clause);
 	

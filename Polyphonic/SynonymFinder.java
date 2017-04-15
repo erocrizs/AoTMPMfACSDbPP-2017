@@ -156,9 +156,9 @@ public class SynonymFinder {
 			for(int j = 0; j < bcontent.size(); j++) {
 				Word bw = bcontent.get(j);
 				List<String> bwsynonyms = bw.getSynonyms();
-
-				if(awsynonyms.contains( bw.getContent() ) ||
-					bwsynonyms.contains( aw.getContent() ) ||
+				//System.out.println( bw.getContent() );
+				if( (awsynonyms != null && awsynonyms.contains( bw.getContent() )) ||
+					(bwsynonyms != null && bwsynonyms.contains( aw.getContent() )) ||
 					aw.equals(bw) ) {
 					implicitLinks.add(new Link(a.getId(), aw.getIndex(), b.getId(), bw.getIndex()));
 				}
