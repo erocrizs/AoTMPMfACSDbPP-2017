@@ -1,0 +1,989 @@
+ADDU-SP03A A
+ADDU-SP03B Hans
+
+ADDU-SP03B:2:59:26 PM
+C
+You have to read the code
+
+ADDU-SP03B:2:59:35 PM
+C
+Then compare the code to the output
+
+ADDU-SP03A:2:59:35 PM
+C
+Definitely. We will answer surely in the next.
+
+ADDU-SP03B:2:59:48 PM
+C
+Just look for the error.
+
+ADDU-SP03A:2:59:49 PM
+C
+I'm now at the 2nd.
+
+ADDU-SP03A:3:01:52 PM
+C
+What's your 3rd?
+
+ADDU-SP03B:3:02:12 PM
+C
+By the way, I was able to answer the 2nd problem
+
+ADDU-SP03B:3:03:14 PM
+C
+Do you know the difference between println and print?
+
+ADDU-SP03A:3:03:33 PM
+C
+As far as I can remember, the ones with ln have a next line/line break, right?
+
+ADDU-SP03B:3:03:52 PM
+C
+That's what I'm thinking too.
+
+ADDU-SP03B:3:04:03 PM
+C
+But runtime like this will be an error
+
+ADDU-SP03A:3:04:03 PM
+C
+And then, there's two command that's just only print
+
+ADDU-SP03B:3:04:21 PM
+C
+The arguments of the parameters
+
+ADDU-SP03A:3:04:26 PM
+C
+The program actually didn't ask for an input, so it should be that there is no scanner input too.
+
+ADDU-SP03B:3:04:28 PM
+N
+parameters
+
+ADDU-SP03B:3:04:45 PM
+C
+I think it won't give an error
+
+ADDU-SP03A:3:05:04 PM
+C
+I think I'll go next first.
+
+ADDU-SP03B:3:05:45 PM
+C
+What's your answer in problem 2?
+
+ADDU-SP03A:3:06:02 PM
+C
+The next line 13
+
+ADDU-SP03A:3:06:17 PM
+C
+I don't know.
+
+ADDU-SP03B:3:06:20 PM
+C
+Why?
+
+ADDU-SP03A:3:06:21 PM
+C
+Is it wrong?
+
+ADDU-SP03B:3:06:23 PM
+N
+Haha
+
+ADDU-SP03B:3:06:29 PM
+C
+I actually don't know too.
+
+ADDU-SP03B:3:08:17 PM
+C
+What do you actually mean by inputNextline?
+
+ADDU-SP03B:3:10:01 PM
+C
+I'm already at the part with parenthesis
+
+ADDU-SP03B:3:10:02 PM
+C
+Two
+
+ADDU-SP03A:3:10:13 PM
+C
+Where?
+
+ADDU-SP03B:3:10:23 PM
+C
+Line 17, the ones where there is =
+
+ADDU-SP03B:3:11:18 PM
+C
+In line 22, the count variable; it shouldn't be actually < because it'll stop the system if the count is more than 0.
+
+ADDU-SP03B:3:11:28 PM
+C
+It can't traverse all characters.
+
+ADDU-SP03B:3:12:36 PM
+C
+That "if" in the line
+
+ADDU-SP03B:3:12:39 PM
+N
+26
+
+ADDU-SP03A:3:12:46 PM
+C
+How do you remove the circle?
+
+ADDU-SP03A:3:12:51 PM
+C
+I'm wrong/mistaken.
+
+ADDU-SP03B:3:12:59 PM
+C
+Is it okay if it has no single quote?
+
+ADDU-SP03B:3:13:02 PM
+C
+Just reset it.
+
+ADDU-SP03B:3:13:07 PM
+C
+It's at the lower portion.
+
+ADDU-SP03A:3:13:18 PM
+C
+Single quote, where?
+
+ADDU-SP03B:3:13:22 PM
+N
+Line 26
+
+ADDU-SP03B:3:13:28 PM
+C
+It's inside the if condition
+
+ADDU-SP03A:3:13:40 PM
+C
+Why do you still have to quote it?
+
+ADDU-SP03B:3:13:47 PM
+C
+That's why I'm asking. Haha
+
+ADDU-SP03A:3:13:57 PM
+C
+Haha. I think you don't need to.
+
+ADDU-SP03B:3:13:58 PM
+C
+Is it okay?
+
+ADDU-SP03A:3:14:03 PM
+C
+Coz it's actually an integer.
+
+ADDU-SP03B:3:14:13 PM
+C
+One more error to go.
+
+ADDU-SP03A:3:14:22 PM
+C
+I think I should reset first.
+
+ADDU-SP03B:3:14:33 PM
+C
+You can only reset one page.
+
+ADDU-SP03A:3:15:16 PM
+C
+Where exactly? I'm checking on it.
+
+ADDU-SP03B:3:15:44 PM
+C
+Opps. Beng!
+
+ADDU-SP03B:3:15:50 PM
+C
+Is "a" declared properly?
+
+ADDU-SP03A:3:16:00 PM
+C
+I think it's wrong coz count is used without even being given a certain value.
+
+ADDU-SP03A:3:16:20 PM
+C
+So we don't know what value is count whether it's 0 or what.
+
+ADDU-SP03B:3:16:29 PM
+C
+Ahhh. Yes.
+
+ADDU-SP03B:3:16:37 PM
+C
+So java really has a strict instantiation.
+
+ADDU-SP03A:3:16:50 PM
+C
+It's because it's used right away without even being assigned a certain value
+
+ADDU-SP03B:3:16:58 PM
+C
+Ahhh
+
+ADDU-SP03A:3:17:06 PM
+C
+We can do ++ but there isn't actually no value on it
+
+ADDU-SP03A:3:17:09 PM
+C
+Am I right?
+
+ADDU-SP03B:3:17:11 PM
+C
+Well, I think it will be assigned a certain value once inside the first if condition
+
+ADDU-SP03B:3:17:23 PM
+C
+Ah yeah. Exactly. Haha
+
+ADDU-SP03B:3:17:34 PM
+C
+I'll encircle the count.
+
+ADDU-SP03A:3:17:38 PM
+C
+What about you? What should we really do?
+
+ADDU-SP03A:3:17:39 PM
+C
+Let's go!
+
+ADDU-SP03A:3:17:46 PM
+C
+What about 13?
+
+ADDU-SP03B:3:18:40 PM
+C
+Yes.
+
+ADDU-SP03A:3:18:53 PM
+C
+So the for loop in line 15 contains too many codes
+
+ADDU-SP03B:3:19:28 PM
+C
+It seems pretty fine.
+
+ADDU-SP03A:3:19:32 PM
+C
+Is it possible?
+
+ADDU-SP03A:3:19:34 PM
+N
+Okay okay.
+
+ADDU-SP03A:3:19:39 PM
+C
+I have an issue with "return"
+
+ADDU-SP03A:3:19:55 PM
+C
+I think there has to be a certain return 0
+
+ADDU-SP03A:3:20:05 PM
+C
+Or no need to do return?
+
+ADDU-SP03B:3:20:12 PM
+C
+No need for that.
+
+ADDU-SP03B:3:20:35 PM
+C
+If you'll put a certain return 0, it'll just actually stop the loop-like activity
+
+ADDU-SP03A:3:20:35 PM
+C
+If you'll declare a certain variable, do you have to call it small right?
+
+ADDU-SP03A:3:20:50 PM
+C
+It should just be string s; only right?
+
+ADDU-SP03B:3:21:02 PM
+C
+So now you're already in P06!
+
+ADDU-SP03B:3:21:17 PM
+C
+Is it palindrome?
+
+ADDU-SP03A:3:21:21 PM
+C
+Yes
+
+ADDU-SP03A:3:21:28 PM
+C
+Is it declared properly?
+
+ADDU-SP03A:3:21:40 PM
+N
+String s;
+
+ADDU-SP03B:3:21:44 PM
+C
+Declaration seems pretty fine.
+
+ADDU-SP03B:3:21:54 PM
+C
+The only issue is the keyword strinf
+
+ADDU-SP03A:3:21:58 PM
+C
+So there's no problem with the declaration?
+
+ADDU-SP03B:3:22:10 PM
+C
+If it's "String" or "string"
+
+ADDU-SP03A:3:22:19 PM
+C
+Both are right?
+
+ADDU-SP03B:3:22:46 PM
+C
+I actually don't know.
+
+ADDU-SP03A:3:23:01 PM
+C
+Why is it that NO is placed outside?
+
+ADDU-SP03A:3:23:14 PM
+C
+Should it be placed inside?
+
+ADDU-SP03B:3:23:22 PM
+C
+Hey. "No" has no else.
+
+ADDU-SP03B:3:23:28 PM
+C
+And then, "if" isn't together with it
+
+ADDU-SP03A:3:23:28 PM
+C
+Exactly.
+
+ADDU-SP03A:3:23:38 PM
+C
+At the lower portion, if's closing should be in there.
+
+ADDU-SP03A:3:23:52 PM
+C
+In the middle of the two closing in line 20 21
+
+ADDU-SP03A:3:24:01 PM
+C
+And then, it has an else statement
+
+ADDU-SP03B:3:24:31 PM
+C
+I actually didn't get what you're talking about. Haha
+
+ADDU-SP03A:3:24:54 PM
+C
+Should "NO" be inside the for condition, the ones with {}?
+
+ADDU-SP03B:3:25:06 PM
+C
+Yes. It should be inside the for loop.
+
+ADDU-SP03A:3:25:09 PM
+C
+Coz if it's placed outside, it'll be always executed.
+
+ADDU-SP03B:3:25:11 PM
+C
+Since "if" condition is located there
+
+ADDU-SP03A:3:25:35 PM
+C
+But there's actually 3 error, what about the others?
+
+ADDU-SP03B:3:25:37 PM
+C
+Are we gonna encircle the line number?
+
+ADDU-SP03B:3:25:49 PM
+C
+Or the whole line itself?
+
+ADDU-SP03A:3:26:02 PM
+C
+I'll take care the ones near the system something, I actually put a space a bit for the else condition
+
+ADDU-SP03B:3:27:05 PM
+C
+What about the -1, is it correct?
+
+ADDU-SP03B:3:27:08 PM
+C
+In line 15?
+
+ADDU-SP03B:3:27:34 PM
+C
+Should it actually give an error given that you won't put a minus 1?
+
+ADDU-SP03A:3:27:52 PM
+C
+It's actually wrong coz you should actually do minus 1 in the array, right?
+
+ADDU-SP03A:3:28:03 PM
+C
+This one is just actually a string.
+
+ADDU-SP03B:3:28:04 PM
+C
+Ahhh yes. You're right.
+
+ADDU-SP03A:3:28:23 PM
+C
+It's array length that should have minus 1 coz it'll start at 0.
+
+ADDU-SP03B:3:28:34 PM
+C
+Coz if it'll be in the array, it'll overlap during the loop
+
+ADDU-SP03B:3:28:51 PM
+C
+You're right, Beng.
+
+ADDU-SP03A:3:29:02 PM
+C
+I think that these four parameters are wrong.
+
+ADDU-SP03A:3:29:12 PM
+C
+Should it just be only three, right?
+
+ADDU-SP03A:3:29:31 PM
+C
+So we'll just replace a comma for the other ";"?
+
+ADDU-SP03B:3:29:35 PM
+C
+The one that's j=0, k=S?
+
+ADDU-SP03A:3:29:41 PM
+C
+Try to look at the beginning.
+
+ADDU-SP03A:3:29:45 PM
+C
+I think that one already looks fine.
+
+ADDU-SP03A:3:29:48 PM
+C
+But the last
+
+ADDU-SP03A:3:29:58 PM
+N
+j++; k---
+
+ADDU-SP03B:3:30:01 PM
+C
+That's actually complete. Haha
+
+ADDU-SP03A:3:30:33 PM
+C
+Okay. I think this is pretty much enough.
+
+ADDU-SP03B:3:30:37 PM
+C
+So, let's do next?
+
+ADDU-SP03A:3:30:46 PM
+C
+So, we're just gonna have two answers?
+
+ADDU-SP03B:3:31:00 PM
+C
+We actually have now three.
+
+ADDU-SP03B:3:31:04 PM
+C
+Remember, the ones with the "NO"
+
+ADDU-SP03A:3:31:07 PM
+C
+Where's the other one?
+
+ADDU-SP03B:3:31:08 PM
+C
+The ones with the -1
+
+ADDU-SP03A:3:31:14 PM
+C
+And?
+
+ADDU-SP03B:3:31:14 PM
+C
+And the last one.
+
+ADDU-SP03A:3:31:21 PM
+C
+Last one, where?
+
+ADDU-SP03B:3:31:28 PM
+C
+The one that you saw.
+
+ADDU-SP03A:3:31:29 PM
+C
+The one that's j++?
+
+ADDU-SP03B:3:31:31 PM
+C
+Yes
+
+ADDU-SP03A:3:31:40 PM
+C
+Okay. Let's move to the next.
+
+ADDU-SP03B:3:33:59 PM
+C
+Beng, look at line 9 and 10.
+
+ADDU-SP03B:3:34:06 PM
+C
+Specifically the one that's where the variable data is
+
+ADDU-SP03A:3:34:10 PM
+C
+Is it rps?
+
+ADDU-SP03B:3:34:15 PM
+C
+Yes
+
+ADDU-SP03A:3:34:30 PM
+C
+Why is that so?
+
+ADDU-SP03B:3:35:02 PM
+C
+The data is declared as an integer but it's instantiation is a char
+
+ADDU-SP03A:3:35:41 PM
+C
+I didn't seem to understand you
+
+ADDU-SP03B:3:35:49 PM
+C
+Oops. I read it wrong.
+
+ADDU-SP03B:3:35:59 PM
+C
+It's actually declared as NextInt
+
+ADDU-SP03B:3:36:07 PM
+C
+So it's actually just fine.
+
+ADDU-SP03B:3:36:26 PM
+M
+Line 20.
+
+ADDU-SP03A:3:36:38 PM
+C
+Line 20 is missing another +
+
+ADDU-SP03B:3:36:43 PM
+N
+Yes. Yes.
+
+ADDU-SP03B:3:37:11 PM
+N
+Line 26.
+
+ADDU-SP03B:3:37:24 PM
+C
+The quotation being used.
+
+ADDU-SP03A:3:37:33 PM
+C
+I think it's still possible to use that, right?
+
+ADDU-SP03B:3:38:04 PM
+C
+The single quotes should just be used for char and the double quotes should just be used for string or word only
+
+ADDU-SP03A:3:38:16 PM
+C
+Is that so?
+
+ADDU-SP03A:3:38:17 PM
+C
+Okay.
+
+ADDU-SP03A:3:38:25 PM
+C
+Let's encircle that.
+
+ADDU-SP03B:3:38:38 PM
+C
+Is there such a thing called return 2?
+
+ADDU-SP03A:3:39:01 PM
+C
+Yes.
+
+ADDU-SP03A:3:39:14 PM
+C
+I think you can put whatever you want in there.
+
+ADDU-SP03A:3:39:23 PM
+C
+If you need to do a "return" I think.
+
+ADDU-SP03B:3:39:39 PM
+I thought that 1 is for true and 0 is for false. Haha
+
+ADDU-SP03A:3:39:43 PM
+C
+But usually I noticed only 1 or 0 or the variable that's being "return"
+
+ADDU-SP03A:3:40:03 PM
+C
+Better, we just encircle only the number 2.
+
+ADDU-SP03B:3:40:08 PM
+C
+Okay okay.
+
+ADDU-SP03A:3:40:11 PM
+C
+I think you're right Hans.
+
+ADDU-SP03B:3:40:14 PM
+C
+Coz I'm also suspecting this one.
+
+ADDU-SP03B:3:40:42 PM
+C
+Pattern again! My gosh. I'm actually not an expert on this. I can't seem to imagine the loop instruction.
+
+ADDU-SP03A:3:41:10 PM
+C
+Look what's inside between line 15 up to 20.
+
+ADDU-SP03B:3:41:23 PM
+N
+Diamond?
+
+ADDU-SP03A:3:41:26 PM
+C
+The two for loops don't contain open close {}
+
+ADDU-SP03A:3:41:27 PM
+C
+Yes!
+
+ADDU-SP03A:3:41:33 PM
+C
+Is it okay?
+
+ADDU-SP03A:3:41:55 PM
+C
+It's just like putting the second for loop inside the first
+
+ADDU-SP03B:3:42:23 PM
+C
+I think it seems fine
+
+ADDU-SP03B:3:42:35 PM
+C
+The anomaly in that, it's because there's a ";" on the second for loop
+
+ADDU-SP03A:3:42:49 PM
+C
+But look at the third for loop
+
+ADDU-SP03A:3:42:52 PM
+C
+It's changed to ";"
+
+ADDU-SP03A:3:43:02 PM
+C
+The second one has none, so I think one of them is wrong.
+
+ADDU-SP03A:3:43:03 PM
+C
+Look!
+
+ADDU-SP03B:3:43:10 PM
+C
+Look at that one!
+
+ADDU-SP03B:3:43:18 PM
+C
+The line undergoes a line break.
+
+ADDU-SP03B:3:43:26 PM
+C
+So, that's number 1.
+
+ADDU-SP03A:3:43:34 PM
+C
+So where exactly between the two?
+
+ADDU-SP03A:3:43:42 PM
+C
+The ones where there is ";"??
+
+ADDU-SP03B:3:44:05 PM
+C
+The ones where there is ";" at the 3rd for loop
+
+ADDU-SP03A:3:44:43 PM
+C
+The for loop in 27 (line 27) has no { }
+
+ADDU-SP03A:3:44:56 PM
+C
+Ah. So it's still pretty much the same.
+
+ADDU-SP03A:3:45:04 PM
+C
+So, the for loop in 18 (line 18) is actually wrong, right?
+
+ADDU-SP03B:3:45:10 PM
+N
+Yes. Yes.
+
+ADDU-SP03B:3:45:51 PM
+C
+So, where did the odd variable being used?
+
+ADDU-SP03A:3:46:02 PM
+C
+Look at the "odd"
+
+ADDU-SP03A:3:46:08 PM
+C
+It's a char but it's value is an int
+
+ADDU-SP03B:3:46:16 PM
+C
+Exactly! Haha
+
+ADDU-SP03B:3:46:22 PM
+C
+So, what to encircle here?
+
+ADDU-SP03A:3:46:22 PM
+C
+Encircle that one!
+
+ADDU-SP03B:3:46:28 PM
+N
+12?
+
+ADDU-SP03A:3:46:32 PM
+C
+I think it's 12.
+
+ADDU-SP03B:3:46:38 PM
+C
+So, it should be 12.
+
+ADDU-SP03A:3:46:49 PM
+C
+So, one more error left.
+
+ADDU-SP03A:3:47:54 PM
+C
+Look at the length of int j
+
+ADDU-SP03A:3:47:58 PM
+C
+16, are you sure?
+
+ADDU-SP03B:3:48:05 PM
+C
+It's pretty much wrong! Haha
+
+ADDU-SP03A:3:48:14 PM
+C
+So that's the third one?
+
+ADDU-SP03B:3:48:18 PM
+N
+Wait.
+
+ADDU-SP03B:3:48:26 PM
+C
+So, length is a variable.
+
+ADDU-SP03B:3:48:33 PM
+C
+But it's declared as char
+
+ADDU-SP03B:3:48:48 PM
+C
+I think we should encircle the declaration instead
+
+ADDU-SP03B:3:49:16 PM
+C
+Beng, I'll encircle the declaration
+
+ADDU-SP03A:3:49:23 PM
+C
+I think it's the odd/2
+
+ADDU-SP03A:3:49:31 PM
+C
+Coz it's declared as a char
+
+ADDU-SP03B:3:49:43 PM
+C
+It's division, why char?
+
+ADDU-SP03A:3:49:50 PM
+N
+Haha
+
+ADDU-SP03A:3:49:52 PM
+C
+I don't know.
+
+ADDU-SP03B:3:49:55 PM
+N
+Hahaha
+
+ADDU-SP03B:3:50:36 PM
+C
+I think that's all—char odd and char length.
+
+ADDU-SP03B:3:50:51 PM
+C
+The names alone of these variable, it already meant int
+
+ADDU-SP03A:3:50:52 PM
+N
+Haha
+
+ADDU-SP03A:3:50:56 PM
+C
+Hans, it's getting cold.
+
+ADDU-SP03A:3:51:01 PM
+C
+I'm shaking now.
+
+ADDU-SP03B:3:51:11 PM
+C
+I think our three errors should already be those ones.
+
+ADDU-SP03A:3:51:22 PM
+C
+Look at line 30, it's using tilde.
+
+ADDU-SP03A:3:51:38 PM
+C
+It's actually wrong, right?
+
+ADDU-SP03B:3:51:39 PM
+C
+Where are you now?
+
+ADDU-SP03A:3:51:45 PM
+C
+Here in 9.
+
+ADDU-SP03A:3:51:47 PM
+N
+p09
+
+ADDU-SP03B:3:51:59 PM
+C
+It's wrong!
+
+ADDU-SP03A:3:52:02 PM
+C
+On line 30.
+
+ADDU-SP03A:3:52:04 PM
+C
+It's wrong, right?
+
+ADDU-SP03A:3:53:11 PM
+C
+My brain is no longer functioning.
+
+ADDU-SP03A:3:53:24 PM
+N
+Hahaha
+
+ADDU-SP03A:3:53:27 PM
+C
+Can we just encircle all of these?
+
+ADDU-SP03A:3:53:31 PM
+C
+So that we can be sure!
+
+ADDU-SP03B:3:53:38 PM
+N
+Hahaha
+
+ADDU-SP03A:3:53:46 PM
+C
+Just like Sir Ogs.
+
+ADDU-SP03A:3:53:50 PM
+C
+1 shot for all.
+
+ADDU-SP03B:3:54:04 PM
+C
+LOL. Look at "a" in line 16
+
+ADDU-SP03A:3:54:20 PM
+C
+Why?
+
+ADDU-SP03B:3:54:21 PM
+C
+Is it instantiated properly?
+
+ADDU-SP03B:3:54:31 PM
+C
+That it's only instantiated with .next()?
+
+ADDU-SP03A:3:54:44 PM
+C
+I already forgot that part.
+
+ADDU-SP03A:3:54:54 PM
+C
+Should it be nextLine instead, right?
+
+ADDU-SP03A:3:54:56 PM
+C
+It should!
+
+ADDU-SP03B:3:55:15 PM
+C
+I think it could mean differently if it's only .next()
+
+ADDU-SP03B:3:55:37 PM
+C
+I already encircled it.
+
+ADDU-SP03A:3:55:44 PM
+C
+And so will I.
