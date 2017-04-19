@@ -23,6 +23,14 @@ class Log {
 	public String getFileName() {
 		return fileName;
 	}
+	
+	public Participant[] getParticipants() {
+		return participants;
+	}
+	
+	public LogData getDate() {
+		return null;
+	}
 }
 
 class Utterance {
@@ -155,6 +163,23 @@ class Utterance {
 		return isDifferential;
 	}
 	
+	public UtteranceData getData(ContributionCounter cc) {
+		int isCodeSwitched = this.codeSwitched ? UtteranceData.CODE_SWITCHED : UtteranceData.NOT_CODE_SWITCHED;
+		int utteranceStrength = cc.getUtteranceStrength(this);
+		int pattern = -1;
+		
+		if( isUnitive && isDifferential ) {
+			pattern = UtteranceData.BOTH_PATTERN;
+		} else if( isUnitive ) {
+			pattern = UtteranceData.UNITIVE_PATTERN;
+		} else if( isDifferential ) {
+			pattern = UtteranceData.DIFFERENCE_PATTERN;
+		} else {
+			pattern = UtteranceData.NO_PATTERN;
+		}
+		
+		return new UtteranceData( isCodeSwitched, utteranceStrength,pattern	);
+	}
 }
 
 class Participant {
@@ -182,6 +207,10 @@ class Participant {
 	
 	public List<Utterance> getUtterances() {
 		return this.utterances;
+	}
+	
+	public ParticipantData getData() {
+		return null;
 	}
 }
 
