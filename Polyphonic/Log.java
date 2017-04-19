@@ -1,4 +1,6 @@
 import java.util.*;
+import java.io.File;
+import java.io.IOException;
 import java.time.*;
 
 class Log {
@@ -28,8 +30,41 @@ class Log {
 		return participants;
 	}
 	
-	public LogData getDate() {
-		return null;
+	private LogData data;
+	public LogData getDate(File parent, ContributionCounter cc) throws IOException {
+		if( data == null ) {
+			recalculateData(parent, cc);
+		}
+		return data;
+	}
+	
+	public void recalculateData(File parent, ContributionCounter cc) throws IOException {
+		int utterance = utterances.size();
+		double averageAccuracy = 0;
+		int unitiveUtteranceCount = 0;
+		int differenceUtteranceCount = 0;
+		double codeSwitchedCount = 0;
+		
+		Participant a = participants[0];
+		Participant b = participants[1];
+		
+		ParticipantData ad = a.getData(parent, cc);
+		ParticipantData bd = b.getData(parent, cc);
+		
+		averageAccuracy = ( ad.accuracy + bd.accuracy ) / 2;
+		unitiveUtteranceCount = ad.unitiveUtteranceCount + bd.unitiveUtteranceCount;
+		differenceUtteranceCount = ad.differenceUtteranceCount + bd.differenceUtteranceCount;
+		
+		for(Utterance u: utterances) {
+			if(u.isCodeSwitched()) {
+				codeSwitchedCount++;
+			}
+		}
+		if( utterance > 0 ) {
+			codeSwitchedCount /= utterance;
+		}
+		
+		data = new LogData(utterance, averageAccuracy, unitiveUtteranceCount, differenceUtteranceCount, codeSwitchedCount);
 	}
 }
 
@@ -163,7 +198,15 @@ class Utterance {
 		return isDifferential;
 	}
 	
+	private UtteranceData data;
 	public UtteranceData getData(ContributionCounter cc) {
+		if( data == null ) {
+			recalculateData(cc);
+		}
+		return data;
+	}
+	
+	public void recalculateData(ContributionCounter cc) {
 		int isCodeSwitched = this.codeSwitched ? UtteranceData.CODE_SWITCHED : UtteranceData.NOT_CODE_SWITCHED;
 		int utteranceStrength = cc.getUtteranceStrength(this);
 		int pattern = -1;
@@ -178,7 +221,7 @@ class Utterance {
 			pattern = UtteranceData.NO_PATTERN;
 		}
 		
-		return new UtteranceData( isCodeSwitched, utteranceStrength,pattern	);
+		data = new UtteranceData( isCodeSwitched, utteranceStrength,pattern	);
 	}
 }
 
@@ -209,9 +252,38 @@ class Participant {
 		return this.utterances;
 	}
 	
-	public ParticipantData getData(String parentPath) {
-		String fileName = parentPath + "/" + codename.charAt( codename.length() - 1 ) + ".csv";
-		return null;
+	private ParticipantData data;
+	public ParticipantData getData(File parent, ContributionCounter cc) throws IOException {
+		if( data == null ) {
+			recalculateData(parent, cc);
+		}
+		return data;
+	}
+	
+	public void recalculateData(File parent, ContributionCounter cc) throws IOException  {
+		long speed = -1;
+		double accuracy = 0;
+		int unitiveUtteranceCount = 0;
+		int differenceUtteranceCount = 0;
+		int contribution = 0;
+		
+		String fileName = codename.charAt( codename.length() - 1 ) + ".csv";
+		Performance p = PerformanceFileReader.getPerformance( new File( parent, fileName) );
+		speed = p.averageSpeed;
+		accuracy = p.accuracy;
+		
+		for(Utterance u: utterances) {
+			if( u.getUnitive() ) {
+				unitiveUtteranceCount++;
+			}
+			if( u.getDifferential() ) {
+				differenceUtteranceCount++;
+			}
+		}
+		
+		contribution = cc.getContribution( this );
+		
+		data = new ParticipantData(speed, accuracy, unitiveUtteranceCount, differenceUtteranceCount, contribution);
 	}
 }
 
