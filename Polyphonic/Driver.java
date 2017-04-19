@@ -6,23 +6,26 @@ import java.util.List;
 public class Driver {
 
 	public static void main(String[] args) throws IOException {
-		Log log = Parser.createLog("ADDU-SP02A-SP02B.in");
+		Log log = Parser.createLog("chat.in");
 		KeywordDeriver deriver = new KeywordDeriver();
 		deriver.deriveKeywordFor(log);
 		SynonymFinder.deriveImplicitLinks(log);
 		ArrayList<Utterance> utters = log.getUtterances();
 		List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
 		ContributionCounter cc = new ContributionCounter(log, chains);
-		IAPFinder.parseOutputXML( log, "output.xml" );
+		IAPFinder.parseOutputXML( log, "speech-acts.xml" );
 		
 		for(int i=0; i<log.getUtterances().size(); i++) {
 			System.out.println( i + ") " + log.getUtterances().get(i).getContentString() );
 			System.out.println( "Pattern: " + IAPFinder.whatPattern(log, i) );
 			//System.out.println("SP: " + log.getUtterances().get(i).getSpeechActs().size() );
 			
+			List<String> speechActs = log.getUtterances().get(i).getSpeechActs();
 			System.out.print("SP:");
-			for( String sp: log.getUtterances().get(i).getSpeechActs() ) {
-				System.out.print(" " + sp);
+			if(speechActs != null) {
+				for( String sp: speechActs ) {
+					System.out.print(" " + sp);
+				}
 			}
 			System.out.println("\n");
 			

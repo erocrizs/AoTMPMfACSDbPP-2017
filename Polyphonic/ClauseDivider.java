@@ -20,17 +20,10 @@ public class ClauseDivider {
 	private static ArrayList<String> clauseList = new ArrayList<String>();
 	
 	private static Tree getTree(String sentence) {
+		
 		List<CoreLabel> tokens = tokenizerFactory.getTokenizer(new StringReader( sentence ) ).tokenize();
     	Tree tree = parser.apply(tokens);
     	return tree;
-	}
-	
-	private static boolean isClausal(Tree t) {
-		if( t.isEmpty() || t.isLeaf() ) return false;
-		String head = t.value();
-		boolean root = "ROOT".equals( head );
-		boolean clause = CLAUSE_TAGS.contains( head );
-		return (root || clause);
 	}
 	
 	// get all sub clauses and place them in clauseList
@@ -80,6 +73,14 @@ public class ClauseDivider {
 	}
 	
 	public static String[] getClauses(String sentence) {
+		tokenizerFactory.setOptions(
+				"ptb3Escaping=false," +
+				"normalizeParentheses=false," +
+				"normalizeOtherBrackets=false," +
+				"latexQuotes=false," +
+				"asciiQuotes=true"
+				);
+		
 		processTree( getTree(sentence) );
 		if( temp.size() > 0 ) {
 			clauseList.add( getTemp() );
