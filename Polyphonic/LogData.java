@@ -4,10 +4,10 @@ class LogData {
 	public double averageAccuracy;
 	public int unitiveUtteranceCount;
 	public int differenceUtteranceCount;
-	public int codeSwitchedCount;
+	public double codeSwitchedCount;
 	
 	public LogData(int utterance, double averageAccuracy, int unitiveUtteranceCount, int differenceUtteranceCount,
-			int codeSwitchedCount) {
+			double codeSwitchedCount) {
 		this.utterance = utterance;
 		this.averageAccuracy = averageAccuracy;
 		this.unitiveUtteranceCount = unitiveUtteranceCount;
