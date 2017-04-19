@@ -212,7 +212,7 @@ it ca n't traverse all characters <punc type="stop" />
 </turn>
 <turn n="43" speaker="Hans">
 <frag n="43" sp-act="" polarity="positive" mode="condition-decl">
-that `` if '' in the line  <punc type="stop" />
+that " if " in the line  <punc type="stop" />
 </frag>
 </turn>
 <turn n="44" speaker="Hans">
@@ -337,7 +337,7 @@ opps <punc type="stop" />  beng <punc type="exclam" />
 </turn>
 <turn n="68" speaker="Hans">
 <frag n="68" sp-act="reqInfo" polarity="positive" mode="query">
-is `` a '' declared properly <punc type="query" />
+is " a " declared properly <punc type="query" />
 </frag>
 </turn>
 <turn n="69" speaker="A">
@@ -497,7 +497,7 @@ okay <punc type="stop" />
 </turn>
 <turn n="94" speaker="A">
 <decl n="104" sp-act="state" polarity="positive" topic="fare" mode="exists-decl">
-i have an issue with `` return ''  <punc type="stop" />
+i have an issue with " return "  <punc type="stop" />
 </decl>
 </turn>
 <turn n="95" speaker="A">
@@ -604,7 +604,7 @@ if  <punc type="stop" />
 </turn>
 <turn n="113" speaker="Hans">
 <decl n="127" sp-act="state" polarity="positive" mode="alternative-decl">
-it 's `` string '' or `` string ''  <punc type="stop" />
+it 's " string " or " string "  <punc type="stop" />
 </decl>
 </turn>
 <turn n="114" speaker="A">
@@ -637,1046 +637,1061 @@ should it be placed inside <punc type="query" />
 </turn>
 <turn n="119" speaker="Hans">
 <frag n="134" sp-act="greet" polarity="negative" mode="greet-decl">
-hey <punc type="stop" />  `` no '' has no else <punc type="stop" />
+hey <punc type="stop" />  " no " has no else <punc type="stop" />
 </frag>
 </turn>
 <turn n="120" speaker="Hans">
-<frag n="135" sp-act="reqConfirm" polarity="negative" mode="condition-decl">
-and then <punc type="stop" />  `` if '' is n't together with it  <punc type="stop" />
+<frag n="135" sp-act="" polarity="positive" mode="condition-decl">
+and then <punc type="stop" />  " if  <punc type="stop" />
 </frag>
 </turn>
-<turn n="121" speaker="A">
-<dm n="136" sp-act="confirm-agree">
+<turn n="121" speaker="Hans">
+<frag n="136" sp-act="reqConfirm" polarity="negative" mode="decl">
+" is n't together with it  <punc type="stop" />
+</frag>
+</turn>
+<turn n="122" speaker="A">
+<dm n="137" sp-act="confirm-agree">
 exactly <punc type="stop" />
 </dm>
 </turn>
-<turn n="122" speaker="A">
-<frag n="137" sp-act="" polarity="positive" topic="location" mode="condition-decl">
+<turn n="123" speaker="A">
+<frag n="138" sp-act="" polarity="positive" topic="location" mode="condition-decl">
 at the lower portion <punc type="stop" />  if 's closing should be in there <punc type="stop" />
 </frag>
 </turn>
-<turn n="123" speaker="A">
-<frag n="138" sp-act="enumeration" polarity="positive" topic="number-enum" mode="decl">
+<turn n="124" speaker="A">
+<frag n="139" sp-act="enumeration" polarity="positive" topic="number-enum" mode="decl">
 in the middle of the two closing in line 20 21  <punc type="stop" />
 </frag>
 </turn>
-<turn n="124" speaker="A">
-<decl n="139" sp-act="state" polarity="positive" mode="decl">
+<turn n="125" speaker="A">
+<decl n="140" sp-act="state" polarity="positive" mode="decl">
 and then <punc type="stop" />  it has an else statement  <punc type="stop" />
 </decl>
 </turn>
-<turn n="125" speaker="Hans">
-<decl n="140" sp-act="reqInfo" polarity="negative" mode="query-constrain-decl">
+<turn n="126" speaker="Hans">
+<decl n="141" sp-act="reqInfo" polarity="negative" mode="query-constrain-decl">
 i actually did n't get what  <punc type="stop" />
 </decl>
 </turn>
-<turn n="126" speaker="Hans">
-<decl n="141" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="127" speaker="Hans">
+<decl n="142" sp-act="answer-state" polarity="positive" mode="decl">
 you 're talking about <punc type="stop" />  haha  <punc type="stop" />
 </decl>
 </turn>
-<turn n="127" speaker="A">
-<frag n="142" sp-act="reqInfo" polarity="negative" topic="number" mode="decl-query">
-should `` no '' be inside the for condition <punc type="stop" />  the ones with -lcb- -rcb- <punc type="query" />
+<turn n="128" speaker="A">
+<frag n="143" sp-act="reqInfo" polarity="negative" topic="number" mode="decl-query">
+should " no " be inside the for condition <punc type="stop" />  the ones with { } <punc type="query" />
 </frag>
 </turn>
-<turn n="128" speaker="Hans">
-<yes n="143" sp-act="answer-state-acknowledge">
+<turn n="129" speaker="Hans">
+<yes n="144" sp-act="answer-state-acknowledge">
 yes <punc type="stop" />  
 </yes>
-<decl n="144" sp-act="elab-state" polarity="positive" mode="decl">
+<decl n="145" sp-act="elab-state" polarity="positive" mode="decl">
 it should be inside the for loop <punc type="stop" />
 </decl>
 </turn>
-<turn n="129" speaker="A">
-<frag n="145" sp-act="" polarity="positive" mode="condition-decl">
+<turn n="130" speaker="A">
+<frag n="146" sp-act="" polarity="positive" mode="condition-decl">
 coz if  <punc type="stop" />
 </frag>
 </turn>
-<turn n="130" speaker="A">
-<decl n="146" sp-act="state" polarity="positive" mode="decl">
+<turn n="131" speaker="A">
+<decl n="147" sp-act="state" polarity="positive" mode="decl">
 it 's placed outside <punc type="stop" />  it 'll be always executed <punc type="stop" />
 </decl>
 </turn>
-<turn n="131" speaker="Hans">
-<frag n="147" sp-act="" polarity="positive" topic="location" mode="reason-condition-decl">
-since `` if '' condition is located there  <punc type="stop" />
+<turn n="132" speaker="Hans">
+<frag n="148" sp-act="state" polarity="positive" mode="reason-decl-disflu">
+since  <punc type="stop" />
 </frag>
 </turn>
-<turn n="132" speaker="A">
-<decl n="148" sp-act="reqInfo" polarity="positive" topic="location-enum" mode="constrain-decl-query">
+<turn n="133" speaker="Hans">
+<frag n="149" sp-act="" polarity="positive" topic="location" mode="condition-decl">
+" if " condition is located there  <punc type="stop" />
+</frag>
+</turn>
+<turn n="134" speaker="A">
+<decl n="150" sp-act="reqInfo" polarity="positive" topic="location-enum" mode="constrain-decl-query">
 but there 's actually 3 error <punc type="stop" />  what about the others <punc type="query" />
 </decl>
 </turn>
-<turn n="133" speaker="Hans">
-<q-yn n="149" sp-act="reqInfo" polarity="positive" topic="number" mode="closed-query">
+<turn n="135" speaker="Hans">
+<q-yn n="151" sp-act="reqInfo" polarity="positive" topic="number" mode="closed-query">
 are we gon na encircle the line number <punc type="query" />
 </q-yn>
 </turn>
-<turn n="134" speaker="Hans">
-<decl n="150" sp-act="reqInfo" polarity="positive" mode="alternative-query">
+<turn n="136" speaker="Hans">
+<decl n="152" sp-act="reqInfo" polarity="positive" mode="alternative-query">
 or the whole line itself <punc type="query" />
 </decl>
 </turn>
-<turn n="135" speaker="A">
-<decl n="151" sp-act="answer-state" polarity="positive" topic="number" mode="constrain-decl">
+<turn n="137" speaker="A">
+<decl n="153" sp-act="answer-state" polarity="positive" topic="number" mode="constrain-decl">
 i 'll take care the ones near the system something <punc type="stop" />  i actually put a space a bit for the else condition  <punc type="stop" />
 </decl>
 </turn>
-<turn n="136" speaker="Hans">
-<q-wh n="152" sp-act="suggest" polarity="positive" topic="enum" mode="closed-decl-query">
+<turn n="138" speaker="Hans">
+<q-wh n="154" sp-act="suggest" polarity="positive" topic="enum" mode="closed-decl-query">
 what about the -1 <punc type="stop" />  is it correct <punc type="query" />
 </q-wh>
 </turn>
-<turn n="137" speaker="Hans">
-<frag n="153" sp-act="reqInfo" polarity="positive" mode="partial-query">
+<turn n="139" speaker="Hans">
+<frag n="155" sp-act="reqInfo" polarity="positive" mode="partial-query">
 in line 15 <punc type="query" />
 </frag>
 </turn>
-<turn n="138" speaker="Hans">
-<q-yn n="154" sp-act="reqModal" polarity="positive" mode="constrain-closed-decl">
+<turn n="140" speaker="Hans">
+<q-yn n="156" sp-act="reqModal" polarity="positive" mode="constrain-closed-decl">
 should it actually give an error given that  <punc type="stop" />
 </q-yn>
 </turn>
-<turn n="139" speaker="Hans">
-<frag n="155" sp-act="reqInfo" polarity="negative" mode="query">
+<turn n="141" speaker="Hans">
+<frag n="157" sp-act="reqInfo" polarity="negative" mode="query">
 you wo n't put a minus 1 <punc type="query" />
 </frag>
 </turn>
-<turn n="140" speaker="A">
-<decl n="156" sp-act="answer-state" polarity="positive" mode="constrain-decl">
+<turn n="142" speaker="A">
+<decl n="158" sp-act="answer-state" polarity="positive" mode="constrain-decl">
 it 's actually wrong coz  <punc type="stop" />
 </decl>
 </turn>
-<turn n="141" speaker="A">
-<decl n="157" sp-act="reqConfirm" polarity="positive" topic="enum" mode="suggest-tag-constrain-decl-query">
+<turn n="143" speaker="A">
+<decl n="159" sp-act="reqConfirm" polarity="positive" topic="enum" mode="suggest-tag-constrain-decl-query">
 you should actually do minus 1 in the array <punc type="stop" />  right <punc type="query" />
 </decl>
 </turn>
-<turn n="142" speaker="A">
-<frag n="158" sp-act="confirm-state" polarity="positive" topic="number" mode="constrain-decl">
+<turn n="144" speaker="A">
+<frag n="160" sp-act="confirm-state" polarity="positive" topic="number" mode="constrain-decl">
 this one is just actually a string <punc type="stop" />
 </frag>
 </turn>
-<turn n="143" speaker="Hans">
-<dm n="159" sp-act="exclaim">
+<turn n="145" speaker="Hans">
+<dm n="161" sp-act="exclaim">
 ah
 </dm>
-<frag n="160" sp-act="state" polarity="positive" mode="decl">
+<frag n="162" sp-act="state" polarity="positive" mode="decl">
 hh  <punc type="stop" />
 </frag>
 </turn>
-<turn n="144" speaker="Hans">
-<yes n="161" sp-act="acknowledge">
+<turn n="146" speaker="Hans">
+<yes n="163" sp-act="acknowledge">
 yes <punc type="stop" />  
 </yes>
-<decl n="162" sp-act="reqConfirm" polarity="positive" mode="tag-decl">
+<decl n="164" sp-act="reqConfirm" polarity="positive" mode="tag-decl">
 you 're right <punc type="stop" />
 </decl>
 </turn>
-<turn n="145" speaker="A">
-<decl n="163" sp-act="confirm-state" polarity="positive" topic="enum" mode="decl">
+<turn n="147" speaker="A">
+<decl n="165" sp-act="confirm-state" polarity="positive" topic="enum" mode="decl">
 it 's array length that should have minus 1 coz  <punc type="stop" />
 </decl>
 </turn>
-<turn n="146" speaker="A">
-<decl n="164" sp-act="state" polarity="positive" topic="time" mode="decl">
+<turn n="148" speaker="A">
+<decl n="166" sp-act="state" polarity="positive" topic="time" mode="decl">
 it 'll start at 0 <punc type="stop" />
 </decl>
 </turn>
-<turn n="147" speaker="Hans">
-<frag n="165" sp-act="state" polarity="positive" mode="decl">
+<turn n="149" speaker="Hans">
+<frag n="167" sp-act="state" polarity="positive" mode="decl">
 coz  <punc type="stop" />
 </frag>
 </turn>
-<turn n="148" speaker="Hans">
-<frag n="166" sp-act="" polarity="positive" mode="condition-decl-disflu">
+<turn n="150" speaker="Hans">
+<frag n="168" sp-act="" polarity="positive" mode="condition-decl-disflu">
 if  <punc type="stop" />
 </frag>
 </turn>
-<turn n="149" speaker="Hans">
-<decl n="167" sp-act="state" polarity="positive" mode="decl">
+<turn n="151" speaker="Hans">
+<decl n="169" sp-act="state" polarity="positive" mode="decl">
 it 'll be in the array <punc type="stop" />  it 'll overlap during the loop  <punc type="stop" />
 </decl>
 </turn>
-<turn n="150" speaker="Hans">
-<decl n="168" sp-act="state" polarity="positive" mode="decl">
+<turn n="152" speaker="Hans">
+<decl n="170" sp-act="state" polarity="positive" mode="decl">
 you 're right <punc type="stop" />  beng <punc type="stop" />
 </decl>
 </turn>
-<turn n="151" speaker="A">
-<decl n="169" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="153" speaker="A">
+<decl n="171" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think that  <punc type="stop" />
 </decl>
 </turn>
-<turn n="152" speaker="A">
-<frag n="170" sp-act="state" polarity="positive" topic="number" mode="decl">
+<turn n="154" speaker="A">
+<frag n="172" sp-act="state" polarity="positive" topic="number" mode="decl">
 these four parameters are wrong <punc type="stop" />
 </frag>
 </turn>
-<turn n="153" speaker="A">
-<q-yn n="171" sp-act="reqModal" polarity="positive" topic="number" mode="tag-constrain-closed-decl-query">
+<turn n="155" speaker="A">
+<q-yn n="173" sp-act="reqModal" polarity="positive" topic="number" mode="tag-constrain-closed-decl-query">
 should it just be only three <punc type="stop" />  right <punc type="query" />
 </q-yn>
 </turn>
-<turn n="154" speaker="A">
-<dm n="172" sp-act="init">
+<turn n="156" speaker="A">
+<dm n="174" sp-act="init">
 so
 </dm>
-<decl n="173" sp-act="reqInfo" polarity="positive" mode="query">
-we 'll just replace a comma for the other ''; '' <punc type="query" />
+<decl n="175" sp-act="reqInfo" polarity="positive" mode="query">
+we 'll just replace a comma for the other "; " <punc type="query" />
 </decl>
 </turn>
-<turn n="155" speaker="Hans">
-<decl n="174" sp-act="reqInfo" polarity="positive" topic="number-enum" mode="decl-query">
+<turn n="157" speaker="Hans">
+<decl n="176" sp-act="reqInfo" polarity="positive" topic="number-enum" mode="decl-query">
 the one that 's j = 0 <punc type="stop" />  k = s <punc type="query" />
 </decl>
 </turn>
-<turn n="156" speaker="A">
-<imp n="175" sp-act="answer-state-direct" polarity="positive" mode="decl">
+<turn n="158" speaker="A">
+<imp n="177" sp-act="answer-state-direct" polarity="positive" mode="decl">
 try to look at the beginning <punc type="stop" />
 </imp>
 </turn>
-<turn n="157" speaker="A">
-<decl n="176" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="159" speaker="A">
+<decl n="178" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think that  <punc type="stop" />
 </decl>
 </turn>
-<turn n="158" speaker="A">
-<frag n="177" sp-act="state" polarity="positive" topic="number" mode="decl">
+<turn n="160" speaker="A">
+<frag n="179" sp-act="state" polarity="positive" topic="number" mode="decl">
 one already looks fine <punc type="stop" />
 </frag>
 </turn>
-<turn n="159" speaker="A">
-<decl n="178" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="161" speaker="A">
+<decl n="180" sp-act="state" polarity="positive" mode="constrain-decl">
 but the last  <punc type="stop" />
 </decl>
 </turn>
-<turn n="160" speaker="A">
-<frag n="179" sp-act="state" polarity="positive" mode="decl">
-j + +; k --  <punc type="stop" />
+<turn n="162" speaker="A">
+<frag n="181" sp-act="state" polarity="positive" mode="decl">
+j + +; k ---  <punc type="stop" />
 </frag>
 </turn>
-<turn n="161" speaker="Hans">
-<decl n="180" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="163" speaker="Hans">
+<decl n="182" sp-act="state" polarity="positive" mode="constrain-decl">
 that 's actually complete <punc type="stop" />  haha  <punc type="stop" />
 </decl>
 </turn>
-<turn n="162" speaker="A">
-<dm n="181" sp-act="acknowledge">
+<turn n="164" speaker="A">
+<dm n="183" sp-act="acknowledge">
 okay <punc type="stop" />  
 </dm>
-<decl n="182" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<decl n="184" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="163" speaker="A">
-<decl n="183" sp-act="state" polarity="positive" mode="decl">
+<turn n="165" speaker="A">
+<decl n="185" sp-act="state" polarity="positive" mode="decl">
 this is pretty much enough <punc type="stop" />
 </decl>
 </turn>
-<turn n="164" speaker="Hans">
-<dm n="184" sp-act="init">
-so <punc type="stop" />  
-</dm>
-<imp n="185" sp-act="suggest" polarity="positive" mode="query">
-let 's do next <punc type="query" />
-</imp>
-</turn>
-<turn n="165" speaker="A">
+<turn n="166" speaker="Hans">
 <dm n="186" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<decl n="187" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
+<imp n="187" sp-act="suggest" polarity="positive" mode="query">
+let 's do next <punc type="query" />
+</imp>
+</turn>
+<turn n="167" speaker="A">
+<dm n="188" sp-act="init">
+so <punc type="stop" />  
+</dm>
+<decl n="189" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
 we 're just gon na have two answers <punc type="query" />
 </decl>
 </turn>
-<turn n="166" speaker="Hans">
-<decl n="188" sp-act="answer-state" polarity="positive" topic="number" mode="constrain-decl">
+<turn n="168" speaker="Hans">
+<decl n="190" sp-act="answer-state" polarity="positive" topic="number" mode="constrain-decl">
 we actually have now three <punc type="stop" />
 </decl>
 </turn>
-<turn n="167" speaker="Hans">
-<imp n="189" sp-act="direct" polarity="negative" topic="number" mode="decl">
-remember <punc type="stop" />  the ones with the `` no ''  <punc type="stop" />
+<turn n="169" speaker="Hans">
+<imp n="191" sp-act="direct" polarity="negative" topic="number" mode="decl">
+remember <punc type="stop" />  the ones with the " no "  <punc type="stop" />
 </imp>
 </turn>
-<turn n="168" speaker="A">
-<q-wh n="190" sp-act="reqInfo" polarity="positive" topic="number" mode="open-query">
+<turn n="170" speaker="A">
+<q-wh n="192" sp-act="reqInfo" polarity="positive" topic="number" mode="open-query">
 where 's the other one <punc type="query" />
 </q-wh>
 </turn>
-<turn n="169" speaker="Hans">
-<frag n="191" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
+<turn n="171" speaker="Hans">
+<frag n="193" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
 the ones with the -1  <punc type="stop" />
 </frag>
 </turn>
-<turn n="170" speaker="A">
-<frag n="192" sp-act="reqInfo" polarity="positive" mode="query-disflu">
-and <punc type="query" />
-</frag>
-</turn>
-<turn n="171" speaker="Hans">
-<decl n="193" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
-and the last one <punc type="stop" />
-</decl>
-</turn>
 <turn n="172" speaker="A">
-<frag n="194" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl-query">
-last one <punc type="stop" />  where <punc type="query" />
+<frag n="194" sp-act="reqInfo" polarity="positive" mode="query-disflu">
+and <punc type="query" />
 </frag>
 </turn>
 <turn n="173" speaker="Hans">
 <decl n="195" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
+and the last one <punc type="stop" />
+</decl>
+</turn>
+<turn n="174" speaker="A">
+<frag n="196" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl-query">
+last one <punc type="stop" />  where <punc type="query" />
+</frag>
+</turn>
+<turn n="175" speaker="Hans">
+<decl n="197" sp-act="answer-state" polarity="positive" topic="number" mode="decl">
 the one that  <punc type="stop" />
 </decl>
 </turn>
-<turn n="174" speaker="Hans">
-<frag n="196" sp-act="state" polarity="positive" mode="decl">
+<turn n="176" speaker="Hans">
+<frag n="198" sp-act="state" polarity="positive" mode="decl">
 you saw <punc type="stop" />
 </frag>
 </turn>
-<turn n="175" speaker="A">
-<decl n="197" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
+<turn n="177" speaker="A">
+<decl n="199" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
 the one that 's j + + <punc type="query" />
 </decl>
 </turn>
-<turn n="176" speaker="Hans">
-<yes n="198" sp-act="answer-state-acknowledge">
+<turn n="178" speaker="Hans">
+<yes n="200" sp-act="answer-state-acknowledge">
 yes  <punc type="stop" />
 </yes>
 </turn>
-<turn n="177" speaker="A">
-<dm n="199" sp-act="acknowledge">
+<turn n="179" speaker="A">
+<dm n="201" sp-act="acknowledge">
 okay <punc type="stop" />  
 </dm>
-<imp n="200" sp-act="direct" polarity="positive" mode="decl">
+<imp n="202" sp-act="direct" polarity="positive" mode="decl">
 let  <punc type="stop" />
 </imp>
 </turn>
-<turn n="178" speaker="A">
-<frag n="201" sp-act="state" polarity="positive" mode="decl">
+<turn n="180" speaker="A">
+<frag n="203" sp-act="state" polarity="positive" mode="decl">
 's move to the next <punc type="stop" />
 </frag>
 </turn>
-<turn n="179" speaker="Hans">
-<frag n="202" sp-act="enumeration" polarity="positive" topic="time-enum" mode="decl">
+<turn n="181" speaker="Hans">
+<frag n="204" sp-act="enumeration" polarity="positive" topic="time-enum" mode="decl">
 beng <punc type="stop" />  look at line 9 and 10 <punc type="stop" />
 </frag>
 </turn>
-<turn n="180" speaker="Hans">
-<decl n="203" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
+<turn n="182" speaker="Hans">
+<decl n="205" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
 specifically the one that 's where  <punc type="stop" />
 </decl>
 </turn>
-<turn n="181" speaker="Hans">
-<decl n="204" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="183" speaker="Hans">
+<decl n="206" sp-act="answer-state" polarity="positive" mode="decl">
 the variable data is  <punc type="stop" />
 </decl>
 </turn>
-<turn n="182" speaker="A">
-<q-yn n="205" sp-act="reqInfo" polarity="positive" mode="closed-query">
+<turn n="184" speaker="A">
+<q-yn n="207" sp-act="reqInfo" polarity="positive" mode="closed-query">
 is it rps <punc type="query" />
 </q-yn>
 </turn>
-<turn n="183" speaker="Hans">
-<yes n="206" sp-act="answer-state-acknowledge">
+<turn n="185" speaker="Hans">
+<yes n="208" sp-act="answer-state-acknowledge">
 yes  <punc type="stop" />
 </yes>
 </turn>
-<turn n="184" speaker="A">
-<q-wh n="207" sp-act="reqInfo" polarity="positive" mode="open-query">
+<turn n="186" speaker="A">
+<q-wh n="209" sp-act="reqInfo" polarity="positive" mode="open-query">
 why is that so <punc type="query" />
 </q-wh>
 </turn>
-<turn n="185" speaker="Hans">
-<frag n="208" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="187" speaker="Hans">
+<frag n="210" sp-act="answer-state" polarity="positive" mode="decl">
 the data is declared as  <punc type="stop" />
 </frag>
 </turn>
-<turn n="186" speaker="Hans">
-<frag n="209" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="188" speaker="Hans">
+<frag n="211" sp-act="state" polarity="positive" mode="constrain-decl">
 an integer but it 's instantiation is a char  <punc type="stop" />
 </frag>
 </turn>
-<turn n="187" speaker="A">
-<decl n="210" sp-act="state" polarity="negative" mode="decl">
+<turn n="189" speaker="A">
+<decl n="212" sp-act="state" polarity="negative" mode="decl">
 i did n't seem to understand you  <punc type="stop" />
 </decl>
 </turn>
-<turn n="188" speaker="Hans">
-<frag n="211" sp-act="state" polarity="positive" mode="exclaim-decl">
+<turn n="190" speaker="Hans">
+<frag n="213" sp-act="state" polarity="positive" mode="exclaim-decl">
 oops <punc type="stop" />  i read it wrong <punc type="stop" />
 </frag>
 </turn>
-<turn n="189" speaker="Hans">
-<decl n="212" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="191" speaker="Hans">
+<decl n="214" sp-act="state" polarity="positive" mode="constrain-decl">
 it 's actually declared as nextint  <punc type="stop" />
 </decl>
 </turn>
-<turn n="190" speaker="Hans">
-<dm n="213" sp-act="init">
+<turn n="192" speaker="Hans">
+<dm n="215" sp-act="init">
 so
 </dm>
-<decl n="214" sp-act="state" polarity="positive" mode="constrain-decl">
+<decl n="216" sp-act="state" polarity="positive" mode="constrain-decl">
 it 's actually just fine <punc type="stop" />
 </decl>
 </turn>
-<turn n="191" speaker="Hans">
-<frag n="215" sp-act="state" polarity="positive" mode="decl">
+<turn n="193" speaker="Hans">
+<frag n="217" sp-act="state" polarity="positive" mode="decl">
 line 20 <punc type="stop" />
 </frag>
 </turn>
-<turn n="192" speaker="A">
-<frag n="216" sp-act="enumeration" polarity="positive" topic="miss-enum" mode="decl">
+<turn n="194" speaker="A">
+<frag n="218" sp-act="enumeration" polarity="positive" topic="miss-enum" mode="decl">
 line 20 is missing another +  <punc type="stop" />
 </frag>
 </turn>
-<turn n="193" speaker="Hans">
-<yes n="217" sp-act="acknowledge">
+<turn n="195" speaker="Hans">
+<yes n="219" sp-act="acknowledge">
 yes <punc type="stop" />  
 </yes>
-<yes n="218" sp-act="acknowledge">
+<yes n="220" sp-act="acknowledge">
 yes <punc type="stop" />
 </yes>
 </turn>
-<turn n="194" speaker="Hans">
-<frag n="219" sp-act="state" polarity="positive" mode="decl">
+<turn n="196" speaker="Hans">
+<frag n="221" sp-act="state" polarity="positive" mode="decl">
 line 26 <punc type="stop" />
 </frag>
 </turn>
-<turn n="195" speaker="Hans">
-<decl n="220" sp-act="state" polarity="positive" mode="decl">
+<turn n="197" speaker="Hans">
+<decl n="222" sp-act="state" polarity="positive" mode="decl">
 the quotation being used <punc type="stop" />
 </decl>
 </turn>
-<turn n="196" speaker="A">
-<decl n="221" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="198" speaker="A">
+<decl n="223" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="197" speaker="A">
-<decl n="222" sp-act="reqConfirm" polarity="positive" mode="tag-decl-query">
+<turn n="199" speaker="A">
+<decl n="224" sp-act="reqConfirm" polarity="positive" mode="tag-decl-query">
 it 's still possible to use that <punc type="stop" />  right <punc type="query" />
 </decl>
 </turn>
-<turn n="198" speaker="Hans">
-<decl n="223" sp-act="confirm-state" polarity="positive" topic="fare" mode="decl">
+<turn n="200" speaker="Hans">
+<decl n="225" sp-act="confirm-state" polarity="positive" topic="fare" mode="decl">
 the single quotes should just be used for  <punc type="stop" />
 </decl>
 </turn>
-<turn n="199" speaker="Hans">
-<frag n="224" sp-act="state" polarity="positive" mode="alternative-constrain-decl">
+<turn n="201" speaker="Hans">
+<frag n="226" sp-act="state" polarity="positive" mode="alternative-constrain-decl">
 char and the double quotes should just be used for string or word only  <punc type="stop" />
 </frag>
 </turn>
-<turn n="200" speaker="A">
-<q-yn n="225" sp-act="reqInfo" polarity="positive" mode="closed-query">
+<turn n="202" speaker="A">
+<q-yn n="227" sp-act="reqInfo" polarity="positive" mode="closed-query">
 is that so <punc type="query" />
 </q-yn>
 </turn>
-<turn n="201" speaker="A">
-<dm n="226" sp-act="answer-state-acknowledge">
+<turn n="203" speaker="A">
+<dm n="228" sp-act="answer-state-acknowledge">
 okay <punc type="stop" />
 </dm>
 </turn>
-<turn n="202" speaker="A">
-<imp n="227" sp-act="suggest" polarity="positive" mode="decl">
+<turn n="204" speaker="A">
+<imp n="229" sp-act="suggest" polarity="positive" mode="decl">
 let 's encircle that <punc type="stop" />
 </imp>
 </turn>
-<turn n="203" speaker="Hans">
-<q-yn n="228" sp-act="reqInfo" polarity="positive" topic="fare-location" mode="exists-closed-query">
+<turn n="205" speaker="Hans">
+<q-yn n="230" sp-act="reqInfo" polarity="positive" topic="fare-location" mode="exists-closed-query">
 is there such a thing called return 2 <punc type="query" />
 </q-yn>
 </turn>
-<turn n="204" speaker="A">
-<yes n="229" sp-act="answer-state-acknowledge">
+<turn n="206" speaker="A">
+<yes n="231" sp-act="answer-state-acknowledge">
 yes <punc type="stop" />
 </yes>
 </turn>
-<turn n="205" speaker="A">
-<decl n="230" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
-i think  <punc type="stop" />
-</decl>
-</turn>
-<turn n="206" speaker="A">
-<decl n="231" sp-act="expressPossibility" polarity="positive" mode="poss2-decl">
-you can put whatever  <punc type="stop" />
-</decl>
-</turn>
 <turn n="207" speaker="A">
-<decl n="232" sp-act="state" polarity="positive" topic="location" mode="decl">
-you want in there <punc type="stop" />
+<decl n="232" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think  <punc type="stop" />
 </decl>
 </turn>
 <turn n="208" speaker="A">
-<frag n="233" sp-act="" polarity="positive" mode="condition-decl-disflu">
+<decl n="233" sp-act="expressPossibility" polarity="positive" mode="poss2-decl">
+you can put whatever  <punc type="stop" />
+</decl>
+</turn>
+<turn n="209" speaker="A">
+<decl n="234" sp-act="state" polarity="positive" topic="location" mode="decl">
+you want in there <punc type="stop" />
+</decl>
+</turn>
+<turn n="210" speaker="A">
+<frag n="235" sp-act="" polarity="positive" mode="condition-decl-disflu">
 if  <punc type="stop" />
 </frag>
 </turn>
-<turn n="209" speaker="A">
-<decl n="234" sp-act="expressOpinion" polarity="positive" topic="fare" mode="opinion-constrain-decl">
-you need to do a `` return '' i think <punc type="stop" />
+<turn n="211" speaker="A">
+<decl n="236" sp-act="expressOpinion" polarity="positive" topic="fare" mode="opinion-constrain-decl">
+you need to do a " return " i think <punc type="stop" />
 </decl>
 </turn>
-<turn n="210" speaker="Hans">
-<frag n="235" sp-act="state" polarity="positive" mode="decl">
+<turn n="212" speaker="Hans">
+<frag n="237" sp-act="state" polarity="positive" mode="decl">
 x  <punc type="stop" />
 </frag>
 </turn>
-<turn n="211" speaker="A">
-<frag n="236" sp-act="enumeration" polarity="positive" topic="enum-fare" mode="alternative-constrain-report-decl">
-but usually i noticed only 1 or 0 or the variable that 's being `` return ''  <punc type="stop" />
+<turn n="213" speaker="A">
+<frag n="238" sp-act="enumeration" polarity="positive" topic="enum-fare" mode="alternative-constrain-report-decl">
+but usually i noticed only 1 or 0 or the variable that 's being " return "  <punc type="stop" />
 </frag>
 </turn>
-<turn n="212" speaker="A">
-<frag n="237" sp-act="state" polarity="positive" topic="number" mode="constrain-decl">
+<turn n="214" speaker="A">
+<frag n="239" sp-act="state" polarity="positive" topic="number" mode="constrain-decl">
 better <punc type="stop" />  we just encircle only the number 2 <punc type="stop" />
 </frag>
 </turn>
-<turn n="213" speaker="Hans">
-<dm n="238" sp-act="acknowledge">
+<turn n="215" speaker="Hans">
+<dm n="240" sp-act="acknowledge">
 okay
 </dm>
-<dm n="239" sp-act="acknowledge">
+<dm n="241" sp-act="acknowledge">
 okay <punc type="stop" />
 </dm>
 </turn>
-<turn n="214" speaker="A">
-<decl n="240" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="216" speaker="A">
+<decl n="242" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="215" speaker="A">
-<decl n="241" sp-act="state" polarity="positive" mode="decl">
+<turn n="217" speaker="A">
+<decl n="243" sp-act="state" polarity="positive" mode="decl">
 you 're right hans <punc type="stop" />
 </decl>
 </turn>
-<turn n="216" speaker="Hans">
-<frag n="242" sp-act="state" polarity="positive" mode="decl">
+<turn n="218" speaker="Hans">
+<frag n="244" sp-act="state" polarity="positive" mode="decl">
 coz  <punc type="stop" />
 </frag>
 </turn>
-<turn n="217" speaker="Hans">
-<decl n="243" sp-act="state" polarity="positive" topic="number" mode="decl">
+<turn n="219" speaker="Hans">
+<decl n="245" sp-act="state" polarity="positive" topic="number" mode="decl">
 i 'm also suspecting this one <punc type="stop" />
 </decl>
 </turn>
-<turn n="218" speaker="Hans">
-<frag n="244" sp-act="state" polarity="negative" mode="exclaim-constrain-decl">
+<turn n="220" speaker="Hans">
+<frag n="246" sp-act="state" polarity="negative" mode="exclaim-constrain-decl">
 pattern again <punc type="exclam" />  my gosh <punc type="stop" />  i 'm actually not an expert on this <punc type="stop" />  i ca n't seem to imagine the loop instruction <punc type="stop" />
 </frag>
 </turn>
-<turn n="219" speaker="A">
-<imp n="245" sp-act="direct" polarity="positive" topic="enum" mode="decl">
+<turn n="221" speaker="A">
+<imp n="247" sp-act="direct" polarity="positive" topic="enum" mode="decl">
 look what 's inside between line 15 up to 20 <punc type="stop" />
 </imp>
 </turn>
-<turn n="220" speaker="Hans">
-<frag n="246" sp-act="reqInfo" polarity="positive" mode="query">
+<turn n="222" speaker="Hans">
+<frag n="248" sp-act="reqInfo" polarity="positive" mode="query">
 diamond <punc type="query" />
 </frag>
 </turn>
-<turn n="221" speaker="A">
-<decl n="247" sp-act="answer-state" polarity="negative" topic="fare-number" mode="exclaim-decl">
-the two for loops do n't contain open close -lcb- -rcb-  <punc type="stop" />
+<turn n="223" speaker="A">
+<decl n="249" sp-act="answer-state" polarity="negative" topic="fare-number" mode="exclaim-decl">
+the two for loops do n't contain open close { }  <punc type="stop" />
 </decl>
 </turn>
-<turn n="222" speaker="A">
-<yes n="248" sp-act="acknowledge">
+<turn n="224" speaker="A">
+<yes n="250" sp-act="acknowledge">
 yes <punc type="exclam" />
 </yes>
 </turn>
-<turn n="223" speaker="A">
-<q-yn n="249" sp-act="reqInfo" polarity="positive" mode="closed-query">
+<turn n="225" speaker="A">
+<q-yn n="251" sp-act="reqInfo" polarity="positive" mode="closed-query">
 is it okay <punc type="query" />
 </q-yn>
 </turn>
-<turn n="224" speaker="A">
-<decl n="250" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="226" speaker="A">
+<decl n="252" sp-act="answer-state" polarity="positive" mode="decl">
 it 's just like putting the second for loop inside the first  <punc type="stop" />
 </decl>
 </turn>
-<turn n="225" speaker="Hans">
-<decl n="251" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="227" speaker="Hans">
+<decl n="253" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="226" speaker="Hans">
-<decl n="252" sp-act="state" polarity="positive" mode="decl">
+<turn n="228" speaker="Hans">
+<decl n="254" sp-act="state" polarity="positive" mode="decl">
 it seems fine  <punc type="stop" />
 </decl>
 </turn>
-<turn n="227" speaker="Hans">
-<frag n="253" sp-act="state" polarity="positive" mode="decl">
-the anomaly  <punc type="stop" />
-</frag>
-</turn>
-<turn n="228" speaker="Hans">
-<frag n="254" sp-act="refer" polarity="positive" mode="reason-partial-decl">
-in that <punc type="stop" />  it 's because  <punc type="stop" />
-</frag>
-</turn>
 <turn n="229" speaker="Hans">
-<decl n="255" sp-act="state" polarity="positive" topic="location" mode="decl">
-there 's a ''; '' on the second for loop  <punc type="stop" />
+<frag n="255" sp-act="state" polarity="positive" mode="reason-decl">
+the anomaly in that <punc type="stop" />  it 's because  <punc type="stop" />
+</frag>
+</turn>
+<turn n="230" speaker="Hans">
+<decl n="256" sp-act="state" polarity="positive" topic="location" mode="decl">
+there 's a "; " on the second for loop  <punc type="stop" />
 </decl>
 </turn>
-<turn n="230" speaker="A">
-<imp n="256" sp-act="direct" polarity="positive" mode="constrain-decl">
+<turn n="231" speaker="A">
+<imp n="257" sp-act="direct" polarity="positive" mode="constrain-decl">
 but look at the third for loop  <punc type="stop" />
 </imp>
 </turn>
-<turn n="231" speaker="A">
-<decl n="257" sp-act="state" polarity="positive" mode="decl">
-it 's changed to ''; ''  <punc type="stop" />
-</decl>
-</turn>
 <turn n="232" speaker="A">
-<decl n="258" sp-act="state" polarity="negative" topic="number" mode="decl">
-the second one has none <punc type="stop" />  so  <punc type="stop" />
+<decl n="258" sp-act="state" polarity="positive" mode="decl">
+it 's changed to "; "  <punc type="stop" />
 </decl>
 </turn>
 <turn n="233" speaker="A">
-<decl n="259" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
-i think  <punc type="stop" />
+<decl n="259" sp-act="state" polarity="negative" topic="number" mode="decl">
+the second one has none <punc type="stop" />  so  <punc type="stop" />
 </decl>
 </turn>
 <turn n="234" speaker="A">
-<frag n="260" sp-act="state" polarity="positive" topic="number" mode="decl">
+<decl n="260" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think  <punc type="stop" />
+</decl>
+</turn>
+<turn n="235" speaker="A">
+<frag n="261" sp-act="state" polarity="positive" topic="number" mode="decl">
 one of them is wrong <punc type="stop" />
 </frag>
 </turn>
-<turn n="235" speaker="A">
-<imp n="261" sp-act="direct" polarity="positive">
+<turn n="236" speaker="A">
+<imp n="262" sp-act="direct" polarity="positive">
 look <punc type="exclam" />
 </imp>
 </turn>
-<turn n="236" speaker="Hans">
-<imp n="262" sp-act="direct" polarity="positive" topic="number">
+<turn n="237" speaker="Hans">
+<imp n="263" sp-act="direct" polarity="positive" topic="number">
 look at that one <punc type="exclam" />
 </imp>
 </turn>
-<turn n="237" speaker="Hans">
-<decl n="263" sp-act="state" polarity="positive" mode="decl">
+<turn n="238" speaker="Hans">
+<decl n="264" sp-act="state" polarity="positive" mode="decl">
 the line undergoes a line break <punc type="stop" />
 </decl>
 </turn>
-<turn n="238" speaker="Hans">
-<dm n="264" sp-act="init">
+<turn n="239" speaker="Hans">
+<dm n="265" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<decl n="265" sp-act="state" polarity="positive" topic="number" mode="decl">
+<decl n="266" sp-act="state" polarity="positive" topic="number" mode="decl">
 that 's number 1 <punc type="stop" />
 </decl>
 </turn>
-<turn n="239" speaker="A">
-<dm n="266" sp-act="init">
+<turn n="240" speaker="A">
+<dm n="267" sp-act="init">
 so
 </dm>
-<decl n="267" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
+<decl n="268" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
 where exactly between the two <punc type="query" />
 </decl>
 </turn>
-<turn n="240" speaker="A">
-<frag n="268" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
-the ones where  <punc type="stop" />
-</frag>
-</turn>
 <turn n="241" speaker="A">
-<decl n="269" sp-act="reqInfo" polarity="positive" mode="exists-query">
-there is ''; ''  <punc type="query" />  <punc type="query" />
-</decl>
-</turn>
-<turn n="242" speaker="Hans">
-<frag n="270" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
+<frag n="269" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
 the ones where  <punc type="stop" />
 </frag>
+</turn>
+<turn n="242" speaker="A">
+<decl n="270" sp-act="reqInfo" polarity="positive" mode="exists-query">
+there is "; "  <punc type="query" />  <punc type="query" />
+</decl>
 </turn>
 <turn n="243" speaker="Hans">
-<decl n="271" sp-act="answer-state" polarity="positive" mode="exists-decl">
-there is ''; '' at the 3rd for loop  <punc type="stop" />
-</decl>
-</turn>
-<turn n="244" speaker="A">
-<frag n="272" sp-act="enumeration" polarity="negative" topic="enum" mode="decl">
-the for loop in 27 -lrb- line 27 -rrb- has no -lcb- -rcb-  <punc type="stop" />
+<frag n="271" sp-act="reqInfo" polarity="positive" topic="number" mode="query-decl">
+the ones where  <punc type="stop" />
 </frag>
 </turn>
+<turn n="244" speaker="Hans">
+<decl n="272" sp-act="answer-state" polarity="positive" mode="exists-decl">
+there is "; " at the 3rd for loop  <punc type="stop" />
+</decl>
+</turn>
 <turn n="245" speaker="A">
-<dm n="273" sp-act="exclaim">
+<frag n="273" sp-act="enumeration" polarity="negative" topic="enum" mode="decl">
+the for loop in 27  line 27  has no { }  <punc type="stop" />
+</frag>
+</turn>
+<turn n="246" speaker="A">
+<dm n="274" sp-act="exclaim">
 ah <punc type="stop" />  
 </dm>
-<dm n="274" sp-act="init">
+<dm n="275" sp-act="init">
 so
 </dm>
-<decl n="275" sp-act="state" polarity="positive" mode="decl">
+<decl n="276" sp-act="state" polarity="positive" mode="decl">
 it 's still pretty much the same <punc type="stop" />
 </decl>
 </turn>
-<turn n="246" speaker="A">
-<dm n="276" sp-act="init">
+<turn n="247" speaker="A">
+<dm n="277" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<frag n="277" sp-act="reqConfirm" polarity="positive" topic="enum" mode="tag-constrain-decl-query">
-the for loop in 18 -lrb- line 18 -rrb- is actually wrong <punc type="stop" />  right <punc type="query" />
+<frag n="278" sp-act="reqConfirm" polarity="positive" topic="enum" mode="tag-constrain-decl-query">
+the for loop in 18  line 18  is actually wrong <punc type="stop" />  right <punc type="query" />
 </frag>
 </turn>
-<turn n="247" speaker="Hans">
-<yes n="278" sp-act="confirm-acknowledge">
+<turn n="248" speaker="Hans">
+<yes n="279" sp-act="confirm-acknowledge">
 yes <punc type="stop" />  
 </yes>
-<yes n="279" sp-act="elab-acknowledge">
+<yes n="280" sp-act="elab-acknowledge">
 yes <punc type="stop" />
 </yes>
 </turn>
-<turn n="248" speaker="Hans">
-<dm n="280" sp-act="init">
+<turn n="249" speaker="Hans">
+<dm n="281" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<q-wh n="281" sp-act="reqInfo" polarity="positive" mode="open-query">
+<q-wh n="282" sp-act="reqInfo" polarity="positive" mode="open-query">
 where did the odd variable being used <punc type="query" />
 </q-wh>
 </turn>
-<turn n="249" speaker="A">
-<imp n="282" sp-act="answer-state-direct" polarity="positive" mode="decl">
-look at the `` odd ''  <punc type="stop" />
+<turn n="250" speaker="A">
+<imp n="283" sp-act="answer-state-direct" polarity="positive" mode="decl">
+look at the " odd "  <punc type="stop" />
 </imp>
 </turn>
-<turn n="250" speaker="A">
-<decl n="283" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="251" speaker="A">
+<decl n="284" sp-act="state" polarity="positive" mode="constrain-decl">
 it 's a char but  <punc type="stop" />
 </decl>
 </turn>
-<turn n="251" speaker="A">
-<decl n="284" sp-act="reqConfirm" polarity="positive" mode="decl">
+<turn n="252" speaker="A">
+<decl n="285" sp-act="reqConfirm" polarity="positive" mode="decl">
 it 's value is an int  <punc type="stop" />
 </decl>
 </turn>
-<turn n="252" speaker="Hans">
-<dm n="285" sp-act="confirm-agree">
+<turn n="253" speaker="Hans">
+<dm n="286" sp-act="confirm-agree">
 exactly <punc type="exclam" />  
 </dm>
-<frag n="286" sp-act="elab-state" polarity="positive" mode="decl">
+<frag n="287" sp-act="elab-state" polarity="positive" mode="decl">
 haha  <punc type="stop" />
 </frag>
 </turn>
-<turn n="253" speaker="Hans">
-<dm n="287" sp-act="init">
+<turn n="254" speaker="Hans">
+<dm n="288" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<decl n="288" sp-act="reqInfo" polarity="positive" topic="location" mode="query">
+<decl n="289" sp-act="reqInfo" polarity="positive" topic="location" mode="query">
 what to encircle here <punc type="query" />
 </decl>
 </turn>
-<turn n="254" speaker="A">
-<frag n="289" sp-act="answer-state" polarity="positive" topic="number">
+<turn n="255" speaker="A">
+<frag n="290" sp-act="answer-state" polarity="positive" topic="number">
 encircle that one <punc type="exclam" />
 </frag>
 </turn>
-<turn n="255" speaker="Hans">
-<frag n="290" sp-act="reqInfo" polarity="positive" mode="query">
+<turn n="256" speaker="Hans">
+<frag n="291" sp-act="reqInfo" polarity="positive" mode="query">
 12 <punc type="query" />
 </frag>
 </turn>
-<turn n="256" speaker="A">
-<decl n="291" sp-act="answer-state" polarity="positive" mode="opinion-decl">
+<turn n="257" speaker="A">
+<decl n="292" sp-act="answer-state" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="257" speaker="A">
-<decl n="292" sp-act="state" polarity="positive" mode="decl">
+<turn n="258" speaker="A">
+<decl n="293" sp-act="state" polarity="positive" mode="decl">
 it 's 12 <punc type="stop" />
 </decl>
 </turn>
-<turn n="258" speaker="Hans">
-<dm n="293" sp-act="init">
+<turn n="259" speaker="Hans">
+<dm n="294" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<decl n="294" sp-act="state" polarity="positive" mode="decl">
+<decl n="295" sp-act="state" polarity="positive" mode="decl">
 it should be 12 <punc type="stop" />
 </decl>
 </turn>
-<turn n="259" speaker="A">
-<dm n="295" sp-act="init">
+<turn n="260" speaker="A">
+<dm n="296" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<frag n="296" sp-act="state" polarity="positive" topic="number" mode="decl">
+<frag n="297" sp-act="state" polarity="positive" topic="number" mode="decl">
 one more error left <punc type="stop" />
 </frag>
 </turn>
-<turn n="260" speaker="A">
-<imp n="297" sp-act="direct" polarity="positive" mode="decl">
+<turn n="261" speaker="A">
+<imp n="298" sp-act="direct" polarity="positive" mode="decl">
 look at the length of int j  <punc type="stop" />
 </imp>
 </turn>
-<turn n="261" speaker="A">
-<decl n="298" sp-act="reqInfo" polarity="positive" topic="enum" mode="decl-query">
+<turn n="262" speaker="A">
+<decl n="299" sp-act="reqInfo" polarity="positive" topic="enum" mode="decl-query">
 16 <punc type="stop" />  are you sure <punc type="query" />
 </decl>
 </turn>
-<turn n="262" speaker="Hans">
-<decl n="299" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="263" speaker="Hans">
+<decl n="300" sp-act="answer-state" polarity="positive" mode="decl">
 it 's pretty much wrong <punc type="exclam" />  haha  <punc type="stop" />
 </decl>
 </turn>
-<turn n="263" speaker="A">
-<dm n="300" sp-act="init">
+<turn n="264" speaker="A">
+<dm n="301" sp-act="init">
 so
 </dm>
-<decl n="301" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
+<decl n="302" sp-act="reqInfo" polarity="positive" topic="number" mode="query">
 that 's the third one <punc type="query" />
 </decl>
 </turn>
-<turn n="264" speaker="Hans">
-<imp n="302" sp-act="answer-state-direct" polarity="positive" mode="decl">
+<turn n="265" speaker="Hans">
+<imp n="303" sp-act="answer-state-direct" polarity="positive" mode="decl">
 wait <punc type="stop" />
 </imp>
 </turn>
-<turn n="265" speaker="Hans">
-<dm n="303" sp-act="init">
+<turn n="266" speaker="Hans">
+<dm n="304" sp-act="init">
 so <punc type="stop" />  
 </dm>
-<frag n="304" sp-act="state" polarity="positive" mode="decl">
+<frag n="305" sp-act="state" polarity="positive" mode="decl">
 length is a variable <punc type="stop" />
 </frag>
 </turn>
-<turn n="266" speaker="Hans">
-<decl n="305" sp-act="state" polarity="positive" mode="constrain-decl">
+<turn n="267" speaker="Hans">
+<decl n="306" sp-act="state" polarity="positive" mode="constrain-decl">
 but it 's declared as char  <punc type="stop" />
 </decl>
 </turn>
-<turn n="267" speaker="Hans">
-<decl n="306" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
-i think  <punc type="stop" />
-</decl>
-</turn>
 <turn n="268" speaker="Hans">
-<decl n="307" sp-act="state" polarity="positive" mode="suggest-constrain-decl">
-we should encircle the declaration instead  <punc type="stop" />
+<decl n="307" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think  <punc type="stop" />
 </decl>
 </turn>
 <turn n="269" speaker="Hans">
-<frag n="308" sp-act="state" polarity="positive" mode="decl">
+<decl n="308" sp-act="state" polarity="positive" mode="suggest-constrain-decl">
+we should encircle the declaration instead  <punc type="stop" />
+</decl>
+</turn>
+<turn n="270" speaker="Hans">
+<frag n="309" sp-act="state" polarity="positive" mode="decl">
 beng <punc type="stop" />  i 'll encircle the declaration  <punc type="stop" />
 </frag>
 </turn>
-<turn n="270" speaker="A">
-<decl n="309" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
-i think  <punc type="stop" />
-</decl>
-</turn>
 <turn n="271" speaker="A">
-<decl n="310" sp-act="state" polarity="positive" mode="decl">
-it 's the odd/2  <punc type="stop" />
+<decl n="310" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think  <punc type="stop" />
 </decl>
 </turn>
 <turn n="272" speaker="A">
-<frag n="311" sp-act="state" polarity="positive" mode="decl">
+<decl n="311" sp-act="state" polarity="positive" mode="decl">
+it 's the odd/2  <punc type="stop" />
+</decl>
+</turn>
+<turn n="273" speaker="A">
+<frag n="312" sp-act="state" polarity="positive" mode="decl">
 coz  <punc type="stop" />
 </frag>
 </turn>
-<turn n="273" speaker="A">
-<decl n="312" sp-act="state" polarity="positive" mode="decl">
+<turn n="274" speaker="A">
+<decl n="313" sp-act="state" polarity="positive" mode="decl">
 it 's declared as a char  <punc type="stop" />
 </decl>
 </turn>
-<turn n="274" speaker="Hans">
-<decl n="313" sp-act="reqInfo" polarity="positive" mode="decl-query">
+<turn n="275" speaker="Hans">
+<decl n="314" sp-act="reqInfo" polarity="positive" mode="decl-query">
 it 's division <punc type="stop" />  why char <punc type="query" />
 </decl>
 </turn>
-<turn n="275" speaker="A">
-<frag n="314" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="276" speaker="A">
+<frag n="315" sp-act="answer-state" polarity="positive" mode="decl">
 haha  <punc type="stop" />
 </frag>
 </turn>
-<turn n="276" speaker="A">
-<decl n="315" sp-act="state" polarity="negative" mode="decl">
+<turn n="277" speaker="A">
+<decl n="316" sp-act="state" polarity="negative" mode="decl">
 i do n't know <punc type="stop" />
 </decl>
 </turn>
-<turn n="277" speaker="Hans">
-<frag n="316" sp-act="state" polarity="positive" mode="decl">
+<turn n="278" speaker="Hans">
+<frag n="317" sp-act="state" polarity="positive" mode="decl">
 hahaha  <punc type="stop" />
 </frag>
 </turn>
-<turn n="278" speaker="Hans">
-<decl n="317" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
-i think that 's allâ $ '' char odd and char length <punc type="stop" />
+<turn n="279" speaker="Hans">
+<decl n="318" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+i think that 's allâ  <punc type="stop" />
 </decl>
 </turn>
-<turn n="279" speaker="Hans">
-<decl n="318" sp-act="state" polarity="positive" topic="name" mode="decl">
+<turn n="280" speaker="Hans">
+<frag n="319" sp-act="state" polarity="positive" mode="decl">
+€ ” char odd and char length <punc type="stop" />
+</frag>
+</turn>
+<turn n="281" speaker="Hans">
+<decl n="320" sp-act="state" polarity="positive" topic="name" mode="decl">
 the names alone of these variable <punc type="stop" />  it already meant int  <punc type="stop" />
 </decl>
 </turn>
-<turn n="280" speaker="A">
-<frag n="319" sp-act="state" polarity="positive" mode="decl">
+<turn n="282" speaker="A">
+<frag n="321" sp-act="state" polarity="positive" mode="decl">
 haha  <punc type="stop" />
 </frag>
 </turn>
-<turn n="281" speaker="A">
-<frag n="320" sp-act="state" polarity="positive" mode="decl">
+<turn n="283" speaker="A">
+<frag n="322" sp-act="state" polarity="positive" mode="decl">
 hans <punc type="stop" />  it 's getting cold <punc type="stop" />
 </frag>
 </turn>
-<turn n="282" speaker="A">
-<decl n="321" sp-act="state" polarity="positive" mode="decl">
+<turn n="284" speaker="A">
+<decl n="323" sp-act="state" polarity="positive" mode="decl">
 i 'm shaking now <punc type="stop" />
 </decl>
 </turn>
-<turn n="283" speaker="Hans">
-<decl n="322" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="285" speaker="Hans">
+<decl n="324" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="284" speaker="Hans">
-<frag n="323" sp-act="state" polarity="positive" topic="number" mode="decl">
+<turn n="286" speaker="Hans">
+<frag n="325" sp-act="state" polarity="positive" topic="number" mode="decl">
 our three errors should already be those ones <punc type="stop" />
 </frag>
 </turn>
-<turn n="285" speaker="A">
-<imp n="324" sp-act="direct" polarity="positive" topic="time-enum" mode="decl">
+<turn n="287" speaker="A">
+<imp n="326" sp-act="direct" polarity="positive" topic="time-enum" mode="decl">
 look at line 30 <punc type="stop" />  it 's using tilde <punc type="stop" />
 </imp>
 </turn>
-<turn n="286" speaker="A">
-<decl n="325" sp-act="reqConfirm" polarity="positive" mode="tag-constrain-decl-query">
+<turn n="288" speaker="A">
+<decl n="327" sp-act="reqConfirm" polarity="positive" mode="tag-constrain-decl-query">
 it 's actually wrong <punc type="stop" />  right <punc type="query" />
 </decl>
 </turn>
-<turn n="287" speaker="Hans">
-<q-wh n="326" sp-act="reqInfo" polarity="positive" mode="open-query">
+<turn n="289" speaker="Hans">
+<q-wh n="328" sp-act="reqInfo" polarity="positive" mode="open-query">
 where are you now <punc type="query" />
 </q-wh>
 </turn>
-<turn n="288" speaker="A">
-<frag n="327" sp-act="answer-refer" polarity="positive" topic="location" mode="partial-decl">
+<turn n="290" speaker="A">
+<frag n="329" sp-act="answer-refer" polarity="positive" topic="location" mode="partial-decl">
 here in 9 <punc type="stop" />
 </frag>
 </turn>
-<turn n="289" speaker="A">
-<frag n="328" sp-act="state" polarity="positive" mode="decl">
+<turn n="291" speaker="A">
+<frag n="330" sp-act="state" polarity="positive" mode="decl">
 p09  <punc type="stop" />
 </frag>
 </turn>
-<turn n="290" speaker="Hans">
-<decl n="329" sp-act="" polarity="positive">
+<turn n="292" speaker="Hans">
+<decl n="331" sp-act="" polarity="positive">
 it 's wrong <punc type="exclam" />
 </decl>
 </turn>
-<turn n="291" speaker="A">
-<frag n="330" sp-act="refer" polarity="positive" mode="partial-decl">
+<turn n="293" speaker="A">
+<frag n="332" sp-act="refer" polarity="positive" mode="partial-decl">
 on line 30 <punc type="stop" />
 </frag>
 </turn>
-<turn n="292" speaker="A">
-<decl n="331" sp-act="reqConfirm" polarity="positive" mode="tag-decl-query">
+<turn n="294" speaker="A">
+<decl n="333" sp-act="reqConfirm" polarity="positive" mode="tag-decl-query">
 it 's wrong <punc type="stop" />  right <punc type="query" />
 </decl>
 </turn>
-<turn n="293" speaker="A">
-<frag n="332" sp-act="confirm-state" polarity="negative" mode="decl">
+<turn n="295" speaker="A">
+<frag n="334" sp-act="confirm-state" polarity="negative" mode="decl">
 my brain is no longer functioning <punc type="stop" />
 </frag>
 </turn>
-<turn n="294" speaker="A">
-<frag n="333" sp-act="state" polarity="positive" mode="decl">
-hahaha  <punc type="stop" />
-</frag>
-</turn>
-<turn n="295" speaker="A">
-<q-yn n="334" sp-act="reqOpt" polarity="positive" mode="closed-query">
-can we just encircle all of these <punc type="query" />
-</q-yn>
-</turn>
 <turn n="296" speaker="A">
-<dm n="335" sp-act="init">
-so
-</dm>
-<frag n="336" sp-act="stateOpt-refer" polarity="positive" mode="decl">
-that  <punc type="stop" />
+<frag n="335" sp-act="state" polarity="positive" mode="decl">
+hahaha  <punc type="stop" />
 </frag>
 </turn>
 <turn n="297" speaker="A">
-<decl n="337" sp-act="expressPossibility" polarity="positive" mode="poss1">
-we can be sure <punc type="exclam" />
-</decl>
+<q-yn n="336" sp-act="reqOpt" polarity="positive" mode="closed-query">
+can we just encircle all of these <punc type="query" />
+</q-yn>
 </turn>
-<turn n="298" speaker="Hans">
-<frag n="338" sp-act="state" polarity="positive" mode="decl">
-hahaha  <punc type="stop" />
+<turn n="298" speaker="A">
+<dm n="337" sp-act="init">
+so
+</dm>
+<frag n="338" sp-act="stateOpt-refer" polarity="positive" mode="decl">
+that  <punc type="stop" />
 </frag>
 </turn>
 <turn n="299" speaker="A">
-<frag n="339" sp-act="state" polarity="positive" mode="decl">
+<decl n="339" sp-act="expressPossibility" polarity="positive" mode="poss1">
+we can be sure <punc type="exclam" />
+</decl>
+</turn>
+<turn n="300" speaker="Hans">
+<frag n="340" sp-act="state" polarity="positive" mode="decl">
+hahaha  <punc type="stop" />
+</frag>
+</turn>
+<turn n="301" speaker="A">
+<frag n="341" sp-act="state" polarity="positive" mode="decl">
 just like sir ogs <punc type="stop" />
 </frag>
 </turn>
-<turn n="300" speaker="A">
-<frag n="340" sp-act="enumeration" polarity="positive" topic="enum" mode="decl">
+<turn n="302" speaker="A">
+<frag n="342" sp-act="enumeration" polarity="positive" topic="enum" mode="decl">
 1 shot for all <punc type="stop" />
 </frag>
 </turn>
-<turn n="301" speaker="Hans">
-<frag n="341" sp-act="state" polarity="positive" topic="time" mode="decl">
-lol <punc type="stop" />  look at `` a '' in line 16  <punc type="stop" />
+<turn n="303" speaker="Hans">
+<frag n="343" sp-act="state" polarity="positive" topic="time" mode="decl">
+lol <punc type="stop" />  look at " a " in line 16  <punc type="stop" />
 </frag>
 </turn>
-<turn n="302" speaker="A">
-<q-wh n="342" sp-act="reqConfirm" polarity="positive" mode="exclaim-partial-query">
+<turn n="304" speaker="A">
+<q-wh n="344" sp-act="reqConfirm" polarity="positive" mode="exclaim-partial-query">
 why <punc type="query" />
 </q-wh>
 </turn>
-<turn n="303" speaker="Hans">
-<q-yn n="343" sp-act="reqInfo" polarity="positive" mode="closed-query">
+<turn n="305" speaker="Hans">
+<q-yn n="345" sp-act="reqInfo" polarity="positive" mode="closed-query">
 is it instantiated properly <punc type="query" />
 </q-yn>
 </turn>
-<turn n="304" speaker="Hans">
-<frag n="344" sp-act="reqInfo" polarity="positive" mode="constrain-decl-query">
-that it 's only instantiated with <punc type="stop" />  next -lrb- -rrb- <punc type="query" />
+<turn n="306" speaker="Hans">
+<frag n="346" sp-act="answer-refer" polarity="positive" mode="decl">
+that  <punc type="stop" />
 </frag>
 </turn>
-<turn n="305" speaker="A">
-<frag n="345" sp-act="answer-state" polarity="positive" mode="decl">
+<turn n="307" speaker="Hans">
+<decl n="347" sp-act="reqInfo" polarity="positive" mode="constrain-decl-query">
+it 's only instantiated with <punc type="stop" />  next   <punc type="query" />
+</decl>
+</turn>
+<turn n="308" speaker="A">
+<frag n="348" sp-act="answer-state" polarity="positive" mode="decl">
 i already forgot that part <punc type="stop" />
 </frag>
 </turn>
-<turn n="306" speaker="A">
-<q-yn n="346" sp-act="reqModal" polarity="positive" mode="tag-constrain-closed-decl-query">
+<turn n="309" speaker="A">
+<q-yn n="349" sp-act="reqModal" polarity="positive" mode="tag-constrain-closed-decl-query">
 should it be nextline instead <punc type="stop" />  right <punc type="query" />
 </q-yn>
 </turn>
-<turn n="307" speaker="A">
-<decl n="347" sp-act="answer-state" polarity="positive">
+<turn n="310" speaker="A">
+<decl n="350" sp-act="answer-state" polarity="positive">
 it should <punc type="exclam" />
 </decl>
 </turn>
-<turn n="308" speaker="Hans">
-<decl n="348" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
+<turn n="311" speaker="Hans">
+<decl n="351" sp-act="expressOpinion" polarity="positive" mode="opinion-decl">
 i think  <punc type="stop" />
 </decl>
 </turn>
-<turn n="309" speaker="Hans">
-<decl n="349" sp-act="state" polarity="positive" mode="poss3-condition-decl">
+<turn n="312" speaker="Hans">
+<decl n="352" sp-act="state" polarity="positive" mode="poss3-condition-decl">
 it could mean differently if  <punc type="stop" />
 </decl>
 </turn>
-<turn n="310" speaker="Hans">
-<decl n="350" sp-act="state" polarity="positive" mode="constrain-decl">
-it 's only <punc type="stop" />  next -lrb- -rrb-  <punc type="stop" />
+<turn n="313" speaker="Hans">
+<decl n="353" sp-act="state" polarity="positive" mode="constrain-decl">
+it 's only <punc type="stop" />  next    <punc type="stop" />
 </decl>
 </turn>
-<turn n="311" speaker="Hans">
-<frag n="351" sp-act="state" polarity="positive" mode="decl">
+<turn n="314" speaker="Hans">
+<frag n="354" sp-act="state" polarity="positive" mode="decl">
 i already encircled it <punc type="stop" />
 </frag>
 </turn>
-<turn n="312" speaker="A">
-<frag n="352" sp-act="reqConfirm" polarity="positive" mode="tag-decl">
+<turn n="315" speaker="A">
+<frag n="355" sp-act="reqConfirm" polarity="positive" mode="tag-decl">
 and so will i <punc type="stop" />
 </frag>
 </turn>

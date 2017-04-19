@@ -147,7 +147,7 @@ there is for loop  <punc type="stop" />
 </turn>
 <turn n="30" speaker="B">
 <decl n="30" sp-act="state" polarity="positive" topic="location" mode="decl">
-there 's a ''; '' at the end  <punc type="stop" />
+there 's a "; " at the end  <punc type="stop" />
 </decl>
 </turn>
 <turn n="31" speaker="B">
@@ -180,7 +180,7 @@ at the arrow **  <punc type="stop" />
 </turn>
 <turn n="36" speaker="Tags">
 <decl n="37" sp-act="state" polarity="positive" topic="location-enum" mode="exists-constrain-decl">
-there are 2 `` print '' only command  <punc type="stop" />
+there are 2 " print " only command  <punc type="stop" />
 </decl>
 </turn>
 <turn n="37" speaker="Tags">
@@ -356,7 +356,7 @@ the 2 for loops are  <punc type="stop" />
 </turn>
 <turn n="70" speaker="B">
 <decl n="73" sp-act="state" polarity="positive" topic="number" mode="decl">
-and then the other one is on s -lrb- i -rrb- at the lower portion  <punc type="stop" />
+and then the other one is on s  i  at the lower portion  <punc type="stop" />
 </decl>
 </turn>
 <turn n="71" speaker="Tags">
@@ -373,12 +373,12 @@ there <punc type="exclam" />
 </frag>
 </turn>
 <turn n="73" speaker="B">
-<frag n="77" sp-act="state" polarity="positive" mode="decl">
-s -lrb- i -rrb-  <punc type="stop" />
-</frag>
+<q-yn n="77" sp-act="reqInfo" polarity="positive" mode="closed-decl">
+s  i   <punc type="stop" />
+</q-yn>
 </turn>
 <turn n="74" speaker="Tags">
-<decl n="78" sp-act="state" polarity="positive" topic="location" mode="decl">
+<decl n="78" sp-act="answer-state" polarity="positive" topic="location" mode="decl">
 there 's :  <punc type="stop" />
 </decl>
 </turn>
@@ -715,7 +715,7 @@ the ones where  <punc type="stop" />
 </turn>
 <turn n="140" speaker="B">
 <decl n="146" sp-act="answer-state" polarity="positive" topic="fare" mode="exists-decl">
-there is `` return ''  <punc type="stop" />
+there is " return "  <punc type="stop" />
 </decl>
 </turn>
 <turn n="141" speaker="Tags">
@@ -993,7 +993,7 @@ that one where  <punc type="stop" />
 </turn>
 <turn n="192" speaker="Tags">
 <decl n="204" sp-act="answer-state" polarity="positive" mode="exists-decl">
-there is â $ ˜ â $ ˜  <punc type="stop" />
+there is â € ˜ â € ˜  <punc type="stop" />
 </decl>
 </turn>
 <turn n="193" speaker="Tags">
