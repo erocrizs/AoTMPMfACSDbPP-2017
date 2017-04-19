@@ -47,11 +47,12 @@ public class Parser {
 	
 				Utterance u = new Utterance(id, time, content, speaker, codeSwitched);
 				log.add(u);
+				speaker.addUtterance(u);
 				id++;
 			}
 		}
 
-		return new Log(log, fileName);
+		return new Log(log, p, fileName);
 	}
 
 	private static int parseParticipant(String s) {

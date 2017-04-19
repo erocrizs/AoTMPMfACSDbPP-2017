@@ -3,10 +3,12 @@ import java.time.*;
 
 class Log {
 	private ArrayList<Utterance> utterances;
+	private Participant[] participants;
 	private String fileName;
 
-	public Log(ArrayList<Utterance> list, String fileName) {
+	public Log(ArrayList<Utterance> list, Participant[] participants, String fileName) {
 		utterances = list;
+		this.participants = participants;
 		this.fileName = fileName;
 	}
 
@@ -158,10 +160,12 @@ class Utterance {
 class Participant {
 	private String codename;
 	private String realName;
+	private ArrayList<Utterance> utterances;
 
 	public Participant(String codename, String realName) {
 		this.codename = codename;
 		this.realName = realName;
+		this.utterances = new ArrayList<Utterance>();
 	}
 
 	public String getCodeName() {
@@ -170,6 +174,14 @@ class Participant {
 
 	public String getRealName() {
 		return realName;
+	}
+	
+	public void addUtterance( Utterance utter ) {
+		this.utterances.add( utter );
+	}
+	
+	public List<Utterance> getUtterances() {
+		return this.utterances;
 	}
 }
 
