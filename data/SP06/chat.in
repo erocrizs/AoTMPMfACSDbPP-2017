@@ -1,0 +1,742 @@
+ADDU-SP06A A
+ADDU-SP06B Gab
+
+ADDU-SP06A:6:57:08 PM
+N
+test
+
+ADDU-SP06B:6:57:12 PM
+N
+test
+
+ADDU-SP06A:7:06:42 PM
+N
+Gab?
+
+ADDU-SP06A:7:06:47 PM
+N
+p4
+
+ADDU-SP06A:7:07:46 PM
+N
+Gab?
+
+ADDU-SP06A:7:07:52 PM
+N
+Psst!
+
+ADDU-SP06A:7:07:56 PM
+N
+Gab?
+
+ADDU-SP06B:7:08:05 PM
+N
+Yes?
+
+ADDU-SP06A:7:08:09 PM
+N
+p4?
+
+ADDU-SP06A:7:08:12 PM
+C
+What's the error in p4?
+
+ADDU-SP06A:7:08:18 PM
+N
+Line #15 and what?
+
+ADDU-SP06A:7:08:20 PM
+N
+And??
+
+ADDU-SP06B:7:08:24 PM
+C
+Where exactly is the error?
+
+ADDU-SP06A:7:08:31 PM
+N
+in problem #4?
+
+ADDU-SP06B:7:08:36 PM
+C
+The ones with madam?
+
+ADDU-SP06A:7:08:44 PM
+N
+What?
+
+ADDU-SP06A:7:08:45 PM
+N
+Hahaha
+
+ADDU-SP06A:7:09:06 PM
+C
+The ones with the Q Prime thing?
+
+ADDU-SP06B:7:09:30 PM
+C
+I encircled 23 and 29
+
+ADDU-SP06A:7:09:35 PM
+N
+There are 3 errors
+
+ADDU-SP06A:7:09:45 PM
+C
+I am seeing #15, #22 as errors
+
+ADDU-SP06B:7:09:49 PM
+N
+The errors are 15, 23, 29
+
+ADDU-SP06B:7:09:51 PM
+C
+I'm not sure though
+
+ADDU-SP06B:7:10:10 PM
+C
+But then, #22 was included upon encircling.
+
+ADDU-SP06A:7:10:17 PM
+N
+#29 I think
+
+ADDU-SP06A:7:10:18 PM
+N
+Hahaha
+
+ADDU-SP06B:7:10:21 PM
+C
+Yes
+
+ADDU-SP06B:7:10:29 PM
+C
+I accidentally encircled some part of line 22
+
+ADDU-SP06A:7:10:30 PM
+C
+Should the i be inside []?
+
+ADDU-SP06A:7:10:37 PM
+C
+Just reset the errors.
+
+ADDU-SP06B:7:10:42 PM
+C
+Yes
+
+ADDU-SP06B:7:10:48 PM
+C
+If you encircled some parts accidentally
+
+ADDU-SP06A:7:11:08 PM
+C
+In #15, the error is ";" on I
+
+ADDU-SP06B:7:11:16 PM
+C
+Yes
+
+ADDU-SP06A:7:14:11 PM
+C
+What's your error in p#05?
+
+ADDU-SP06B:7:14:31 PM
+N
+17, 19, 23?
+
+ADDU-SP06B:7:14:34 PM
+C
+I am not really sure though.
+
+ADDU-SP06B:7:14:44 PM
+C
+What error did you identify somewhere where there is an arrow?
+
+ADDU-SP06A:7:15:02 PM
+C
+My errors are 15, 17 and 23 for p#5
+
+ADDU-SP06A:7:15:14 PM
+C
+And the error is line 14 for the one with the arrow
+
+ADDU-SP06A:7:15:23 PM
+C
+Because the code's supposed to be println for it to have a new line
+
+ADDU-SP06B:7:15:47 PM
+C
+What's with line 15 for prob #5?
+
+ADDU-SP06A:7:16:45 PM
+C
+There should be no more "int" in for loop
+
+ADDU-SP06B:7:17:07 PM
+C
+Oh yes.
+
+ADDU-SP06B:7:17:08 PM
+N
+Okay.
+
+ADDU-SP06B:7:17:24 PM
+N
+15 17 23
+
+ADDU-SP06A:7:17:34 PM
+N
+Yes
+
+ADDU-SP06A:7:21:25 PM
+C
+Oops. I'm actually not sure whether there'll be no more "int" in the for loop. Hahaha
+
+ADDU-SP06B:7:22:05 PM
+C
+I actually think it's possible.
+
+ADDU-SP06B:7:22:07 PM
+C
+Possibly.
+
+ADDU-SP06B:7:22:14 PM
+C
+But the program actually didn't declare something at the beginning
+
+ADDU-SP06B:7:22:21 PM
+C
+So basically, it declares inside the for loop
+
+ADDU-SP06A:7:25:03 PM
+N
+Gab?
+
+ADDU-SP06A:7:25:05 PM
+C
+For the diamond prob,
+
+ADDU-SP06A:7:25:09 PM
+C
+What's the error?
+
+ADDU-SP06B:7:25:23 PM
+C
+I can only see #13 as an error
+
+ADDU-SP06A:7:25:31 PM
+C
+What's with the line?
+
+ADDU-SP06B:7:25:32 PM
+C
+Should it be not space, right?
+
+ADDU-SP06B:7:25:36 PM
+N
+Or???
+
+ADDU-SP06A:7:26:06 PM
+C
+The one that's char length = odd / 2?
+
+ADDU-SP06B:7:26:12 PM
+C
+Yes
+
+ADDU-SP06A:7:26:31 PM
+C
+What's the error?
+
+ADDU-SP06B:7:26:35 PM
+C
+What are your identified errors in P6?
+
+ADDU-SP06B:7:26:45 PM
+C
+I think it should be a dot
+
+ADDU-SP06B:7:26:48 PM
+N
+char.length
+
+ADDU-SP06B:7:26:51 PM
+N
+Hmmm
+
+ADDU-SP06A:7:27:10 PM
+C
+For p6, I was only able to see two errors. The two errors are located in line 15
+
+ADDU-SP06A:7:27:22 PM
+C
+That one that's where j=0 isn't a semicolon
+
+ADDU-SP06B:7:27:26 PM
+C
+What else?
+
+ADDU-SP06A:7:27:29 PM
+C
+Then this one: j++ and k++
+
+ADDU-SP06A:7:27:37 PM
+C
+Oops. I mean k--
+
+ADDU-SP06B:7:27:49 PM
+N
+Okay
+
+ADDU-SP06B:7:27:59 PM
+C
+My other errors is in line 17
+
+ADDU-SP06A:7:28:03 PM
+C
+What's in that line?
+
+ADDU-SP06B:7:28:05 PM
+N
+!=
+
+ADDU-SP06A:7:28:09 PM
+C
+I think "!=" is correct.
+
+ADDU-SP06B:7:28:10 PM
+C
+I think it is. Just my instinct.
+
+ADDU-SP06A:7:28:11 PM
+N
+Not equal
+
+ADDU-SP06B:7:28:31 PM
+C
+Ohhhh.
+
+ADDU-SP06A:7:29:09 PM
+C
+I think it's not allowed to do for(j=0,k=s
+
+ADDU-SP06A:7:29:12 PM
+C
+Those two
+
+ADDU-SP06A:7:29:26 PM
+C
+I don't know actually.
+
+ADDU-SP06B:7:29:38 PM
+C
+I think for(j=0,k=s seems pretty fine.
+
+ADDU-SP06B:7:29:49 PM
+C
+The value of k is less than
+
+ADDU-SP06B:7:29:55 PM
+C
+compared to the S.length
+
+ADDU-SP06B:7:29:57 PM
+C
+Right?
+
+ADDU-SP06B:7:34:56 PM
+C
+Are you done with the one with the diamond?
+
+ADDU-SP06A:7:35:38 PM
+C
+Not yet. I just had one error.
+
+ADDU-SP06A:7:35:40 PM
+C
+What about you?
+
+ADDU-SP06B:7:35:50 PM
+C
+13 and 26
+
+ADDU-SP06B:7:35:53 PM
+C
+still
+
+ADDU-SP06B:7:35:55 PM
+C
+What about yours?
+
+ADDU-SP06A:7:35:58 PM
+C
+Oh yes.
+
+ADDU-SP06A:7:36:05 PM
+C
+The one that you told me a while ago
+
+ADDU-SP06B:7:36:12 PM
+N
+Okay
+
+ADDU-SP06B:7:36:29 PM
+C
+What about line 25?
+
+ADDU-SP06B:7:36:36 PM
+C
+It has no " * "
+
+ADDU-SP06A:7:36:38 PM
+C
+So what's in there, huh?
+
+ADDU-SP06A:7:36:40 PM
+N
+Hahaha
+
+ADDU-SP06B:7:36:41 PM
+C
+Or is this right?
+
+ADDU-SP06A:7:36:42 PM
+C
+Ah yes.
+
+ADDU-SP06A:7:36:45 PM
+C
+Oops. No!
+
+ADDU-SP06A:7:36:51 PM
+C
+Because it actually has spaces
+
+ADDU-SP06A:7:36:56 PM
+C
+For it form like a diamond
+
+ADDU-SP06B:7:36:57 PM
+N
+Okay
+
+ADDU-SP06B:7:37:53 PM
+C
+What about this one with the apple?
+
+ADDU-SP06B:7:37:56 PM
+N
+p09
+
+ADDU-SP06A:7:38:15 PM
+C
+I think only those things with print. That's all.
+
+ADDU-SP06A:7:38:23 PM
+C
+I think it kinda really need a new line. I'm not sure.
+
+ADDU-SP06B:7:38:54 PM
+N
+p10?
+
+ADDU-SP06A:7:39:10 PM
+C
+For line #12, only the ones with next()
+
+ADDU-SP06A:7:39:19 PM
+C
+For line #16, the ones with the int inside the for loop?
+
+ADDU-SP06A:7:39:26 PM
+C
+And the ones with i-1, I guess
+
+ADDU-SP06A:7:39:32 PM
+C
+But why should it perform minus?
+
+ADDU-SP06A:7:39:46 PM
+C
+It kinda compares if it has same letters
+
+ADDU-SP06B:7:40:41 PM
+C
+For 11, I can only see the elseif error
+
+ADDU-SP06B:7:40:43 PM
+N
+line 24
+
+ADDU-SP06A:7:40:52 PM
+C
+Also, number 18 too
+
+ADDU-SP06A:7:40:56 PM
+C
+The code should be >= 6
+
+ADDU-SP06A:7:40:59 PM
+C
+And also the 311
+
+ADDU-SP06A:7:41:00 PM
+N
+#11
+
+ADDU-SP06B:7:41:05 PM
+C
+Oops. It's lacking.
+
+ADDU-SP06A:7:41:07 PM
+C
+Should the data type be float, right?
+
+ADDU-SP06B:7:41:07 PM
+N
+Okay.
+
+ADDU-SP06A:7:41:16 PM
+C
+The data type shouldn't be an int
+
+ADDU-SP06B:7:41:29 PM
+C
+Number 12 is the error
+
+ADDU-SP06B:7:41:34 PM
+C
+I think there's no such thing as nextFloat
+
+ADDU-SP06B:7:41:38 PM
+C
+Should the code be nextInt, right?
+
+ADDU-SP06A:7:41:43 PM
+C
+I think nextfloat exists.
+
+ADDU-SP06B:7:41:49 PM
+C
+Ah okay.
+
+ADDU-SP06B:7:41:50 PM
+C
+Okay.
+
+ADDU-SP06A:7:42:05 PM
+C
+I think #11 should be float because the numbers couldn't be an int if the number has a point or something like decimals or so. I'm not sure.
+
+ADDU-SP06B:7:42:12 PM
+N
+Okay
+
+ADDU-SP06B:7:42:22 PM
+N
+Calculator
+
+ADDU-SP06B:7:42:25 PM
+C
+I can only notice line 27.
+
+ADDU-SP06B:7:42:27 PM
+C
+There's no break;
+
+ADDU-SP06A:7:42:43 PM
+C
+15 too
+
+ADDU-SP06A:7:42:47 PM
+C
+It only has next()
+
+ADDU-SP06B:7:42:54 PM
+C
+What else?
+
+ADDU-SP06A:7:43:01 PM
+C
+I can't find another one, Hahaha.
+
+ADDU-SP06B:7:43:08 PM
+C
+This is the only problem left.
+
+ADDU-SP06B:7:43:11 PM
+C
+And one with the one with a diamond
+
+ADDU-SP06A:7:43:20 PM
+C
+Is this gonna be the last one?
+
+ADDU-SP06B:7:43:22 PM
+C
+Yes
+
+ADDU-SP06A:7:43:42 PM
+C
+Gab, what are the errors in P6?
+
+ADDU-SP06B:7:43:56 PM
+C
+One error in p6?
+
+ADDU-SP06B:7:44:01 PM
+N
+Line 17
+
+ADDU-SP06B:7:44:02 PM
+C
+I'm not sure though.
+
+ADDU-SP06B:7:44:05 PM
+N
+Hahaha
+
+ADDU-SP06A:7:44:09 PM
+C
+The one with !=?
+
+ADDU-SP06B:7:44:13 PM
+C
+Yes
+
+ADDU-SP06B:7:44:18 PM
+C
+I can't actually seem to find another error now.
+
+ADDU-SP06A:7:44:22 PM
+C
+Okay okay
+
+ADDU-SP06B:7:44:29 PM
+C
+What about the diamond problem?
+
+ADDU-SP06A:7:44:39 PM
+C
+Hey Gab!
+
+ADDU-SP06A:7:44:41 PM
+C
+For the diamond problem,
+
+ADDU-SP06B:7:44:45 PM
+N
+23
+
+ADDU-SP06A:7:44:49 PM
+C
+For #12, should it be nextchar?
+
+ADDU-SP06A:7:44:57 PM
+C
+I don't know. Hahaha
+
+ADDU-SP06B:7:45:03 PM
+C
+23. Yes.
+
+ADDU-SP06A:7:45:06 PM
+C
+Oh I see.
+
+ADDU-SP06A:7:45:09 PM
+C
+What's with line 23?
+
+ADDU-SP06B:7:45:12 PM
+C
+It should be i<=length
+
+ADDU-SP06B:7:45:17 PM
+C
+Like the one's on top
+
+ADDU-SP06A:7:45:20 PM
+N
+Okay okay.
+
+ADDU-SP06B:7:45:35 PM
+C
+So, now we're left with just p12
+
+ADDU-SP06B:7:45:44 PM
+C
+So one more error to for p12
+
+ADDU-SP06B:7:46:19 PM
+C
+There's a float
+
+ADDU-SP06B:7:46:25 PM
+C
+In the division
+
+ADDU-SP06A:7:46:27 PM
+N
+Gab?
+
+ADDU-SP06B:7:46:28 PM
+C
+Do you think it's right?
+
+ADDU-SP06A:7:46:35 PM
+C
+This int quo
+
+ADDU-SP06A:7:46:38 PM
+C
+It should be float quo
+
+ADDU-SP06A:7:46:43 PM
+C
+Look at the case
+
+ADDU-SP06B:7:46:43 PM
+C
+Ohhh
+
+ADDU-SP06B:7:46:44 PM
+N
+Okay
+
+ADDU-SP06A:7:46:46 PM
+C
+At the lower portion
+
+ADDU-SP06B:7:46:46 PM
+C
+Okay
+
+ADDU-SP06B:7:46:53 PM
+C
+Are we done now?
+
+ADDU-SP06A:7:47:05 PM
+N
+Yes
+
+ADDU-SP06A:7:47:06 PM
+C
+Let's submit then.
+
+ADDU-SP06A:7:47:12 PM
+N
+1
+
+ADDU-SP06A:7:47:13 PM
+N
+2
+
+ADDU-SP06B:7:47:13 PM
+N
+Click finish
+
+ADDU-SP06A:7:47:14 PM
+N
+3

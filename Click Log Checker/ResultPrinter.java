@@ -12,7 +12,7 @@ public class ResultPrinter {
 		this.outputDirectory = outputDirectory;
 	}
 
-	public void print(Date[][] results, String outputFilename) throws IOException {
+	public void print(double[][] scores, Date[][] results, String outputFilename) throws IOException {
 		File output = new File( this.outputDirectory, outputFilename );
 		if( !output.exists() ) {
 			output.createNewFile();
@@ -37,10 +37,15 @@ public class ResultPrinter {
 					time /= 60;
 					long hour = time;
 					String hrText = ( hour < 10 ? "0":"" ) + hour;
+
+					double score = scores[i][j];
+					int whole = (int) (score);
+					int decimal = (int) ((score - whole) * 100 );
+					String scoreText = whole + "." + decimal + (decimal<10?"0":"");
 					
-					bw.write( "," + hrText + ":" + minText + ":" + secText + "." + msecText);
+					bw.write( "," + hrText + ":" + minText + ":" + secText + "." + msecText + "=" + scoreText);
 				} else {
-					bw.write(",------------" );
+					bw.write(",-----------------" );
 				}
 			}
 			bw.write( "\n" );

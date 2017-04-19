@@ -102,9 +102,10 @@ public class CLIChecker {
 			for( String filename: this.modelMap.keySet() ) {
 				SlideSetModel current = this.modelMap.get( filename );
 				Date[][] results = current.getTimedScore();
+				double[][] score = current.getScore();
 				
 				String outputFilename = filename.substring( 0, filename.length()-4 ) + ".out.csv";
-				this.printer.print( results, outputFilename );
+				this.printer.print( score, results, outputFilename );
 			}
 		}
 		else if( response.trim().toLowerCase().equals( "group" ) ) {

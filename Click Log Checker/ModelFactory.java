@@ -43,10 +43,12 @@ public class ModelFactory {
 	}
 
 	private void setupCSharp() {
+		this.adjuster = new AdduAdjuster( null );
 		this.readBugList( "ans-key" + File.separator + "C#.anskey" );
 	}
 
 	private void setupCPP() {
+		this.adjuster = new AdduAdjuster( null );
 		this.readBugList( "ans-key" + File.separator + "C++.anskey" );
 	}
 	

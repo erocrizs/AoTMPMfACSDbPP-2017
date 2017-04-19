@@ -1,0 +1,618 @@
+ADDU-SP04A Chaay
+ADDU-SP04B Sam
+
+ADDU-SP04B:4:10:59 PM
+N
+test
+
+ADDU-SP04A:4:11:04 PM
+N
+test
+
+ADDU-SP04A:4:14:07 PM
+C
+For p1, for me, the error is the semicolon after variable declaration
+
+ADDU-SP04B:4:14:13 PM
+N
+Yeah
+
+ADDU-SP04B:4:14:20 PM
+C
+Also, the one in prob 2.
+
+ADDU-SP04A:4:14:25 PM
+N
+Wait.
+
+ADDU-SP04B:4:14:29 PM
+C
+It's also the semicolon in the for loop
+
+ADDU-SP04B:4:15:07 PM
+C
+Have you seen it, Chaay?
+
+ADDU-SP04B:4:15:15 PM
+C
+After the one in for loop?
+
+ADDU-SP04A:4:15:32 PM
+N
+Yep.
+
+ADDU-SP04B:4:16:17 PM
+C
+For p3, the one that's static?
+
+ADDU-SP04B:4:16:43 PM
+C
+Joke! Not really. Haha
+
+ADDU-SP04A:4:17:32 PM
+C
+I think it's the scanner because you don't really need to if it's println
+
+ADDU-SP04A:4:17:35 PM
+C
+I actually don't know.
+
+ADDU-SP04A:4:17:38 PM
+C
+Not really sure.
+
+ADDU-SP04B:4:18:09 PM
+C
+Exactly. How do you instantiate in double? I already forgot how to instantiate.
+
+ADDU-SP04A:4:18:33 PM
+C
+I don't know either. I think it's better to just go with the scanner instead
+
+ADDU-SP04B:4:19:00 PM
+C
+Alright.
+
+ADDU-SP04A:4:21:24 PM
+C
+In s4, the error's the comparison using and operator
+
+ADDU-SP04A:4:21:29 PM
+C
+It should be && I guess
+
+ADDU-SP04B:4:21:50 PM
+C
+Where exactly?
+
+ADDU-SP04B:4:21:56 PM
+C
+That actually has 3 errors.
+
+ADDU-SP04B:4:22:00 PM
+C
+I found two errors.
+
+ADDU-SP04A:4:22:10 PM
+N
+The error's in if s[i]
+
+ADDU-SP04A:4:22:18 PM
+C
+And the other one is in the print command
+
+ADDU-SP04B:4:22:19 PM
+C
+This first for loop actually has no colon
+
+ADDU-SP04B:4:22:34 PM
+C
+Then the 3rd for loop should have a semicolon
+
+ADDU-SP04B:4:24:11 PM
+C
+Now, I don't know what's the other error.
+
+ADDU-SP04A:4:24:24 PM
+C
+Oh. The error's about the count.
+
+ADDU-SP04A:4:24:39 PM
+C
+Because the count will be 0 always after the inner loop
+
+ADDU-SP04B:4:26:10 PM
+C
+Oh yes! Because it's declared to be always 0.
+
+ADDU-SP04B:4:26:16 PM
+C
+So it'll always keep on repeating.
+
+ADDU-SP04A:4:26:25 PM
+C
+Exactly!
+
+ADDU-SP04A:4:26:27 PM
+C
+That's why it's an error!
+
+ADDU-SP04B:4:26:47 PM
+C
+Relax! Don't get mad!
+
+ADDU-SP04A:4:28:32 PM
+C
+For the next problem, the error's the first for loop if statement
+
+ADDU-SP04B:4:28:57 PM
+N
+Yeah.
+
+ADDU-SP04B:4:29:39 PM
+C
+Also, the ones in else if too, Chaay.
+
+ADDU-SP04A:4:29:49 PM
+C
+Okay.
+
+ADDU-SP04A:4:31:33 PM
+C
+I actually don't know too about the last.
+
+ADDU-SP04B:4:31:42 PM
+C
+Me too. Still looking for the error.
+
+ADDU-SP04A:4:32:56 PM
+C
+I think the error is the system exit because the following lines cannot be executed?
+
+ADDU-SP04B:4:33:16 PM
+C
+It's actually the parenthesis that has an error that we need to look here
+
+ADDU-SP04B:4:33:36 PM
+C
+But I think it should be a capital letter E the ones in exit by the way
+
+ADDU-SP04A:4:33:53 PM
+C
+I don't know. I think it's somewhere in system exit the ones where the error is.
+
+ADDU-SP04B:4:34:00 PM
+C
+Okay. Go for it!
+
+ADDU-SP04B:4:34:49 PM
+C
+Chaay, for this palindrome, the error here is the ones in the first for loop. The code should be ";" not ","
+
+ADDU-SP04B:4:35:06 PM
+C
+Kidding! Actually it's not.
+
+ADDU-SP04A:4:35:17 PM
+C
+Well, I guess it's correct.
+
+ADDU-SP04A:4:35:22 PM
+C
+The end part of that loop
+
+ADDU-SP04A:4:35:24 PM
+C
+Is the one that's wrong.
+
+ADDU-SP04B:4:35:44 PM
+C
+I actually told you it's correct. Where's the error here?
+
+ADDU-SP04A:4:36:03 PM
+C
+I don't know. I think the error's the j++, it should be k--
+
+ADDU-SP04A:4:36:06 PM
+C
+I'm actually not sure.
+
+ADDU-SP04B:4:36:20 PM
+C
+Wow! Now you're the expert. Haha
+
+ADDU-SP04A:4:36:47 PM
+C
+Then in return, the code should be return 0, right?
+
+ADDU-SP04B:4:37:28 PM
+C
+That's one error, it should be return 0. As far as I know.
+
+ADDU-SP04A:4:37:34 PM
+C
+Exactly.
+
+ADDU-SP04A:4:38:45 PM
+C
+I don't know why but I think if s.length / 2 is also an error.
+
+ADDU-SP04B:4:39:22 PM
+C
+Should we put an else condition in the system.out that says ("NO"), because if we let it as it is, I think it'll always print.
+
+ADDU-SP04B:4:39:34 PM
+C
+Because it's located outside the }
+
+ADDU-SP04A:4:39:56 PM
+C
+What about you? Are you gonna go with that?
+
+ADDU-SP04B:4:40:01 PM
+C
+I don't know. Haha.
+
+ADDU-SP04B:4:40:16 PM
+C
+I still see one error here.
+
+ADDU-SP04B:4:40:24 PM
+C
+I think I shall proceed first to the next problem.
+
+ADDU-SP04A:4:40:45 PM
+C
+As for me, it's the end of the for loop then return
+
+ADDU-SP04A:4:40:57 PM
+C
+Then include that ones with println
+
+ADDU-SP04B:4:41:25 PM
+C
+What for loop do you exactly mean? j++, k--?
+
+ADDU-SP04A:4:41:37 PM
+C
+Yes. j++; k-- should be there
+
+ADDU-SP04B:4:41:54 PM
+N
+Okay.
+
+ADDU-SP04A:4:42:12 PM
+C
+For the println, I'll consider that one because I don't know where the other error is.
+
+ADDU-SP04B:4:42:32 PM
+C
+We still have 6 more problems to go, girl. They said total problems are 12. Huhu
+
+ADDU-SP04B:4:44:28 PM
+C
+Chaay, should data= input.nextInt() be also a nextInt()?
+
+ADDU-SP04A:4:45:01 PM
+C
+Because the other one is actually a string
+
+ADDU-SP04A:4:45:06 PM
+C
+So, the other one is an int
+
+ADDU-SP04A:4:45:19 PM
+C
+My only sure is the one in count_B+
+
+ADDU-SP04B:4:45:20 PM
+C
+Chaay, the other count_B+ that's wrong. It should be an increment
+
+ADDU-SP04A:4:45:24 PM
+N
+Yep.
+
+ADDU-SP04A:4:45:44 PM
+C
+Then for the data--, I'm not really sure because I haven't tried that code yet
+
+ADDU-SP04B:4:45:47 PM
+C
+Also this one in system.out, Chaay
+
+ADDU-SP04B:4:46:03 PM
+C
+It should be (" player 2 "), it shouldn't be a single quote
+
+ADDU-SP04A:4:48:28 PM
+C
+After the function of the lower portion, it's actually not accepting any parameters
+
+ADDU-SP04B:4:48:46 PM
+N
+Okay okay.
+
+ADDU-SP04B:4:50:13 PM
+C
+How do you solve this diamond, Chaay?
+
+ADDU-SP04A:4:50:29 PM
+C
+It's after the char length
+
+ADDU-SP04A:4:50:37 PM
+C
+The odd/2
+
+ADDU-SP04A:4:50:46 PM
+C
+It should be parsed, I guess, into integer
+
+ADDU-SP04B:4:51:05 PM
+C
+Ah yes! That's what actually Mico told me a while ago.
+
+ADDU-SP04A:4:51:30 PM
+C
+Then the last for loop
+
+ADDU-SP04A:4:51:38 PM
+C
+You cannot compare the int to char
+
+ADDU-SP04B:4:51:51 PM
+C
+Okay
+
+ADDU-SP04A:4:52:28 PM
+C
+Then in i < length, length there is a char
+
+ADDU-SP04B:4:52:49 PM
+N
+Okay
+
+ADDU-SP04B:4:54:11 PM
+C
+Chaay, the next one is the system.out. In the first inner loop, it should be a quotation.
+
+ADDU-SP04B:4:54:39 PM
+C
+Oops. It should be the second outer loop.
+
+ADDU-SP04B:4:54:50 PM
+C
+The ones in the lower portion.
+
+ADDU-SP04A:4:54:50 PM
+C
+I think this while is an infinite loop
+
+ADDU-SP04B:4:55:04 PM
+C
+Chaay, it should be a single quotation, not like this ` `
+
+ADDU-SP04A:4:55:18 PM
+N
+Yep
+
+ADDU-SP04A:4:56:44 PM
+C
+I included the while loop because I think it's an infinite loop
+
+ADDU-SP04A:4:56:46 PM
+C
+But I actually don't know
+
+ADDU-SP04B:4:57:24 PM
+C
+Chaay, for the input.next(), should it be a capital letter N?
+
+ADDU-SP04B:4:57:29 PM
+C
+in Next()?
+
+ADDU-SP04A:4:57:43 PM
+C
+I don't know. I think input.next() seems pretty okay.
+
+ADDU-SP04B:4:57:53 PM
+N
+Okay.
+
+ADDU-SP04B:4:59:04 PM
+C
+This one in next, it actually won't equalize the a.charAt(i) with (i-1)
+
+ADDU-SP04B:4:59:16 PM
+N
+charAt ( i )
+
+ADDU-SP04A:4:59:20 PM
+C
+What line number is it?
+
+ADDU-SP04B:4:59:24 PM
+C
+Gosh! This smiley is annoying. Grrr
+
+ADDU-SP04B:4:59:27 PM
+N
+17
+
+ADDU-SP04B:5:00:59 PM
+C
+The one with the magnitude something, the magnitude should accept only nextInt values not float.
+
+ADDU-SP04B:5:01:08 PM
+C
+Also, the operator in 6 should be >=
+
+ADDU-SP04A:5:01:44 PM
+C
+I'm still here in p10
+
+ADDU-SP04A:5:01:47 PM
+N
+Hahaha
+
+ADDU-SP04B:5:01:58 PM
+C
+Oops. I skip some other problems.
+
+ADDU-SP04B:5:02:02 PM
+C
+15 minutes more to go!
+
+ADDU-SP04B:5:02:38 PM
+C
+Chaay, for p12, the switch should has no colon. The switch should have.
+
+ADDU-SP04B:5:02:41 PM
+C
+And the switch has no break, not even one.
+
+ADDU-SP04B:5:02:46 PM
+C
+In line 25
+
+ADDU-SP04A:5:02:47 PM
+C
+I'm still here in p11, just relax!
+
+ADDU-SP04A:5:03:45 PM
+C
+Sam, the error here is the declaration in int magnitude.
+
+ADDU-SP04B:5:04:15 PM
+C
+Where is that exactly? Wait for a bit. Haha.
+
+ADDU-SP04B:5:04:43 PM
+C
+Oh! So, it should be a float magnitude, right?
+
+ADDU-SP04A:5:04:48 PM
+N
+Yep.
+
+ADDU-SP04A:5:04:53 PM
+C
+Read the problem.
+
+ADDU-SP04B:5:05:00 PM
+C
+Ohhh. Okay okay.
+
+ADDU-SP04B:5:05:19 PM
+C
+Chaay, the if condition isn't float.
+
+ADDU-SP04A:5:05:28 PM
+C
+The declaration is an error and when you try to use the variable, it's an error too.
+
+ADDU-SP04B:5:05:54 PM
+C
+What's your answer in p10?
+
+ADDU-SP04B:5:07:12 PM
+C
+Chaay, my only problem that's unsolved is p9 and p10.
+
+ADDU-SP04A:5:07:28 PM
+C
+I'm still here in p12.
+
+ADDU-SP04B:5:07:36 PM
+C
+Are you done with 9 and 10?
+
+ADDU-SP04A:5:08:16 PM
+C
+Yes
+
+ADDU-SP04A:5:08:16 PM
+N
+Wait
+
+ADDU-SP04B:5:08:24 PM
+C
+Okay. Go!
+
+ADDU-SP04A:5:08:26 PM
+C
+In p10,
+
+ADDU-SP04A:5:08:34 PM
+C
+All charAt are errors.
+
+ADDU-SP04A:5:08:42 PM
+C
+Because "a" is a char, not string
+
+ADDU-SP04B:5:08:50 PM
+N
+Okay.
+
+ADDU-SP04B:5:08:53 PM
+C
+What about 9?
+
+ADDU-SP04A:5:09:14 PM
+C
+In prob 9, line 15 will give an infinite loop
+
+ADDU-SP04B:5:09:25 PM
+C
+I'm done with line 15.
+
+ADDU-SP04A:5:09:29 PM
+N
+Line 30
+
+ADDU-SP04B:5:09:37 PM
+C
+I'm done with line 30 too.
+
+ADDU-SP04B:5:09:39 PM
+N
+Haha.
+
+ADDU-SP04B:5:09:45 PM
+C
+But it has 3 errors
+
+ADDU-SP04A:5:09:55 PM
+C
+I don't know. I chose line 21 because I think it's an error.
+
+ADDU-SP04A:5:10:00 PM
+C
+I'm not sure though.
+
+ADDU-SP04B:5:10:07 PM
+C
+Wow. Okay okay.
+
+ADDU-SP04B:5:10:09 PM
+C
+Are you done?
+
+ADDU-SP04A:5:10:12 PM
+C
+Yes
+
+ADDU-SP04B:5:10:16 PM
+C
+Let's submit now!
+
+ADDU-SP04A:5:10:23 PM
+C
+We'll just click finish, right?
+
+ADDU-SP04B:5:10:27 PM
+C
+Yes.
