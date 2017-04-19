@@ -18,12 +18,12 @@ class LogData {
 
 class ParticipantData {
 	public long speed;
-	public int accuracy;
+	public double accuracy;
 	public int unitiveUtteranceCount;
 	public int differenceUtteranceCount;
 	public int contribution;
 	
-	public ParticipantData(long speed, int accuracy, int unitiveUtteranceCount, int differenceUtteranceCount,
+	public ParticipantData(long speed, double accuracy, int unitiveUtteranceCount, int differenceUtteranceCount,
 			int contribution) {
 		this.speed = speed;
 		this.accuracy = accuracy;

@@ -209,7 +209,8 @@ class Participant {
 		return this.utterances;
 	}
 	
-	public ParticipantData getData() {
+	public ParticipantData getData(String parentPath) {
+		String fileName = parentPath + "/" + codename.charAt( codename.length() - 1 ) + ".csv";
 		return null;
 	}
 }
