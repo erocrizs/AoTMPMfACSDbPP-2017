@@ -54,7 +54,6 @@ public class SynonymFinder {
 	}
 	
 	public static void deriveImplicitLinks(Log l) throws IOException {
-		initializeDictionary();
 		List<Utterance> utteranceList = l.getUtterances();
 		for(int i = 0; i < utteranceList.size(); i++) {
 			Utterance ut1 = utteranceList.get(i);

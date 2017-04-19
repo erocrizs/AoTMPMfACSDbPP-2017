@@ -1,11 +1,12 @@
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Driver {
 
 	public static void main(String[] args) throws IOException {
+		/*	
 		Log log = Parser.createLog("chat.in");
 		KeywordDeriver deriver = new KeywordDeriver();
 		deriver.deriveKeywordFor(log);
@@ -30,6 +31,39 @@ public class Driver {
 			System.out.println("\n");
 			
 		}
+		*/
+		List<LogData> logData = new ArrayList<LogData>();
+		List<ParticipantData> participantData = new ArrayList<ParticipantData>();
+		List<UtteranceData> utteranceData = new ArrayList<UtteranceData>();
+		
+		File dataFolder = new File("data");
+		KeywordDeriver deriver = new KeywordDeriver();
+		SynonymFinder.initializeDictionary();
+		for(File logFolder: dataFolder.listFiles()) {
+			Log log = Parser.createLog(new File(logFolder, "chat.in").getPath());
+			deriver.deriveKeywordFor(log);
+			SynonymFinder.deriveImplicitLinks(log);
+			List<ImplicitLinkChain> chains = ImplicitLinkChain.getImplicitLinkChains(log);
+			ContributionCounter cc = new ContributionCounter(log, chains);
+			IAPFinder.parseOutputXML( log, new File(logFolder, "speech-acts.xml").getPath() );
+			
+			File spdAccFolder = new File(logFolder, "speed-accuracy");
+			logData.add( log.getDate(spdAccFolder, cc) );
+			
+			for(Participant p: log.getParticipants()) {
+				participantData.add( p.getData(spdAccFolder, cc) );
+			}
+			
+			for(Utterance u: log.getUtterances()) {
+				utteranceData.add( u.getData(cc) );
+			}
+			
+			System.out.println( "Finished with " + logFolder.getName() );
+		}
+		
+		System.out.println("log count: " + logData.size());
+		System.out.println("part. count: " + participantData.size());
+		System.out.println("utter. count: " + utteranceData.size());
 		
 		/*for(Utterance utter: utters) {
 			System.out.printf(
