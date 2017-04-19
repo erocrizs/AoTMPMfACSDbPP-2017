@@ -5,8 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 public class PerformanceFileReader {
-	public static Performance getPerformance(String path) throws IOException {
-		File file = new File(path);
+	public static Performance getPerformance(File file) throws IOException {
 		BufferedReader br = new BufferedReader(new FileReader( file ) );
 		
 		ArrayList<String> scoreStrings = new ArrayList<String>();
@@ -40,7 +39,6 @@ public class PerformanceFileReader {
 		if( speedTally.size() > 0 ) {
 			speed = 0;
 			for(long l: speedTally) {
-				System.out.println("   " + l);
 				speed += l;
 			}
 			speed /= speedTally.size();
@@ -63,9 +61,9 @@ public class PerformanceFileReader {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		Performance p = getPerformance("A.csv");
+		Performance p = getPerformance(new File("A.csv"));
 		System.out.println(p.accuracy + " " + p.averageSpeed);
-		Performance q = getPerformance("B.csv");
+		Performance q = getPerformance(new File("B.csv"));
 		System.out.println(q.accuracy + " " + q.averageSpeed);
 	}
 }
