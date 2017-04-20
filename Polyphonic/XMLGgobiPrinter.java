@@ -8,17 +8,20 @@ public class XMLGgobiPrinter {
 	private static String[] partA = new String[] {
 			"<?xml version=\"1.0\"?>",
 			"<!DOCTYPE ggobidata SYSTEM \"ggobi.dtd\">",
-			"<ggobidata count=\"3\">",
+			"<ggobidata count=\"1\">",
 			"\t<data name=\"per pair\">",
 			"\t\t<description>",
 			"\t\t\tPairs",
 			"\t\t</description>",
-			"\t\t<variables count=\"5\">",
+			"\t\t<variables count=\"8\">",
 			"\t\t\t<integervariable name=\"utterance\" nickname=\"ut\" />",
-			"\t\t\t<realvariable name=\"score\" nickname=\"sc\" />",
-			"\t\t\t<realvariable name=\"unitive pattern\" nickname=\"pu\" />",
-			"\t\t\t<realvariable name=\"difference pattern\" nickname=\"pd\" />",
-			"\t\t\t<realvariable name=\"code-switched\" nickname=\"cs\" />",
+			"\t\t\t<realvariable name=\"accuracy\" nickname=\"ac\" />",
+			"\t\t\t<integervariable name=\"unitive pattern count\" nickname=\"upc\" />",
+			"\t\t\t<integervariable name=\"difference pattern count\" nickname=\"dpc\" />",
+			"\t\t\t<integervariable name=\"code-switched count\" nickname=\"csc\" />",
+			"\t\t\t<realvariable name=\"unitive pattern percentage\" nickname=\"upp\" />",
+			"\t\t\t<realvariable name=\"difference pattern percentage\" nickname=\"dpp\" />",
+			"\t\t\t<realvariable name=\"code-switched percentage\" nickname=\"csp\" />",
 			"\t\t</variables>",
 			"\t\t<records count=\"2017\">"
 	};
@@ -29,12 +32,17 @@ public class XMLGgobiPrinter {
 			"\t\t<description>",
 			"\t\t\tUsers",
 			"\t\t</description>",
-			"\t\t<variables count=\"5\">",
-			"\t\t\t<integervariable name=\"speed\" nickname=\"sp\" />",
-			"\t\t\t<realvariable name=\"score\" nickname=\"sc\" />",
-			"\t\t\t<integervariable name=\"unitive pattern\" nickname=\"pu\" />",
-			"\t\t\t<integervariable name=\"difference pattern\" nickname=\"pd\" />",
-			"\t\t\t<integervariable name=\"contribution\" nickname=\"cn\" />",
+			"\t\t<variables count=\"10\">",
+			"\t\t\t<integervariable name=\"time\" nickname=\"t\" />",
+			"\t\t\t<realvariable name=\"accuracy\" nickname=\"acc\" />",
+			"\t\t\t<integervariable name=\"utterance count\" nickname=\"u\" />",
+			"\t\t\t<integervariable name=\"unitive pattern count\" nickname=\"upc\" />",
+			"\t\t\t<integervariable name=\"difference pattern count\" nickname=\"dpc\" />",
+			"\t\t\t<integervariable name=\"code-switched count\" nickname=\"csc\" />",
+			"\t\t\t<realvariable name=\"unitive pattern percentage\" nickname=\"upp\" />",
+			"\t\t\t<realvariable name=\"difference pattern percentage\" nickname=\"dpp\" />",
+			"\t\t\t<realvariable name=\"code-switched percentage\" nickname=\"csp\" />",
+			"\t\t\t<integervariable name=\"contribution\" nickname=\"c\" />",
 			"\t\t</variables>",
 			"\t\t<records count=\"2017\">"
 	};
@@ -87,13 +95,16 @@ public class XMLGgobiPrinter {
 		}
 		
 		for(LogData ld: logData) {
-			bw.write("\t\t\t<record glyph=\"plus 4\">\n");
+			bw.write("\t\t\t<record color=\"" + ld.color + "\" glyphType=\"5\" glyphSize=\"2\" label=\"" + ld.name + "\" >\n");
 			String toWrite = "\t\t\t\t";
 			toWrite += ld.utterance + " ";
 			toWrite += ld.averageAccuracy + " ";
 			toWrite += ld.unitiveUtteranceCount + " ";
 			toWrite += ld.differenceUtteranceCount + " ";
-			toWrite += ld.codeSwitchedCount + "\n";
+			toWrite += ld.codeSwitchedCount + " ";
+			toWrite += ld.unitiveUtterancePercentage + " ";
+			toWrite += ld.differenceUtterancePercentage + " ";
+			toWrite += ld.codeSwitchedPercentage + "\n";
 			bw.write( toWrite );
 			bw.write("\t\t\t</record>\n");
 		}
@@ -108,12 +119,17 @@ public class XMLGgobiPrinter {
 		}
 		
 		for(ParticipantData pd: partData) {
-			bw.write("\t\t\t<record glyph=\"plus 4\">\n");
+			bw.write("\t\t\t<record color=\"" + pd.color + "\" glyphType=\"" + pd.glyph + "\" glyphSize=\"4\" label=\"" + pd.name + "\" >\n");
 			String toWrite = "\t\t\t\t";
 			toWrite += pd.speed + " ";
 			toWrite += pd.accuracy + " ";
+			toWrite += pd.utterance + " ";
 			toWrite += pd.unitiveUtteranceCount + " ";
 			toWrite += pd.differenceUtteranceCount + " ";
+			toWrite += pd.codeSwitchedCount + " ";
+			toWrite += pd.unitiveUtterancePercentage + " ";
+			toWrite += pd.differenceUtterancePercentage + " ";
+			toWrite += pd.codeSwitchedPercentage + "\n";
 			toWrite += pd.contribution + "\n";
 			bw.write( toWrite );
 			bw.write("\t\t\t</record>\n");
@@ -129,7 +145,7 @@ public class XMLGgobiPrinter {
 		}
 		
 		for(UtteranceData ud: uttData) {
-			bw.write("\t\t\t<record glyph=\"plus 4\">\n");
+			bw.write("\t\t\t<record glyph=\"plus 4\" label=\"" + ud.name + "\" >\n");
 			String toWrite = "\t\t\t\t";
 			toWrite += ud.strength + " ";
 			toWrite += ud.isCodeSwitched + " ";

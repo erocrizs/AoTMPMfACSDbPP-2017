@@ -31,25 +31,26 @@ class Log {
 	}
 	
 	private LogData data;
-	public LogData getDate(File parent, ContributionCounter cc) throws IOException {
+	public LogData getData(File parent, ContributionCounter cc, String name, int color) throws IOException {
 		if( data == null ) {
-			recalculateData(parent, cc);
+			recalculateData(parent, cc, name, color);
 		}
 		return data;
 	}
 	
-	public void recalculateData(File parent, ContributionCounter cc) throws IOException {
+	public void recalculateData(File parent, ContributionCounter cc, String name, int color) throws IOException {
 		int utterance = utterances.size();
 		double averageAccuracy = 0;
-		double unitiveUtteranceCount = 0;
-		double differenceUtteranceCount = 0;
-		double codeSwitchedCount = 0;
+		
+		int unitiveUtteranceCount = 0;
+		int differenceUtteranceCount = 0;
+		int codeSwitchedCount = 0;
 		
 		Participant a = participants[0];
 		Participant b = participants[1];
 		
-		ParticipantData ad = a.getData(parent, cc);
-		ParticipantData bd = b.getData(parent, cc);
+		ParticipantData ad = a.getData(parent, cc, color);
+		ParticipantData bd = b.getData(parent, cc, color);
 		
 		averageAccuracy = ( ad.accuracy + bd.accuracy ) / 2;
 		unitiveUtteranceCount = ad.unitiveUtteranceCount + bd.unitiveUtteranceCount;
@@ -60,18 +61,8 @@ class Log {
 				codeSwitchedCount++;
 			}
 		}
-		if( utterance > 0 ) {
-			unitiveUtteranceCount /= utterance;
-			unitiveUtteranceCount *= 100;
-			
-			differenceUtteranceCount /= utterance;
-			differenceUtteranceCount *= 100;
-			
-			codeSwitchedCount /= utterance;
-			codeSwitchedCount *= 100;
-		}
 		
-		data = new LogData(utterance, averageAccuracy, unitiveUtteranceCount, differenceUtteranceCount, codeSwitchedCount);
+		data = new LogData(utterance, averageAccuracy, unitiveUtteranceCount, differenceUtteranceCount, codeSwitchedCount, name, color);
 	}
 }
 
@@ -206,17 +197,18 @@ class Utterance {
 	}
 	
 	private UtteranceData data;
-	public UtteranceData getData(ContributionCounter cc) {
+	public UtteranceData getData(ContributionCounter cc, String name) {
 		if( data == null ) {
-			recalculateData(cc);
+			recalculateData(cc, name);
 		}
 		return data;
 	}
 	
-	public void recalculateData(ContributionCounter cc) {
+	public void recalculateData(ContributionCounter cc, String name) {
 		int isCodeSwitched = this.codeSwitched ? UtteranceData.CODE_SWITCHED : UtteranceData.NOT_CODE_SWITCHED;
 		int utteranceStrength = cc.getUtteranceStrength(this);
 		int pattern = -1;
+		name = this.id + "-" + name;
 		
 		if( isUnitive && isDifferential ) {
 			pattern = UtteranceData.BOTH_PATTERN;
@@ -228,7 +220,7 @@ class Utterance {
 			pattern = UtteranceData.NO_PATTERN;
 		}
 		
-		data = new UtteranceData( isCodeSwitched, utteranceStrength,pattern	);
+		data = new UtteranceData( isCodeSwitched, utteranceStrength, pattern, name);
 	}
 }
 
@@ -260,19 +252,22 @@ class Participant {
 	}
 	
 	private ParticipantData data;
-	public ParticipantData getData(File parent, ContributionCounter cc) throws IOException {
+	public ParticipantData getData(File parent, ContributionCounter cc, int color) throws IOException {
 		if( data == null ) {
-			recalculateData(parent, cc);
+			recalculateData(parent, cc, color);
 		}
 		return data;
 	}
 	
-	public void recalculateData(File parent, ContributionCounter cc) throws IOException  {
+	public void recalculateData(File parent, ContributionCounter cc, int color) throws IOException  {
 		long speed = -1;
 		double accuracy = 0;
+		int contribution = 0;
+		int utterance = this.utterances.size();
+		
 		int unitiveUtteranceCount = 0;
 		int differenceUtteranceCount = 0;
-		int contribution = 0;
+		int codeSwitchedCount = 0;
 		
 		String fileName = codename.charAt( codename.length() - 1 ) + ".csv";
 		Performance p = PerformanceFileReader.getPerformance( new File( parent, fileName) );
@@ -286,11 +281,14 @@ class Participant {
 			if( u.getDifferential() ) {
 				differenceUtteranceCount++;
 			}
+			if( u.isCodeSwitched() ) {
+				codeSwitchedCount++;
+			}
 		}
 		
 		contribution = cc.getContribution( this );
 		
-		data = new ParticipantData(speed, accuracy, unitiveUtteranceCount, differenceUtteranceCount, contribution);
+		data = new ParticipantData(speed, accuracy, contribution, utterance, unitiveUtteranceCount, differenceUtteranceCount, codeSwitchedCount, this.codename, color);
 	}
 }
 

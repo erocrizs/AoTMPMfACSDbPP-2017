@@ -14,8 +14,12 @@ public class Driver {
 		File dataFolder = new File("data");
 		KeywordDeriver deriver = new KeywordDeriver();
 		SynonymFinder.initializeDictionary();
+		
+		int index = 0;
+		int[] colors = new int[] { 3, 8, 4, 1, 5, 0, 2, 6, 7 };
 		for(File logFolder: dataFolder.listFiles()) {
-			System.out.println( "Processing chat pair " + logFolder.getName() + "...");
+			String logName = logFolder.getName();
+			System.out.println( "Processing chat pair " + logName + "...");
 
 			System.out.println("\tparsing the chat log...");
 			Log log = Parser.createLog(new File(logFolder, "chat.in").getPath());
@@ -35,21 +39,23 @@ public class Driver {
 
 			System.out.println("\tfinalizing pair data...");
 			File spdAccFolder = new File(logFolder, "speed-accuracy");
-			logData.add( log.getDate(spdAccFolder, cc) );
+			logData.add( log.getData(spdAccFolder, cc, logName, colors[index]) );
 
 			System.out.println("\tfinalizing participang data...");
 			for(Participant p: log.getParticipants()) {
-				participantData.add( p.getData(spdAccFolder, cc) );
+				participantData.add( p.getData(spdAccFolder, cc, colors[index]) );
 			}
 
 			System.out.println("\tfinalizing participant data...");
 			for(Utterance u: log.getUtterances()) {
-				utteranceData.add( u.getData(cc) );
+				utteranceData.add( u.getData(cc, logName) );
 			}
+			
+			index++;
 			
 			System.out.println();
 			System.out.println( "\tUtterance count: " + log.getUtterances().size() );
-			System.out.println( "\tFinished with " + logFolder.getName() );
+			System.out.println( "\tFinished with " + logName );
 			System.out.println();
 		}
 		
