@@ -56,7 +56,14 @@ public class Driver {
 		System.out.println("log count: " + logData.size());
 		System.out.println("part. count: " + participantData.size());
 		System.out.println("utter. count: " + utteranceData.size());
+		System.out.println();
 		
+		System.out.println("Printing the xml...");
+		XMLGgobiPrinter.printGgobiXML( new File("polyphony.xml"), logData, participantData, utteranceData );
+		System.out.println("\tfinished writing");
+		
+		System.out.println();
+		System.out.println("Done!");
 	}
 
 }
