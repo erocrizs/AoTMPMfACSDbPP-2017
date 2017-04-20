@@ -41,8 +41,8 @@ class Log {
 	public void recalculateData(File parent, ContributionCounter cc) throws IOException {
 		int utterance = utterances.size();
 		double averageAccuracy = 0;
-		int unitiveUtteranceCount = 0;
-		int differenceUtteranceCount = 0;
+		double unitiveUtteranceCount = 0;
+		double differenceUtteranceCount = 0;
 		double codeSwitchedCount = 0;
 		
 		Participant a = participants[0];
@@ -61,7 +61,14 @@ class Log {
 			}
 		}
 		if( utterance > 0 ) {
+			unitiveUtteranceCount /= utterance;
+			unitiveUtteranceCount *= 100;
+			
+			differenceUtteranceCount /= utterance;
+			differenceUtteranceCount *= 100;
+			
 			codeSwitchedCount /= utterance;
+			codeSwitchedCount *= 100;
 		}
 		
 		data = new LogData(utterance, averageAccuracy, unitiveUtteranceCount, differenceUtteranceCount, codeSwitchedCount);

@@ -2,11 +2,11 @@
 class LogData {
 	public int utterance;
 	public double averageAccuracy;
-	public int unitiveUtteranceCount;
-	public int differenceUtteranceCount;
+	public double unitiveUtteranceCount;
+	public double differenceUtteranceCount;
 	public double codeSwitchedCount;
 	
-	public LogData(int utterance, double averageAccuracy, int unitiveUtteranceCount, int differenceUtteranceCount,
+	public LogData(int utterance, double averageAccuracy, double unitiveUtteranceCount, double differenceUtteranceCount,
 			double codeSwitchedCount) {
 		this.utterance = utterance;
 		this.averageAccuracy = averageAccuracy;
